@@ -26,6 +26,7 @@ class Patient(db.Model):
     immigration_status = db.Column(db.String(50))
     social_support = db.Column(db.String(50))
     doctor_preferences = db.Column(db.String(100))
+    social_support = db.Column(db.String(20))
 
 # Route for the main page
 @app.route('/', methods=['GET', 'POST'])
@@ -46,6 +47,7 @@ def index():
         immigration_status=request.form['immigration_status'],
         social_support=request.form['social_support'],
         doctor_preferences=request.form['doctor_preferences']
+
         )
         db.session.add(new_patient)
         db.session.commit()
