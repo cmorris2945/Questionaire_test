@@ -1,3 +1,4 @@
+<!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,23 +22,6 @@
     <div class="container">
         <h1>Breast Cancer Patient Questionnaire</h1>
         <form id="patientForm" method="POST">
-            <label for="consent">Informed Consent to Telemedicine Consultation:</label>
-            <div>
-                <input type="radio" id="consent_yes" name="consent" value="Yes" required>
-                <label for="consent_yes">Yes</label>
-                <input type="radio" id="consent_no" name="consent" value="No" required>
-                <label for="consent_no">No</label>
-            </div>
-
-            <label for="help">How can I help you today?</label>
-            <select id="help" name="help" required>
-                <option value="">Select</option>
-                <option value="Assess Risk of Cancer">Assess Risk of Cancer</option>
-                <option value="Newly Diagnosed with Cancer">Newly Diagnosed with Cancer</option>
-                <option value="Advanced Cancer with Metastasis or Complications">Advanced Cancer with Metastasis or Complications</option>
-                <option value="Other">Other</option>
-            </select>
-
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -91,7 +75,7 @@
                     <option value="Protestant">Protestant</option>
                     <option value="Other">Other</option>
                 </select>
-                
+
                 <label for="immigration_status">Immigration Status:</label>
                 <select id="immigration_status" name="immigration_status">
                     <option value="">Select</option>
@@ -102,12 +86,10 @@
                 </select>
 
                 <label for="social_support">Do you need social support?</label>
-                <div>
-                    <input type="radio" id="social_support_yes" name="social_support" value="Yes">
-                    <label for="social_support_yes">Yes</label>
-                    <input type="radio" id="social_support_no" name="social_support" value="No">
-                    <label for="social_support_no">No</label>
-                </div>
+                <input type="radio" id="social_support_yes" name="social_support" value="Yes">
+                <label for="social_support_yes">Yes</label>
+                <input type="radio" id="social_support_no" name="social_support" value="No">
+                <label for="social_support_no">No</label>
 
                 <label for="doctor_preferences">Are you looking for any specific qualities in your doctor?</label>
                 <select id="doctor_preferences" name="doctor_preferences">
@@ -117,7 +99,6 @@
                     <option value="Personality and Bedside Manner">Personality and Bedside Manner</option>
                     <option value="Clear Communication">Clear Communication</option>
                     <option value="Other">Other</option>
-                    <option value="Not Important">Not Important</option>
                 </select>
             </section>
 
@@ -130,3 +111,4 @@
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
+
