@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6 text-green-600">Medical Records</h1>
+    {% if records %}
+        {% for record in records %}
+            <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <p class="font-bold">Patient: {{ record.patient.get_full_name }}</p>
+                <p class="text-gray-700"><strong>Diagnosis:</strong> {{ record.diagnosis }}</p>
+                <p class="text-gray-700"><strong>Treatment:</strong> {{ record.treatment }}</p>
+                <p class="text-gray-700"><strong>Notes:</strong> {{ record.notes }}</p>
+                <p class="text-sm text-gray-600">Date: {{ record.date|date:"F d, Y" }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p class="text-gray-600">No medical records found.</p>
+    {% endif %}
+</div>
+{% endblock %}
