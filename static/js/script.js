@@ -1,3 +1,5 @@
+//const selections = {};
+const totalQuestions = 19;
 document.addEventListener('DOMContentLoaded', function() {
     const consentForm = document.getElementById('consentForm');
     const patientForm = document.getElementById('patientForm');
@@ -5,7 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const consentName = document.getElementById('consentName');
     const consentDate = document.getElementById('consentDate');
     const patientName = document.getElementById('consentName'); // Assuming this is the ID of the name field in the main form
-
+    const firstQuestion = document.getElementById('question0');
+    const chatBotHeader = document.getElementById('chatbot-header');
+    const consentHeader = document.getElementById('consentHeader');
+    const chatContainer = document.getElementById('chat-container');
+    const topNavBar = document.getElementById('topNavBar');
+    const body = document.getElementsByTagName("body")[0];
     // Set current date automatically
     const currentDate = new Date().toISOString().split('T')[0];
     consentDate.value = currentDate;
@@ -18,13 +25,38 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         consentForm.style.display = 'none';
-        patientForm.style.display = 'block';
-        
+        //patientForm.style.display = 'block';
+        firstQuestion.style.display = 'block';
+        chatBotHeader.style.display = 'block';
+        consentHeader.style.display = 'none';
+        chatContainer.style.display = 'block';
+        topNavBar.style.display = 'none';
+        body.style.backgroundColor = '#d3d3d3';
+        body.style.backgroundImage = 'none';
         // Carry over the name to the main form
         patientName.value = consentName.value;
         
         updateProgress(); // Make sure this function is defined
     });
+    // Function to save selected option respective of question
+    function selectOption(questionId, selectedButton){
+        const options = document.querySelectorAll(`#${questionId} .option`);
+
+    // Clear previous selections and highlight the selected option
+        options.forEach(option => {
+            if (option === selectedButton) {
+                option.classList.add('selected');  // Highlight selected option
+                option.classList.remove('not-selected');  // Remove gray background
+                selections[questionId] = option.textContent; // Save selection in dictionary
+            } else {
+                option.classList.remove('selected');  // Remove highlight
+                option.classList.add('not-selected');  // Change background of non-selected
+            }
+        });
+        if (questionId === 'medical_transportation'){
+            console.log(selections)
+        }
+    }
 
     // Hide all sections initially except for the first question
     const sections = ['help_options', 'second_opinion', 'started_treatment', 'zip_code', 
@@ -37,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Handle the questionnaire progression
-    document.getElementById('help_today').addEventListener('change', function() {
+    document.getElementById('help_today_section').addEventListener('change', function() {
         hideCurrentSection('help_today');
         showNextSection('help_options');
     });
@@ -158,9 +190,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to hide the current section
     function hideCurrentSection(sectionId){
-        document.getElementById(sectionId).parentElement.style.display = 'none';
+        //document.getElementById(sectionId).parentElement.style.display = 'none';
         //document.getElementById(sectionId).style.display = 'none';
     }
+
+    // // Function to save selected option respective of question
+    // function selectOption(questionId, selectedButton){
+    //     const options = document.querySelectorAll(`#${questionId} .option`);
+
+    // // Clear previous selections and highlight the selected option
+    //     options.forEach(option => {
+    //         if (option === selectedButton) {
+    //             option.classList.add('selected');  // Highlight selected option
+    //             option.classList.remove('not-selected');  // Remove gray background
+    //             selections[questionId] = option.textContent; // Save selection in dictionary
+    //         } else {
+    //             option.classList.remove('selected');  // Remove highlight
+    //             option.classList.add('not-selected');  // Change background of non-selected
+    //         }
+    //     });
+    //     if (questionId === 'medical_transportation'){
+    //         console.log(selections)
+    //     }
+    // }
 
     document.querySelector("#patientForm").addEventListener('formdata', (e) => {
 

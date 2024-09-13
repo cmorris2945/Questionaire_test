@@ -1,17 +1,4 @@
-# Dashboard
 # Breast Cancer Patient-Doctor Matching Application
-
-![image](https://github.com/DrHealthBot/Dashboard/assets/173986377/dc86ad9b-1108-4dbf-8867-c47762259b8e)
-
-
-
-
-
-
-![patien_questionaire_web_app](https://github.com/user-attachments/assets/c8cfc9ca-ca25-4dbb-ad24-d602c88f682c)
-
-
-
 
 This Flask-based web application provides a questionnaire for breast cancer patients to help match them with appropriate doctors based on their specific needs and preferences.
 
@@ -21,6 +8,7 @@ This Flask-based web application provides a questionnaire for breast cancer pati
 - Collects relevant medical history and treatment preferences
 - Stores patient data securely in a SQLite database
 - Responsive design for desktop and mobile devices
+- Chatbot interface 
 
 ## Prerequisites
 
@@ -108,5 +96,6 @@ breast-cancer-patient-matching/
 - To change the application's appearance, modify `static/css/styles.css`.
 - To add or modify form fields, update `templates/index.html` and `app.py`.
 - To change form validation, edit `static/js/script.js`.
+
 
 
