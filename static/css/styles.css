@@ -337,3 +337,138 @@ input[type="submit"]:hover {
         margin-right: 20px;
     }
 }
+
+/* .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+} */
+ /* .options{
+display: flex;
+flex-direction: row;
+gap: 10px;
+align-items: flex-end;
+justify-content: center;
+ } */
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /*Center align buttons*/
+    gap: 10px; /*Spacing between buttons*/
+}
+.option {
+    flex: 1 1 30%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: fit-content;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+.selected {
+    background-color: #0056b3;
+}
+
+.not-selected {
+    background-color: #6c757d;
+}
+
+.chatbot-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chatbot-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatbot-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.status-container {
+    display: flex;
+    align-items: center;
+}
+
+.status {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: green; /*Online status*/
+    margin-right: 5px;
+}
+
+.status-text {
+    font-size: 14px;
+}
+
+.chat-container {
+    margin: 20px auto;
+    background-color: #d3d3d3;
+    height: auto;
+    overflow-y: auto;
+    max-width: 800px;
+}
+
+.message {
+    margin: 10px 0;
+}
+
+.message-header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.message-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.message-text {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e9ecef; /*Light gray for received messages*/
+    align-self: flex-start; /*Align to the left*/
+}
+
+.sent .message-text {
+    background-color: #007BFF; /*Blue for sent messages*/
+    color: white;
+    align-self: flex-end; /*Align to the right*/
+}
+
+.sent .message-header {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: flex-end;
+}

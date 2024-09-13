@@ -19,33 +19,33 @@ def index():
         try:
             # Print out all form data
             print("Received form data:")
-            for key, value in request.form.items():
+            for key, value in request.json.items():
                 print(f"{key}: {value}")
-
+            data = request.json
             # Process form submission
             new_patient = Patient(
-                name=request.form.get('name'),
-                age=request.form.get('age'),
-                stage=request.form.get('stage'),
-                previous_treatments=request.form.get('previous_treatments'),
-                preferred_language=request.form.get('preferred_language'),
-                location=request.form.get('location'),
-                family_history=request.form.get('family_history'),
-                genetic_testing=request.form.get('genetic_testing'),
-                help_today=request.form.get('help_today'),
-                help_option=request.form.get('help_option'),
-                second_opinion=request.form.get('second_opinion'),
-                started_treatment=request.form.get('started_treatment'),
-                zip_code=request.form.get('zip_code'),
-                insurance_name=request.form.get('insurance_name'),
-                gender=request.form.get('gender'),
-                confirm_info=request.form.get('confirm_info'),
-                religiosity=request.form.get('religiosity'),
-                immigration_status=request.form.get('immigration_status'),
-                ethnicity=request.form.get('ethnicity'),
-                social_support=request.form.get('social_support'),
-                treatment_approach=request.form.get('treatment_approach'),
-                doctor_preferences=request.form.get('doctor_preferences')
+                name=data.get('name'),
+                age=data.get('age'),
+                stage=data.get('stage'),
+                previous_treatments=data.get('previous_treatments'),
+                preferred_language=data.get('preferred_language'),
+                location=data.get('location'),
+                family_history=data.get('family_history'),
+                genetic_testing=data.get('genetic_testing'),
+                help_today=data.get('help_today'),
+                help_option=data.get('help_option'),
+                second_opinion=data.get('second_opinion'),
+                started_treatment=data.get('started_treatment'),
+                zip_code=data.get('zip_code'),
+                insurance_name=data.get('insurance_name'),
+                gender=data.get('gender'),
+                confirm_info=data.get('confirm_info'),
+                religiosity=data.get('religiosity'),
+                immigration_status=data.get('immigration_status'),
+                ethnicity=data.get('ethnicity'),
+                social_support=data.get('social_support'),
+                treatment_approach=data.get('treatment_approach'),
+                doctor_preferences=data.get('doctor_preferences')
             )
             db.session.add(new_patient)
             db.session.commit()
