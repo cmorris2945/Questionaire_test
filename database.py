@@ -7,7 +7,7 @@ import urllib
 server = 'drbotserver.database.windows.net'
 database = 'drbothealthdb'
 username = 'drbot'
-password = 'TheFlash40'  # Actual password from the connection string
+password = 'AquaMan40!@'  # Actual password from the connection string
 driver = '{ODBC Driver 18 for SQL Server}'  # Ensure this matches the installed driver
 
 # Create the connection string
