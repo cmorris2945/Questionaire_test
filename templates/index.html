@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <div id="topNavBar">
     <nav>
         <div class="logo">
-            <img src="{{ url_for('static', filename='static\images\drbot pic.png') }}" alt="Logo" class="logo-img">
+            <img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="Logo" class="logo-img">
         </div>
         <ul>
             <li><a href="#home">Home</a></li>
@@ -18,9 +17,8 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    </div>
 
-    <div id="consentHeader" class="container">
+    <div class="container">
         <h1>Breast Cancer Patient Questionnaire</h1>
         
         <!-- Consent Document Section -->
@@ -52,281 +50,101 @@
             </div>
             <button id="agreeConsent" class="btn-primary">I Agree and Give My Consent</button>
         </div>
-    </div>
         <!-- Consent Document Section -->
         <!-- Questionaire form-->
-        <!-- <form id="patientForm" method="POST" style="display: none;"> -->
-        <!-- <div> -->
-            <div id="chatbot-header" class="chatbot-header" style="display: none;">
-                <div class="profile-container">
-                    <img src="https://via.placeholder.com/50" alt="Chatbot Profile Picture" class="profile-img">
-                    <div class="chatbot-info">
-                        <span class="chatbot-name">DrBot</span>
-                        <span class="status-container">
-                            <span class="status online"></span>
-                            <span class="status-text">Online</span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div id="chat-container" class="chat-container" style="display: none;">
+        <form id="patientForm" method="POST" style="display: none;">
+        <div>
             <div class="form-section">
-                <!-- <div id="help_today_section"> -->
-                <div id="question0" style="display: none;">
-                    <!-- <label for="help_today">How can I help you today?</label> -->
-                    <!-- <select id="help_today" name="help_today">
+                <div id="help_today_section">
+                    <label for="help_today">How can I help you today?</label>
+                    <select id="help_today" name="help_today">
                         <option>Select</option>
                         <option value="Assess Risk of Cancer">Assess Risk of Cancer</option>
                         <option value="Newly Diagnosed with Cancer">Newly Diagnosed with Cancer</option>
                         <option value="Advanced Cancer with Metastasis or Complications">Advanced Cancer with Metastasis or Complications</option>
                         <option value="Other">Other</option>
-                    </select> -->
-                    <div class="message received">
-                        <div class="message-header">
-                            <img src="static\images\drbot globe.png" alt="Chatbot Message Picture" class="message-img">
-                            <span class="message-text">How can I help you today?</span>
-                        </div>
-                    </div>
-                    <div class="options">
-                        <button class="option" onclick="selectOption('question0','help_today', this)">Assess Risk of Cancer</button>
-                        <button class="option" onclick="selectOption('question0','help_today', this)">Newly Diagnosed with Cancer</button>
-                        <button class="option" onclick="selectOption('question0','help_today', this)">Advanced Cancer with Metastasis or Complications</button>
-                    </div>
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                            
-                        </div>
-                    </div>
+                    </select>
                 </div>
             </div>
 
             <div class="form-section">
-                <!-- <div id="help_options"> -->
-                    <div id="question1" style="display: none;">
-                    <!-- <p style="font-size: 1.5em;">Ah, I know this is a tough experience. Let me help you find the care you need. 😊😢</p> -->
-                    <!-- <label for="help_option">Select an option:</label> -->
-                    <!-- <select id="help_option" name="help_option">
+                <div id="help_options">
+                    <p style="font-size: 1.5em;">Ah, I know this is a tough experience. Let me help you find the care you need. 😊😢</p>
+                    <label for="help_option">Select an option:</label>
+                    <select id="help_option" name="help_option">
                         <option>Select</option>
                         <option value="Diagnosis Confirmation">Diagnosis Confirmation</option>
                         <option value="Read About Diagnosis">Read About Diagnosis</option>
                         <option value="Talk to a Social Worker">Talk to a Social Worker</option>
                         <option value="Other">Other</option>
-                    </select> -->
-                    <div class="message received">
-                        <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                            <span class="message-text">Ah, I know this is a tough experience. Let me help you find the care you need. 😊😢</span>
-                            <!-- <span class="message-text">Select an option:</span> -->
-                        </div>
-                    </div>
-                    <div class="options">
-                        <button class="option" onclick="selectOption('question1','help_options', this)">Diagnosis Confirmation</button>
-                        <button class="option" onclick="selectOption('question1','help_options', this)">Read About Diagnosis</button>
-                        <button class="option" onclick="selectOption('question1','help_options', this)">Talk to a Social Worker</button>
-                        <button class="option" onclick="selectOption('question1','help_options', this)">Other</button>
-                    </div>
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                        </div>
-                    </div>
+                    </select>
                 </div>
             </div>
 
-            <div class="form-section">
-                <!-- <div id="stage_section"> -->
-                    <div id="question2" style="display: none;">
-                    <!-- <label for="stage_section">Stage of Cancer?</label> -->
-                    <!-- <select id="stage_section" name="stage">
-                         <option>Select</option>
+            <div class="form-section"></div>
+                <div id="stage_section">
+                    <label for="stage_section">Stage of Cancer?</label>
+                    <select id="stage_section" name="stage">
+                        <!-- <option>Select</option> -->
                         <option>Select</option>
                         <option value="0">Stage 0</option>
                         <option value="1">Stage I</option>
                         <option value="2">Stage II</option>
                         <option value="3">Stage III</option>
                         <option value="4">Stage IV</option>
-                    </select> -->
-                    <div class="message received">
-                        <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                            <span class="message-text">Stage of Cancer?</span>
-                        </div>
-                    </div>
-                    <div class="options">
-                        <button class="option" onclick="selectOption('question2','stage', this)">Stage 0</button>
-                        <button class="option" onclick="selectOption('question2','stage', this)">Stage I</button>
-                        <button class="option" onclick="selectOption('question2','stage', this)">Stage II</button>
-                        <button class="option" onclick="selectOption('question2','stage', this)">Stage III</button>
-                        <button class="option" onclick="selectOption('question2','stage', this)">Stage IV</button>
-                    </div>
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                            
-                        </div>
-                    </div>
+                    </select>
                 </div>
             </div>
 
             <div class="form-section">
-                <!-- <div id="second_opinion"> -->
-                    <div id="question3" style="display: none;">
-                    <!-- <label for="second_opinion">Do you need a second opinion doctor?</label> -->
-                    <!-- <input type="radio" id="second_opinion_yes" name="second_opinion" value="yes"> Yes
-                    <input type="radio" id="second_opinion_no" name="second_opinion" value="no"> No -->
-                    <div class="message received">
-                        <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                            <span class="message-text">Do you need a second opinion doctor?</span>
-                        </div>
-                    </div>
-                    <div class="options">
-                        <button class="option" onclick="selectOption('question3','second_opinion', this)">Yes</button>
-                        <button class="option" onclick="selectOption('question3','second_opinion', this)">No</button>
-                    </div>
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                            
-                        </div>
-                    </div>
+                <div id="second_opinion">
+                    <label for="second_opinion">Do you need a second opinion doctor?</label>
+                    <input type="radio" id="second_opinion_yes" name="second_opinion" value="yes"> Yes
+                    <input type="radio" id="second_opinion_no" name="second_opinion" value="no"> No
                 </div>
             </div>
 
             <div class="form-section">
-                <!-- <div id="started_treatment"> -->
-                    <div id="question4" style="display: none;">
-                    <!-- <label for="started_treatment">Have you started treatment yet for the cancer?</label> -->
-                    <div class="message received">
-                        <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                            <span class="message-text">Have you started treatment yet for the cancer?</span>
-                        </div>
-                    </div>
-                    <div class="options">
-                        <button class="option" onclick="selectOption('question4','started_treatment', this)">Yes</button>
-                        <button class="option" onclick="selectOption('question4','started_treatment', this)">No</button>
-                    </div>
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                            
-                        </div>
-                    </div>
-                    <!-- <input type="radio" id="started_treatment_yes" name="started_treatment" value="yes"> Yes
-                    <input type="radio" id="started_treatment_no" name="started_treatment" value="no"> No -->
+                <div id="started_treatment">
+                    <label for="started_treatment">Have you started treatment yet for the cancer?</label>
+                    <input type="radio" id="started_treatment_yes" name="started_treatment" value="yes"> Yes
+                    <input type="radio" id="started_treatment_no" name="started_treatment" value="no"> No
                 </div>
             </div>
 
             <div class="form-section">
-                <!-- <div id="zip_code"> -->
-                    <div id="question5" style="display: none;">
-                    <!-- <label for="zip_code">What is your zip code?</label> -->
-                    <div class="message received">
-                        <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                            <span class="message-text">What is your zip code?</span>
-                        </div>
-                    </div>
-                    <input type="text" id="zip_code" name="zip_code" onchange="selectOption('question5','zip_code', this)">
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                        </div>
-                    </div>
+                <div id="zip_code">
+                    <label for="zip_code">What is your zip code?</label>
+                    <input type="text" id="zip_code" name="zip_code">
                 </div>
             </div>
             <div class="form-section">  
-                <!-- <div id="insurance_name">   -->
-                    <div id="question6" style="display: none;">
-                    <!-- <label for="insurance_name">What is your insurance?</label> -->
-                    <!-- <select id="insurance_name" name="insurance_name">
+                <div id="insurance_name">  
+                <label for="insurance_name">What is your insurance?</label>
+                    <select id="insurance_name" name="insurance_name">
                         <option>Select</option>
                         <option value="BCBS">BCBS</option>
                         <option value="Aetna">Aetna</option>
                         <option value="Optum">Optum</option>
                         <option value="United HealthCare">United HealthCare</option>
-                    </select> -->
-                    <div class="message received">
-                        <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                            <span class="message-text">What is your insurance?</span>
-                        </div>
-                    </div>
-                    <div class="options">
-                        <button class="option" onclick="selectOption('question6','insurance_name', this)">BCBS</button>
-                        <button class="option" onclick="selectOption('question6','insurance_name', this)">Aetna</button>
-                        <button class="option" onclick="selectOption('question6','insurance_name', this)">Optum</button>
-                        <button class="option" onclick="selectOption('question6','insurance_name', this)">United HealthCare</button>
-                    </div>
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                            
-                        </div>
-                    </div>
+                    </select>
                 </div>
             </div>
 
             <div class="form-section">
-                <!-- <div id="gender_selection"> -->
-                    <div id="question7" style="display: none;">
-                    <!-- <label for="gender">Are you a biological male or female?</label> -->
-                    <!-- <select id="gender" name="gender">
+                <div id="gender_selection">
+                    <label for="gender">Are you a biological male or female?</label>
+                    <select id="gender" name="gender">
                         <option>Select</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
-                    </select> -->
-                    <div class="message received">
-                        <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                            <span class="message-text">Are you a biological male or female?</span>
-                        </div>
-                    </div>
-                    <div class="options">
-                        <button class="option" onclick="selectOption('question7','gender', this)">Male</button>
-                        <button class="option" onclick="selectOption('question7','gender', this)">Female</button>
-                    </div>
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                            
-                        </div>
-                    </div>
+                    </select>
                 </div>
             </div>
 
             <div class="form-section">
-                <!-- <div id="ehr_sync"> -->
-                    <div id="question8" style="display: none;">
-                        <div class="message received">
-                            <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                <!-- <p>Synching EHR Records...</p> -->
-                                <span class="message-text">Synching EHR Records... <br> -- HER2 positive Breast Cancer <br> -- 42 years old <br> -- 100k-200k income range
-                                <br> -- Married, 2 children <br> -- College graduate education <br> Is the information correct?</span>
-                                <!-- <div id="ehr_sync_record">
-                                    <ul id="record_list">
-                                    <li>HER2 positive Breast Cancer</li>
-                                    <li>42 years old</li>
-                                    <li>100k-200k income range</li>
-                                    <li>Married, 2 children</li>
-                                    <li>College graduate education</li>
-                                    </ul>
-                                </div> -->
-                                <!-- <span class="message-text">Is the information correct?</span> -->
-                            </div>
-                        </div>
-                        <!-- <p>Synching EHR Records...</p>
+                <div id="ehr_sync">
+                    <p>Synching EHR Records...</p>
                     <div id="ehr_sync_record">
                         <ul id="record_list">
                             <li>HER2 positive Breast Cancer</li>
@@ -335,34 +153,23 @@
                             <li>Married, 2 children</li>
                             <li>College graduate education</li>
                         </ul>
-                        <label id="confirm_label" for="confirm_info">Is the information correct?</label> -->
-                        <!-- <input type="radio" id="confirm_info_yes" name="confirm_info" value="yes"> Yes
-                        <input type="radio" id="confirm_info_no" name="confirm_info" value="no"> No -->
-                        <div class="options">
-                            <button class="option" onclick="selectOption('question8','confirm_info', this)">Yes</button>
-                            <button class="option" onclick="selectOption('question8','confirm_info', this)">No</button>
-                        </div>
-                        <div class="message sent" style="display: none;">
-                            <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                <span class="message-text"></span>
-                                
-                            </div>
-                        </div>
+                        <label id="confirm_label" for="confirm_info">Is the information correct?</label>
+                        <input type="radio" id="confirm_info_yes" name="confirm_info" value="yes"> Yes
+                        <input type="radio" id="confirm_info_no" name="confirm_info" value="no"> No
                     </div>
+                </div>
             </div>
 
             <div class="form-section">
-                <div id="final_questions" style="display: none;">
+                <div id="final_questions">
                     <p>The following questions will help us better match you to the desired doctor. They capture your preferences which we use to match you, although some questions are optional.</p>
                 </div>
             </div>
                     
             <div class="form-section">
-                <!-- <div id="religiosity"> -->
-                    <div id="question9" style="display: none;">
-                    <!-- <label for="religiosity">Please select your religious beliefs:</label> -->
-                    <!-- <select id="religiosity" name="religiosity">
+                <div id="religiosity">
+                    <label for="religiosity">Please select your religious beliefs:</label>
+                    <select id="religiosity" name="religiosity">
                         <option>Select</option>
                         <option value="Christian">Christian</option>
                         <option value="Islam">Islam</option>
@@ -370,68 +177,27 @@
                         <option value="Jew">Jew</option>
                         <option value="Other">Other</option>
                         <option value="Spiritual but not religious">Spiritual but not religious</option>
-                    </select> -->
-                    <div class="message received">
-                        <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                            <span class="message-text">Please select your religious beliefs:</span>
-                        </div>
-                    </div>
-                    <div class="options">
-                        <button class="option" onclick="selectOption('question9','religiosity', this)">Christian</button>
-                        <button class="option" onclick="selectOption('question9','religiosity', this)">Islam</button>
-                        <button class="option" onclick="selectOption('question9','religiosity', this)">Hindu</button>
-                        <button class="option" onclick="selectOption('question9','religiosity', this)">Other</button>
-                        <button class="option" onclick="selectOption('question9','religiosity', this)">Spiritual but not religious</button>
-                    </div>
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                            
-                        </div>
-                    </div>
+                    </select>
                 </div>
             </div>
 
                     <div class="form-section">
-                        <!-- <div id="immigration_status"> -->
-                            <div id="question10" style="display: none;">
-                        <!-- <label for="immigration_status">What is your immigration status?</label> -->
-                        <!-- <select id="immigration_status" name="immigration_status">
+                        <div id="immigration_status">
+                        <label for="immigration_status">What is your immigration status?</label>
+                        <select id="immigration_status" name="immigration_status">
                             <option>Select</option>
                             <option value="Immigrant">Immigrant</option>
                             <option value="Non-immigrant">Non-immigrant</option>
                             <option value="Prefer not to say">Prefer not to say</option>
                             <option value="Other">Other</option>
-                        </select> -->
-                        <div class="message received">
-                            <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                <span class="message-text">What is your immigration status?</span>
-                            </div>
-                        </div>
-                        <div class="options">
-                            <button class="option" onclick="selectOption('question10','immigration_status', this)">Immigrant</button>
-                            <button class="option" onclick="selectOption('question10','immigration_status', this)">Non-immigrant</button>
-                            <button class="option" onclick="selectOption('question10','immigration_status', this)">Prefer not to say</button>
-                            <button class="option" onclick="selectOption('question10','immigration_status', this)">Other</button>
-                        </div>
-                        <div class="message sent" style="display: none;">
-                            <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                <span class="message-text"></span>
-                                
-                            </div>
-                        </div>
+                        </select>
                     </div>
                     </div>
 
                     <div class="form-section">
-                        <!-- <div id="ethnicity"> -->
-                        <div id="question11" style="display: none;">
-                        <!-- <label for="ethnicity">What is your ethnicity?</label> -->
-                        <!-- <select id="ethnicity" name="ethnicity">
+                        <div id="ethnicity">
+                        <label for="ethnicity">What is your ethnicity?</label>
+                        <select id="ethnicity" name="ethnicity">
                             <option>Select</option>
                             <option value="American Indian">American Indian</option>
                             <option value="Asian">Asian</option>
@@ -439,103 +205,42 @@
                             <option value="Hispanic or Latino">Hispanic or Latino</option>
                             <option value="Native Hawaiian">Native Hawaiian</option>
                             <option value="White">White</option>
-                        </select> -->
-                        <div class="message received">
-                            <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                <span class="message-text">What is your ethnicity?</span>
-                            </div>
-                        </div>
-                        <div class="options">
-                            <button class="option" onclick="selectOption('question11','ethnicity', this)">American Indian</button>
-                            <button class="option" onclick="selectOption('question11','ethnicity', this)">Asian</button>
-                            <button class="option" onclick="selectOption('question11','ethnicity', this)">Black or African American</button>
-                            <button class="option" onclick="selectOption('question11','ethnicity', this)">Hispanic or Latino</button>
-                            <button class="option" onclick="selectOption('question11','ethnicity', this)">Native Hawaiian</button>
-                            <button class="option" onclick="selectOption('question11','ethnicity', this)">White</button>
-                        </div>
-                        <div class="message sent" style="display: none;">
-                            <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                <span class="message-text"></span>
-                                
-                            </div>
-                        </div>
+                        </select>
                         </div>
                     </div>
 
                     <div class="form-section">
-                        <!-- <div id="social_support"> -->
-                            <div id="question12" style="display: none;">
-                        <!-- <label for="social_support">What is your social support status?</label> -->
-                        <!-- <select id="social_support" name="social_support">
+                        <div id="social_support">
+                        <label for="social_support">What is your social support status?</label>
+                        <select id="social_support" name="social_support">
                             <option>Select</option>
                             <option value="Need additional support">Need additional support</option>
                             <option value="Adequate current support">Adequate current support</option>
                             <option value="Don't have social support">Don't have social support</option>
                             <option value="Not sure">Not sure</option>
                             <option value="Prefer not to say">Prefer not to say</option>
-                        </select> -->
-                        <div class="message received">
-                            <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                <span class="message-text">What is your social support status?</span>
-                            </div>
-                        </div>
-                        <div class="options">
-                            <button class="option" onclick="selectOption('question12','social_support', this)">Need additional support</button>
-                            <button class="option" onclick="selectOption('question12','social_support', this)">Adequate current support</button>
-                            <button class="option" onclick="selectOption('question12','social_support', this)">Don't have social support</button>
-                            <button class="option" onclick="selectOption('question12','social_support', this)">Not sure</button>
-                            <button class="option" onclick="selectOption('question12','social_support', this)">Prefer not to say</button>
-                        </div>
-                        <div class="message sent" style="display: none;">
-                            <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                <span class="message-text"></span>
-                                
-                            </div>
-                        </div>
+                        </select>
                         </div>
                     </div>
 
                     <div class="form-section">
-                        <!-- <div id="genetic_testing"> -->
-                        <div id="question13" style="display: none;">
-                        <!-- <label for="genetic_testing">Have you had genetic testing done before?</label> -->
-                        <!-- <div>
+                        <div id="genetic_testing">
+                        <label for="genetic_testing">Have you had genetic testing done before?</label>
+                        <div>
                             <input type="radio" id="genetic_testing_yes" name="genetic_testing" value="Yes">
                             <label for="genetic_testing_yes">Yes</label>
                         </div>
                         <div>
                             <input type="radio" id="genetic_testing_no" name="genetic_testing" value="No">
                             <label for="genetic_testing_no">No</label>
-                        </div> -->
-                        <div class="message received">
-                            <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                <span class="message-text">Have you had genetic testing done before?</span>
-                            </div>
-                        </div>
-                        <div class="options">
-                            <button class="option" onclick="selectOption('question13','genetic_testing', this)">Yes</button>
-                            <button class="option" onclick="selectOption('question13','genetic_testing', this)">No</button>
-                        </div>
-                        <div class="message sent" style="display: none;">
-                            <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                <span class="message-text"></span>
-                                
-                            </div>
                         </div>
                         </div>
                     </div>
             
                     <div class="form-section">
-                        <!-- <div id="family_history"> -->
-                            <div id="question14" style="display: none;">
-                        <!-- <label for="family_history">Is there a family history of cancer?</label> -->
-                        <!-- <div>
+                        <div id="family_history">
+                        <label for="family_history">Is there a family history of cancer?</label>
+                        <div>
                             <input type="radio" id="family_history_yes" name="family_history" value="Yes">
                             <label for="family_history_yes">Yes</label>
                         </div>
@@ -546,33 +251,14 @@
                         <div>
                             <input type="radio" id="family_history_dont_know" name="family_history" value="I don't know">
                             <label for="family_history_dont_know">I don't know</label>
-                        </div> -->
-                        <div class="message received">
-                            <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                <span class="message-text">Is there a family history of cancer?</span>
-                            </div>
-                        </div>
-                        <div class="options">
-                            <button class="option" onclick="selectOption('question14','family_history', this)">Yes</button>
-                            <button class="option" onclick="selectOption('question14','family_history', this)">No</button>
-                            <button class="option" onclick="selectOption('question14','family_history', this)">I don't know</button>
-                        </div>
-                        <div class="message sent" style="display: none;">
-                            <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                <span class="message-text"></span>
-                                
-                            </div>
                         </div>
                         </div>
                     </div>
 
                     <div class="form-section">
-                        <!-- <div id="treatment_approach"> -->
-                            <div id="question15" style="display: none;">
-                        <!-- <label for="treatment_approach">What is your preference for treatment approach?</label> -->
-                        <!-- <select id="treatment_approach" name="treatment_approach">
+                        <div id="treatment_approach">
+                        <label for="treatment_approach">What is your preference for treatment approach?</label>
+                        <select id="treatment_approach" name="treatment_approach">
                             <option>Select</option>
                             <option value="Standard medical care">Standard medical care</option>
                             <option value="Conservative treatment">Conservative treatment</option>
@@ -584,40 +270,14 @@
                             <option value="I want to know more">I want to know more</option>
                             <option value="All of the above">All of the above</option>
                             <option value="I'm not sure">I'm not sure</option>
-                        </select> -->
-                        <div class="message received">
-                            <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                <span class="message-text">What is your preference for treatment approach?</span>
-                            </div>
-                        </div>
-                        <div class="options">
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">Standard medical care</button>
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">Conservative treatment</button>
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">Newer treatment modalities</button>
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">Clinical trials</button>
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">Experimental treatments</button>
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">Complementary treatment</button>
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">Integrative approach</button>
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">I want to know more</button>
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">All of the above</button>
-                            <button class="option" onclick="selectOption('question15','treatment_approach', this)">I'm not sure</button>
-                        </div>
-                        <div class="message sent" style="display: none;">
-                            <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                <span class="message-text"></span>
-                                
-                            </div>
-                        </div>
+                        </select>
                     </div>
                     </div>
 
                     <div class="form-section">
-                        <!-- <div id="doctor_preferences"> -->
-                            <div id="question16" style="display: none;">
-                        <!-- <label for="doctor_preferences">Are you looking for any specific qualities in your doctor?</label> -->
-                        <!-- <select id="doctor_preferences" name="doctor_preferences">
+                        <div id="doctor_preferences">
+                        <label for="doctor_preferences">Are you looking for any specific qualities in your doctor?</label>
+                        <select id="doctor_preferences" name="doctor_preferences">
                             <option>Select</option>
                             <option value="Compassion">Compassion</option>
                             <option value="Comfort">Comfort</option>
@@ -627,33 +287,11 @@
                             <option value="Clear communication">Clear communication</option>
                             <option value="All of the above">All of the above</option>
                             <option value="I'm not sure">I'm not sure</option>
-                        </select> -->
-                        <div class="message received">
-                            <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                <span class="message-text">Are you looking for any specific qualities in your doctor?</span>
-                            </div>
-                        </div>
-                        <div class="options">
-                            <button class="option" onclick="selectOption('question16','doctor_preferences', this)">Compassion</button>
-                            <button class="option" onclick="selectOption('question16','doctor_preferences', this)">Comfort</button>
-                            <button class="option" onclick="selectOption('question16','doctor_preferences', this)">Patience</button>
-                            <button class="option" onclick="selectOption('question16','doctor_preferences', this)">Personality and bedside manner</button>
-                            <button class="option" onclick="selectOption('question16','doctor_preferences', this)">Time spent with patient</button>
-                            <button class="option" onclick="selectOption('question16','doctor_preferences', this)">Clear communication</button>
-                            <button class="option" onclick="selectOption('question16','doctor_preferences', this)">All of the above</button>
-                            <button class="option" onclick="selectOption('question16','doctor_preferences', this)">I'm not sure</button>
-                    </div>
-                    <div class="message sent" style="display: none;">
-                        <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                            <span class="message-text"></span>
-                            
-                        </div>
+                        </select>
                     </div>
                     </div>
 
-                    <div id="patientProfiling" style="display: none;">
+                    <div id="patientProfiling">
                         <p>Patient profiling and information input done. Finding your best match now...</p>
                         <!-- # Need to show this after some time with some confidence score -->
                         <div id="doctorMatch">
@@ -686,65 +324,28 @@
                     </div>
                             <!-- Additional Questions -->
                             <div class="form-section">
-                                <!-- <div id="automated_appointment"> -->
-                                    <div id="question17" style="display: none;">
-                                <!-- <label for="automated_appointment">Would you like to get an automated appointment?</label> -->
-                                <!-- <input type="radio" id="automated_appointment_yes" name="automated_appointment" value="yes"> Yes
-                                <input type="radio" id="automated_appointment_no" name="automated_appointment" value="no"> No -->
-                                <div class="message received">
-                                    <div class="message-header">
-                                        <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                        <span class="message-text">Would you like to get an automated appointment?</span>
-                                    </div>
+                                <div id="automated_appointment">
+                                <label for="automated_appointment">Would you like to get an automated appointment?</label>
+                                <input type="radio" id="automated_appointment_yes" name="automated_appointment" value="yes"> Yes
+                                <input type="radio" id="automated_appointment_no" name="automated_appointment" value="no"> No
                                 </div>
-                                <div class="options">
-                                    <button class="option" onclick="selectOption('question17', 'automated_appointment', this)">Yes</button>
-                                    <button class="option" onclick="selectOption('question17', 'automated_appointment', this)">No</button>
-                                </div>
-                                <div class="message sent" style="display: none;">
-                                    <div class="message-header sent">
-                                        <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                        <span class="message-text"></span>
-                                        
-                                    </div>
-                                </div>
-                            </div>
                             </div>
             
                             <div class="form-section">
-                                <!-- <div id="medical_transportation"> -->
-                                    <div id="question18" style="display: none;">
-                                <!-- <label for="medical_transportation">Do you need medical transportation?</label> -->
-                                <!-- <input type="radio" id="medical_transportation_yes" name="medical_transportation" value="yes"> Yes
-                                <input type="radio" id="medical_transportation_no" name="medical_transportation" value="no"> No -->
-                                <div class="message received">
-                                    <div class="message-header">
-                                        <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                        <span class="message-text">Do you need medical transportation?</span>
-                                    </div>
-                                </div>
-                                <div class="options">
-                                    <button class="option" onclick="selectOption('question18','medical_transportation', this)">Yes</button>
-                                    <button class="option" onclick="selectOption('question18','medical_transportation', this)">No</button>
-                                </div>
-                                <div class="message sent" style="display: none;">
-                                    <div class="message-header sent">
-                                        <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                        <span class="message-text"></span>
-                                        
-                                    </div>
-                                </div>
+                                <div id="medical_transportation">
+                                <label for="medical_transportation">Do you need medical transportation?</label>
+                                <input type="radio" id="medical_transportation_yes" name="medical_transportation" value="yes"> Yes
+                                <input type="radio" id="medical_transportation_no" name="medical_transportation" value="no"> No
                             </div>
                             </div>
                 </div>
             </div>
-            <!-- </div> -->
     
-            <!-- <div class="submit-container">
+            <div class="submit-container">
                 <input type="submit" value="Submit">
-            </div> -->
-        <!-- </form> -->
-    <!-- </div> -->
+            </div>
+        </form>
+    </div>
 
    <!-- Questionaire form-->
  
@@ -761,64 +362,6 @@
         //         consentText.textContent = 'By clicking "Yes," I, [Your Name], give my informed consent to the telemedicine consultation.';
         //     }
         // });
-        const selections = {};
-        let currentQuestionIndex = 0;
-
-        function selectOption(questionId, key, selectedButton) {
-            const options = document.querySelectorAll(`#${questionId} .option`);
-            const answer = document.querySelector(`#${questionId} .message.sent .message-text`);
-            const answerDiv = document.querySelector(`#${questionId} .message.sent`);
-            console.log(options)
-            // Clear previous selections and highlight the selected option
-            options.forEach(option => {
-                if (option === selectedButton) {
-                    //option.classList.add('selected');  // Highlight selected option
-                    //option.classList.remove('not-selected');  // Remove gray background
-                    selections[key] = option.textContent; // Save selection in dictionary
-                    answer.textContent = option.textContent;
-                    answerDiv.style.display = 'flex';
-                    answerDiv.style.flexDirection = 'column-reverse';
-                }
-            });
-
-            // Move to the next question after selection
-            currentQuestionIndex++;
-            console.log(currentQuestionIndex)
-            //const nextQuestion = document.querySelector(`.question:nth-of-type(${currentQuestionIndex + 1})`);
-            console.log("question" + currentQuestionIndex);
-            const nextQuestion = document.getElementById("question" + currentQuestionIndex);
-            if (nextQuestion) {
-                setTimeout(function(){
-                    nextQuestion.style.display = 'block'; // Show next question
-                    nextQuestion.scrollIntoView({ behavior: 'smooth' }); // Scroll to the next question    
-                }, 1000);
-                
-            } else {
-                //document.getElementById('submitBtn').style.display = 'block'; // Show submit button if no more questions
-                selections["name"] = document.getElementById('consentName').value;
-                let dob = new Date(document.getElementById('consentDOB').value);
-                let age = ((Date.now() - dob) / (31557600000));
-                selections["age"] = parseInt(age);
-                console.log(selections)
-                fetch('/', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(selections)  // Convert the dictionary to a JSON string
-                 })
-                 .then(response => {
-                    if (response.redirected) {
-                        window.location = response.url
-                    }});
-                // .then(data => {
-                //     console.log('Success:', data);
-                // })
-                // .catch((error) => {
-                //     console.error('Error:', error);
-                // });
-            }
-        }
     </script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>

@@ -20,7 +20,11 @@ db = SQLAlchemy()
 
 def init_db(app):
     app.config['SQLALCHEMY_DATABASE_URI'] = f"mssql+pyodbc:///?odbc_connect={params}"
+<<<<<<< HEAD
     # app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///patients-copy.db"
+=======
+    app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///patients-copy.db"
+>>>>>>> f5e39e6b74e0d149a192b0760e3eacd3566739f7
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db.init_app(app)
 
