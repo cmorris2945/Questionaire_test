@@ -59,7 +59,7 @@
         <!-- <div> -->
             <div id="chatbot-header" class="chatbot-header" style="display: none;">
                 <div class="profile-container">
-                    <img src="https://via.placeholder.com/50" alt="Chatbot Profile Picture" class="profile-img">
+                    <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Profile Picture" class="profile-img">
                     <div class="chatbot-info">
                         <span class="chatbot-name">DrBot</span>
                         <span class="status-container">
@@ -83,7 +83,7 @@
                     </select> -->
                     <div class="message received">
                         <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                             <span class="message-text">How can I help you today?</span>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                             
                         </div>
@@ -116,7 +116,7 @@
                     </select> -->
                     <div class="message received">
                         <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                             <span class="message-text">Ah, I know this is a tough experience. Let me help you find the care you need. 😊😢</span>
                             <!-- <span class="message-text">Select an option:</span> -->
                         </div>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                     </select> -->
                     <div class="message received">
                         <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                             <span class="message-text">Stage of Cancer?</span>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                     </div>
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                             
                         </div>
@@ -180,7 +180,7 @@
                     <input type="radio" id="second_opinion_no" name="second_opinion" value="no"> No -->
                     <div class="message received">
                         <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                             <span class="message-text">Do you need a second opinion doctor?</span>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                     </div>
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                             
                         </div>
@@ -204,7 +204,7 @@
                     <!-- <label for="started_treatment">Have you started treatment yet for the cancer?</label> -->
                     <div class="message received">
                         <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                             <span class="message-text">Have you started treatment yet for the cancer?</span>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                     </div>
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                             
                         </div>
@@ -230,14 +230,14 @@
                     <!-- <label for="zip_code">What is your zip code?</label> -->
                     <div class="message received">
                         <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                             <span class="message-text">What is your zip code?</span>
                         </div>
                     </div>
                     <input type="text" id="zip_code" name="zip_code" onchange="selectOption('question5','zip_code', this)">
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                     </select> -->
                     <div class="message received">
                         <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                             <span class="message-text">What is your insurance?</span>
                         </div>
                     </div>
@@ -268,7 +268,7 @@
                     </div>
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                             
                         </div>
@@ -287,7 +287,7 @@
                     </select> -->
                     <div class="message received">
                         <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                             <span class="message-text">Are you a biological male or female?</span>
                         </div>
                     </div>
@@ -297,7 +297,7 @@
                     </div>
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                             
                         </div>
@@ -310,7 +310,7 @@
                     <div id="question8" style="display: none;">
                         <div class="message received">
                             <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                                 <!-- <p>Synching EHR Records...</p> -->
                                 <span class="message-text">Synching EHR Records... <br> -- HER2 positive Breast Cancer <br> -- 42 years old <br> -- 100k-200k income range
                                 <br> -- Married, 2 children <br> -- College graduate education <br> Is the information correct?</span>
@@ -344,7 +344,7 @@
                         </div>
                         <div class="message sent" style="display: none;">
                             <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                                 <span class="message-text"></span>
                                 
                             </div>
@@ -373,7 +373,7 @@
                     </select> -->
                     <div class="message received">
                         <div class="message-header">
-                            <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                             <span class="message-text">Please select your religious beliefs:</span>
                         </div>
                     </div>
@@ -386,7 +386,7 @@
                     </div>
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                             
                         </div>
@@ -407,7 +407,7 @@
                         </select> -->
                         <div class="message received">
                             <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                                 <span class="message-text">What is your immigration status?</span>
                             </div>
                         </div>
@@ -419,7 +419,7 @@
                         </div>
                         <div class="message sent" style="display: none;">
                             <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                                 <span class="message-text"></span>
                                 
                             </div>
@@ -442,7 +442,7 @@
                         </select> -->
                         <div class="message received">
                             <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                                 <span class="message-text">What is your ethnicity?</span>
                             </div>
                         </div>
@@ -456,7 +456,7 @@
                         </div>
                         <div class="message sent" style="display: none;">
                             <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                                 <span class="message-text"></span>
                                 
                             </div>
@@ -478,7 +478,7 @@
                         </select> -->
                         <div class="message received">
                             <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                                 <span class="message-text">What is your social support status?</span>
                             </div>
                         </div>
@@ -491,7 +491,7 @@
                         </div>
                         <div class="message sent" style="display: none;">
                             <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                                 <span class="message-text"></span>
                                 
                             </div>
@@ -513,7 +513,7 @@
                         </div> -->
                         <div class="message received">
                             <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                                 <span class="message-text">Have you had genetic testing done before?</span>
                             </div>
                         </div>
@@ -523,7 +523,7 @@
                         </div>
                         <div class="message sent" style="display: none;">
                             <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                                 <span class="message-text"></span>
                                 
                             </div>
@@ -549,7 +549,7 @@
                         </div> -->
                         <div class="message received">
                             <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                                 <span class="message-text">Is there a family history of cancer?</span>
                             </div>
                         </div>
@@ -560,7 +560,7 @@
                         </div>
                         <div class="message sent" style="display: none;">
                             <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                                 <span class="message-text"></span>
                                 
                             </div>
@@ -587,7 +587,7 @@
                         </select> -->
                         <div class="message received">
                             <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                                 <span class="message-text">What is your preference for treatment approach?</span>
                             </div>
                         </div>
@@ -605,7 +605,7 @@
                         </div>
                         <div class="message sent" style="display: none;">
                             <div class="message-header sent">
-                                <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                                 <span class="message-text"></span>
                                 
                             </div>
@@ -630,7 +630,7 @@
                         </select> -->
                         <div class="message received">
                             <div class="message-header">
-                                <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
                                 <span class="message-text">Are you looking for any specific qualities in your doctor?</span>
                             </div>
                         </div>
@@ -646,7 +646,7 @@
                     </div>
                     <div class="message sent" style="display: none;">
                         <div class="message-header sent">
-                            <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
                             <span class="message-text"></span>
                             
                         </div>
@@ -684,58 +684,98 @@
                             </ul>
                         </div>
                     </div>
-                            <!-- Additional Questions -->
-                            <div class="form-section">
-                                <!-- <div id="automated_appointment"> -->
-                                    <div id="question17" style="display: none;">
-                                <!-- <label for="automated_appointment">Would you like to get an automated appointment?</label> -->
-                                <!-- <input type="radio" id="automated_appointment_yes" name="automated_appointment" value="yes"> Yes
-                                <input type="radio" id="automated_appointment_no" name="automated_appointment" value="no"> No -->
-                                <div class="message received">
-                                    <div class="message-header">
-                                        <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                        <span class="message-text">Would you like to get an automated appointment?</span>
-                                    </div>
-                                </div>
-                                <div class="options">
-                                    <button class="option" onclick="selectOption('question17', 'automated_appointment', this)">Yes</button>
-                                    <button class="option" onclick="selectOption('question17', 'automated_appointment', this)">No</button>
-                                </div>
-                                <div class="message sent" style="display: none;">
-                                    <div class="message-header sent">
-                                        <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                        <span class="message-text"></span>
-                                        
-                                    </div>
-                                </div>
+                    <div id="question17" style="display: none;">
+                        <div class="message received">
+                            <div class="message-header">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
+                                <span class="message-text">Patient profiling and information input done. Finding your best match now...</span>
                             </div>
-                            </div>
-            
-                            <div class="form-section">
-                                <!-- <div id="medical_transportation"> -->
-                                    <div id="question18" style="display: none;">
-                                <!-- <label for="medical_transportation">Do you need medical transportation?</label> -->
-                                <!-- <input type="radio" id="medical_transportation_yes" name="medical_transportation" value="yes"> Yes
-                                <input type="radio" id="medical_transportation_no" name="medical_transportation" value="no"> No -->
-                                <div class="message received">
-                                    <div class="message-header">
-                                        <img src="https://via.placeholder.com/30" alt="Chatbot Message Picture" class="message-img">
-                                        <span class="message-text">Do you need medical transportation?</span>
-                                    </div>
+                        </div>
+                        <div id= "buttonContainer" class="button-container" style="display: none;">
+                            <button class="custom-button" onclick="selectOption('question17','selected_doctor', this)">
+                                <img src="{{ url_for('static', filename='images/elisa.jpg') }}" alt="Dr. Elisa R. Port, MD" class="button-icon">
+                                <div class="button-text">
+                                    <span class="button-title">Dr. Elisa R. Port, MD</span>
+                                    <span class="button-description">Confidence Score: 98%</span>
                                 </div>
-                                <div class="options">
-                                    <button class="option" onclick="selectOption('question18','medical_transportation', this)">Yes</button>
-                                    <button class="option" onclick="selectOption('question18','medical_transportation', this)">No</button>
+                            </button>
+                    
+                            <button class="custom-button" onclick="selectOption('question17','selected_doctor', this)">
+                                <img src="{{ url_for('static', filename='images/eleni-andreopoulou.png') }}" alt="Dr. Eleni Andreopoulou, MD" class="button-icon">
+                                <div class="button-text">
+                                    <span class="button-title">Dr. Eleni Andreopoulou, MD</span>
+                                    <span class="button-description">Confidence Score: 83%</span>
                                 </div>
-                                <div class="message sent" style="display: none;">
-                                    <div class="message-header sent">
-                                        <img src="https://via.placeholder.com/30" alt="User Message Picture" class="message-img">
-                                        <span class="message-text"></span>
-                                        
-                                    </div>
+                            </button>
+                    
+                            <button class="custom-button" onclick="selectOption('question17','selected_doctor', this)">
+                                <img src="{{ url_for('static', filename='images/ting-bao-md-new-york-ny.jpg') }}" alt="Dr. Ting Bao, MD, MS" class="button-icon">
+                                <div class="button-text">
+                                    <span class="button-title">Dr. Ting Bao, MD, MS</span>
+                                    <span class="button-description">Confidence Score: 67%</span>
                                 </div>
+                            </button>
+                        </div>
+                        <div class="message sent" style="display: none;">
+                            <div class="message-header sent">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
+                                <span class="message-text"></span>
+                                
                             </div>
+                        </div>
+                    </div>
+                    <!-- Additional Questions -->
+                    <div class="form-section">
+                        <!-- <div id="automated_appointment"> -->
+                            <div id="question18" style="display: none;">
+                        <!-- <label for="automated_appointment">Would you like to get an automated appointment?</label> -->
+                        <!-- <input type="radio" id="automated_appointment_yes" name="automated_appointment" value="yes"> Yes
+                        <input type="radio" id="automated_appointment_no" name="automated_appointment" value="no"> No -->
+                        <div class="message received">
+                            <div class="message-header">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
+                                <span class="message-text">Would you like to get an automated appointment?</span>
                             </div>
+                        </div>
+                        <div class="options">
+                            <button class="option" onclick="selectOption('question18', 'automated_appointment', this)">Yes</button>
+                            <button class="option" onclick="selectOption('question18', 'automated_appointment', this)">No</button>
+                        </div>
+                        <div class="message sent" style="display: none;">
+                            <div class="message-header sent">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
+                                <span class="message-text"></span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+    
+                    <div class="form-section">
+                        <!-- <div id="medical_transportation"> -->
+                            <div id="question19" style="display: none;">
+                        <!-- <label for="medical_transportation">Do you need medical transportation?</label> -->
+                        <!-- <input type="radio" id="medical_transportation_yes" name="medical_transportation" value="yes"> Yes
+                        <input type="radio" id="medical_transportation_no" name="medical_transportation" value="no"> No -->
+                        <div class="message received">
+                            <div class="message-header">
+                                <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
+                                <span class="message-text">Do you need medical transportation?</span>
+                            </div>
+                        </div>
+                        <div class="options">
+                            <button class="option" onclick="selectOption('question19','medical_transportation', this)">Yes</button>
+                            <button class="option" onclick="selectOption('question19','medical_transportation', this)">No</button>
+                        </div>
+                        <div class="message sent" style="display: none;">
+                            <div class="message-header sent">
+                                <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
+                                <span class="message-text"></span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
             <!-- </div> -->
@@ -770,7 +810,15 @@
             const answerDiv = document.querySelector(`#${questionId} .message.sent`);
             console.log(options)
             // Clear previous selections and highlight the selected option
-            options.forEach(option => {
+            if (questionId === 'question17'){
+                const selectedDoctorName = selectedButton.querySelector(".button-title");
+                selections[key] = selectedDoctorName.textContent; // Save selection in dictionary
+                answer.textContent = selectedDoctorName.textContent;
+                answerDiv.style.display = 'flex';
+                answerDiv.style.flexDirection = 'column-reverse';
+
+            } else {
+                options.forEach(option => {
                 if (option === selectedButton) {
                     //option.classList.add('selected');  // Highlight selected option
                     //option.classList.remove('not-selected');  // Remove gray background
@@ -780,6 +828,8 @@
                     answerDiv.style.flexDirection = 'column-reverse';
                 }
             });
+            }
+            
 
             // Move to the next question after selection
             currentQuestionIndex++;
@@ -792,6 +842,14 @@
                     nextQuestion.style.display = 'block'; // Show next question
                     nextQuestion.scrollIntoView({ behavior: 'smooth' }); // Scroll to the next question    
                 }, 1000);
+
+                if (currentQuestionIndex === 17){
+                    const buttonContainer = document.getElementById("buttonContainer");
+                    setTimeout(function(){
+                        buttonContainer.style.display = 'flex';
+                        buttonContainer.scrollIntoView({behavior: 'smooth'});
+                    }, 2000);
+                }
                 
             } else {
                 //document.getElementById('submitBtn').style.display = 'block'; // Show submit button if no more questions

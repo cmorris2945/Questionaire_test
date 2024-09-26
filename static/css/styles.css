@@ -400,6 +400,8 @@ justify-content: center;
 .profile-img {
     border-radius: 50%;
     margin-right: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .chatbot-info {
@@ -471,4 +473,48 @@ justify-content: center;
     flex-direction: row-reverse;
     gap: 10px;
     align-items: flex-end;
+}
+.button-container {
+    display: flex; /*Use flexbox for the container*/
+    flex-direction: column; /*Stack buttons vertically*/
+    gap: 10px; /*Space between buttons*/
+}
+
+.custom-button {
+    display: flex; /*Align icon and text in a row*/
+    align-items: center; /*Center vertically*/
+    background-color: #007BFF; /*Button background color*/
+    color: white; /*Text color*/
+    border: none; /*Remove default border*/
+    border-radius: 5px; /*Rounded corners*/
+    padding: 10px; /*Padding inside the button*/
+    cursor: pointer; /*Pointer cursor on hover*/
+    width: 500px; /*Set a fixed width for the button*/
+    text-align: left; /*Align text to the left*/
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /*Darker blue on hover*/
+}
+
+.button-icon {
+    margin-right: 10px; /*Space between icon and text*/
+    width: 150px;
+    height: 150px;
+}
+
+.button-text {
+    display: flex; /*Flexbox for vertical alignment*/
+    flex-direction: column; /*Stack text vertically*/
+}
+
+.button-title {
+    font-weight: bold; /*Bold title*/
+    font-size: 20px;
+}
+
+.button-description {
+    font-size: 25px; /*Smaller font for description*/
+    opacity: 0.8; /*Slightly faded description*/
 }
