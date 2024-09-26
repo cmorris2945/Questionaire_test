@@ -49,3 +49,4 @@ class Patient(db.Model):
     social_support = db.Column(db.String(50))
     treatment_approach = db.Column(db.String(100))
     doctor_preferences = db.Column(db.String(100))
+    # selected_doctor = db.Column(db.String(100))

@@ -45,7 +45,8 @@ def index():
                 ethnicity=data.get('ethnicity'),
                 social_support=data.get('social_support'),
                 treatment_approach=data.get('treatment_approach'),
-                doctor_preferences=data.get('doctor_preferences')
+                doctor_preferences=data.get('doctor_preferences'),
+                # selected_doctor = data.get('selected_doctor')
             )
             db.session.add(new_patient)
             db.session.commit()
