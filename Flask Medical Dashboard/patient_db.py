@@ -17,7 +17,8 @@ azure_params = urllib.parse.quote_plus(
     f'DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=60;'
 )
 
-engine = create_engine(f"mssql+pyodbc:///?odbc_connect={azure_params}")
+# engine = create_engine(f"mssql+pyodbc:///?odbc_connect={azure_params}")
+engine = create_engine('sqlite:///instance/patients-copy.db')
 Session = sessionmaker(bind=engine)
 
 class Patient(Base):
@@ -45,6 +46,42 @@ class Patient(Base):
     social_support = Column(String(50))
     treatment_approach = Column(String(100))
     doctor_preferences = Column(String(100))
+
+def row2dict(row):
+    d = {}
+    for column in row.__table__.columns:
+        d[column.name] = str(getattr(row, column.name))
+
+    return d
+
+def get_all_patients():
+    session = Session()
+    try:
+        patients = session.query(Patient).all()
+        print(patients)
+        return patients
+    except Exception as e:
+        print(f"Error in get_all_patients: {str(e)}")
+        return None
+    finally:
+        session.close()        
+
+def get_by_id(id):
+    session = Session()
+    try:
+        patient = session.query(Patient).get(id)
+
+        # print(patient.__str__)
+        if patient:
+            return row2dict(patient)
+        else:
+            return None
+    except Exception as e:
+        print(f"Error in get_all_patients: {str(e)}")
+        return None
+    finally:
+        session.close() 
+
 
 def get_patient_statistics():
     session = Session()

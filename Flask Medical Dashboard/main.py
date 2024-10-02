@@ -1,9 +1,9 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
 import logging
 from user_db import User, db
-from patient_db import get_patient_statistics, test_azure_connection
+from patient_db import get_patient_statistics, test_azure_connection, get_all_patients, get_by_id
 from app_factory import create_app
 
 # Set up logging
@@ -32,7 +32,7 @@ def login():
         if user and check_password_hash(user.password, password):
             login_user(user)
             flash('Logged in successfully.', 'success')
-            return redirect(url_for('doctor_dashboard' if user.user_type == 'doctor' else 'patient_dashboard'))
+            return redirect(url_for('survivor_dashboard' if user.user_type == 'survivor' else 'patient_dashboard'))
         else:
             flash('Invalid email or password', 'error')
     
@@ -95,6 +95,32 @@ def patient_dashboard():
     if current_user.user_type != 'patient':
         return redirect(url_for('doctor_dashboard'))
     return render_template('patient_dashboard.html')
+
+@app.route('/survivor_dashboard')
+@login_required
+def survivor_dashboard():
+    if current_user.user_type == 'survivor':
+        patient_stats = get_patient_statistics()
+        patients = get_all_patients()
+        if patient_stats is None or patients is None:
+            flash('An error occurred while fetching patients data. Please try again later.', 'error')
+            return redirect(url_for('login'))
+        app.logger.info(f"Patient stats: {patient_stats}")
+        return render_template('survivor_dashboard.html', current_user=current_user, 
+                               patient_demographics=patient_stats, patients=patients)
+    else:
+        flash('Only survivor can access this page...', 'error')
+        return redirect(url_for('login'))
+
+@app.route('/get_patient/<id>')
+@login_required
+def get_patient(id):
+    patient = get_by_id(id)
+    if patient is not None:
+        return jsonify(patient)
+    else:
+        return "<h4>Not Found</h4>"
+    pass
 
 @app.route('/logout')
 @login_required

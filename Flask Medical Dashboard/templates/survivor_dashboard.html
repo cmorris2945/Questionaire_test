@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediConnect - Doctor Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fas fa-heartbeat"></i> MediConnect</div>
+        <nav>
+            <a href="#" class="active"><i class="fas fa-th-large"></i> Dashboard</a>
+            <a href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </nav>
+    </header>
+    
+    <main class="dashboard-container">
+        <h2><i class="fas fa-user-md"></i> Welcome, {{ current_user.full_name }}</h2>
+        
+        <div class="dashboard-summary">
+            <div class="summary-card">
+                <i class="fas fa-users"></i>
+                <h3>Total Patients</h3>
+                <p>{{ patient_demographics.total_patients }}</p>
+                <ul>
+                {% for patient in patients %}
+                    <!-- <p>{{patient.name}}</p> -->
+                    <li><a href="/get_patient/{{patient.id}}">{{patient.name}}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MediConnect. All rights reserved.</p>
+    </footer>
+</body>
+</html>
