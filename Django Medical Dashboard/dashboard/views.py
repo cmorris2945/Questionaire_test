@@ -54,6 +54,7 @@ def register(request):
 @login_required
 def dashboard(request):
     if request.user.is_patient:
+        print("-------- i was here !!!!!! --------")
         return patient_dashboard(request)
     elif request.user.is_doctor:
         return doctor_dashboard(request)

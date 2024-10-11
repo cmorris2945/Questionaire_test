@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+</head>
+<body>
+    <div id="questionnaire">
+        <h3 id="question">{{ question.question_text }}</h3>
+        <form id="question-form" method="post">
+            {% csrf_token %}
+            <div id="response-input">
+                {% if question.question_type == 'multiple_choice' %}
+                    {% for choice in question.choices %}
+                        <label>
+                            <input type="radio" name="response" value="{{ choice }}">{{ choice }}
+                        </label>
+                    {% endfor %}
+                {% else %}
+                    <input type="text" name="response" id="response">
+                {% endif %}
+            </div>
+            <button type="submit">Next</button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('question-form');
+        form.addEventListener('submit', async function (event) {
+            event.preventDefault();
+            
+            const formData = new FormData(form);
+            console.log("{% url 'get_next_question' attempt.id question.id %}")
+            let question = "{{ question.id }}";
+            console.log(question);
+            let attempt = "{{attempt.id}}";
+            let question_id = "{{question.id}}";
+            question_id = String(parseInt(question_id) + 1);
+            let url = `/questionnaire/next-question/${attempt}/${question_id}/`;
+            console.log(url);
+            let previous = "{% url 'get_next_question' attempt.id question.id %}";
+            const response = await fetch(url, {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+
+            if (data.question) {
+                document.getElementById('question').textContent = data.question;
+                document.getElementById('response-input').innerHTML = '';
+
+                if (data.question_type === 'multiple_choice') {
+                    data.choices.forEach(choice => {
+                        const label = document.createElement('label');
+                        const input = document.createElement('input');
+                        input.type = 'radio';
+                        input.name = 'response';
+                        input.value = choice;
+                        label.appendChild(input);
+                        label.appendChild(document.createTextNode(choice));
+                        document.getElementById('response-input').appendChild(label);
+                    });
+                } else {
+                    const input = document.createElement('input');
+                    input.type = 'text';
+                    input.name = 'response';
+                    input.id = 'response';
+                    document.getElementById('response-input').appendChild(input);
+                }
+            } else {
+                document.getElementById('questionnaire').innerHTML = '<h3>' + data.message + '</h3>';
+            }
+        });
+    </script>
+</body>
+</html>

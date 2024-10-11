@@ -9,11 +9,13 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-
+import os, dotenv
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+ENV_FILE_PATH = BASE_DIR / ".env"
+dotenv.load_dotenv(str(ENV_FILE_PATH))
 
 
 LOGIN_REDIRECT_URL = 'doctor_dashboard'
@@ -24,10 +26,7 @@ LOGIN_URL = 'login'
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4ju2n@$f9d0c=h)_g0lbb%k9&@rf(xa$d$g$&5ri$uf)*gev^4'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 ALLOWED_HOSTS = [".replit.dev", ".replit.app"]
 CSRF_TRUSTED_ORIGINS = ["https://*.replit.dev", "https://*.replit.app"]
@@ -43,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'dashboard',
     'users',
+    'questionnaire',
     'crispy_forms',
     'crispy_bootstrap4',
     'widget_tweaks',
@@ -81,18 +81,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'django_project.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
@@ -110,6 +98,36 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+DEBUG = None
+DATABASE = None
+if os.environ.get("ENV") == "dev":
+    DEBUG = True
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+if os.environ.get("ENV")== "production":
+    DEBUG = False
+    DATABASES = {
+        'default': {
+            'ENGINE': 'mssql',
+            'NAME': os.environ.get("DATABASE_NAME"),
+            'USER': os.environ.get("DATABASE_USERNAME"),
+            'PASSWORD': os.environ.get("DATABASE_PASSWORD"),
+            'HOST': os.environ.get("DATABASE_SERVER"),
+            'PORT': '',
+
+            'OPTIONS': {
+                'driver': os.environ.get("DATABASE_DRIVER","ODBC Driver 18 for SQL Server"),
+            },
+        },
+    }
+
+# Database
+# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
 
 
 # Internationalization
@@ -136,8 +154,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Add these lines to the end of your django_project/settings.py file
-
-import os
 
 # Configure allowed hosts for Replit
 ALLOWED_HOSTS = ['*']

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #question-container {
+            margin-bottom: 20px;
+        }
+        #answer-container {
+            margin-top: 10px;
+        }
+        .question {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Questionnaire Chatbot</h1>
+    <div id="question-container">
+        <p id="question" class="question"></p> <!-- Display the current question here -->
+        
+        <!-- Dynamic input area for answers -->
+        <div id="answer-container"></div>
+    </div>
+
+    <script>
+        const questions = {{ questions|safe }};  // Questions passed from Django
+        let currentQuestionIndex = 0;
+        let attemptId = {{ attempt }};  // Pass the attempt ID from Django
+    
+        function displayQuestion(index) {
+            const currentQuestion = questions[index];
+            document.getElementById('question').innerText = currentQuestion.question_text;
+    
+            const answerContainer = document.getElementById('answer-container');
+            answerContainer.innerHTML = '';  // Clear previous input
+    
+            if (currentQuestion.question_type === 'multiple_choice') {
+                currentQuestion.choices.forEach(choice => {
+                    const label = document.createElement('label');
+                    const input = document.createElement('input');
+                    input.type = 'radio';
+                    input.name = 'answer';
+                    input.value = choice;
+    
+                    label.appendChild(input);
+                    label.appendChild(document.createTextNode(choice));
+                    answerContainer.appendChild(label);
+                    answerContainer.appendChild(document.createElement('br'));
+                });
+    
+                // Add event listener for radio button selection
+                answerContainer.addEventListener('change', function () {
+                    if (document.querySelector('input[name="answer"]:checked')) {
+                        const answer = document.querySelector('input[name="answer"]:checked').value;
+                        submitAnswer(currentQuestion.id, answer);
+                    }
+                });
+    
+            } else if (currentQuestion.question_type === 'text') {
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.id = 'answer-input';
+                input.placeholder = 'Your answer';
+                answerContainer.appendChild(input);
+    
+                input.addEventListener('keypress', function (event) {
+                    if (event.key === 'Enter') {
+                        const answer = input.value;
+                        if (answer) {
+                            submitAnswer(currentQuestion.id, answer);
+                        }
+                    }
+                });
+            }
+        }
+    
+        function submitAnswer(questionId, answer) {
+            fetch("{% url 'submit_answer' %}", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': '{{ csrf_token }}'  // CSRF token for protection
+                },
+                body: JSON.stringify({
+                    attempt_id: attemptId,
+                    question_id: questionId,
+                    response_text: answer
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    currentQuestionIndex++;
+                    if (currentQuestionIndex < questions.length) {
+                        displayQuestion(currentQuestionIndex);
+                    } else {
+                        alert('Thank you for completing the questionnaire!');
+                    }
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    
+        // Load the first question on page load
+        displayQuestion(currentQuestionIndex);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,299 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .chat-container {
+            margin: 20px auto;
+            /* background-color: #d3d3d3; */
+            height: auto;
+            overflow-y: auto;
+            max-width: 800px;
+        }
+        .chatbot-header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .profile-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            margin-right: 10px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .chatbot-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chatbot-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .status-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .status {
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background-color: green; /*Online status*/
+            margin-right: 5px;
+        }
+
+        .status-text {
+            font-size: 14px;
+        }
+        .message {
+            margin: 10px 0;
+        }
+
+        .message-header {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .message-img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .message-text {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #e9ecef; /*Light gray for received messages*/
+            align-self: flex-start; /*Align to the left*/
+        }
+        .sent .message-text {
+            background-color: #007BFF; /*Blue for sent messages*/
+            color: white;
+            align-self: flex-end; /*Align to the right*/
+        }
+
+        .sent .message-header {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 10px;
+            align-items: flex-end;
+        }
+        .spaced-input {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chatbot-header" class="chatbot-header">
+        <div class="profile-container">
+            <img src="{% static 'images/drbot-globe.png' %}" alt="Chatbot Profile Picture" class="profile-img">
+            <div class="chatbot-info">
+                <span class="chatbot-name">DrBot</span>
+                <span class="status-container">
+                    <span class="status online"></span>
+                    <span class="status-text">Online</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="chat-container" id="chat-container">
+        <!-- Chat messages (questions and answers) will be displayed here -->
+    </div>
+
+    <script>
+        const questions = {{ questions|safe }};  // Questions passed from Django
+        let currentQuestionIndex = 0;
+        let attemptId = {{ attempt}};  // Pass the attempt ID from Django
+        let displayedQuestions = [];
+        // Function to display questions and previous answers in the chat-like interface
+        function displayQuestionInChat(index, questionText, answerText = null) {
+            const chatContainer = document.getElementById('chat-container');
+            // Create a new question div and add it to the chat container
+            const questionDivWrapper = document.createElement('div');
+            questionDivWrapper.classList.add('message');
+            const questionDiv = document.createElement('div');
+            questionDiv.classList.add('message-header');
+            
+            const chatbotImage = document.createElement('img');
+            chatbotImage.classList.add("message-img");
+            chatbotImage.setAttribute('src', "{% static 'images/drbot-globe.png' %}");
+
+            const questionSpan = document.createElement("span");
+            questionSpan.classList.add("message-text");
+            questionSpan.innerText = questionText;
+            questionDiv.appendChild(chatbotImage);
+            questionDiv.appendChild(questionSpan);
+            questionDivWrapper.appendChild(questionDiv);
+            //questionDiv.innerText = questionText;
+            chatContainer.appendChild(questionDivWrapper);
+            
+            // If there's an answer, create an answer div and add it to the chat container
+            if (answerText) {
+                console.log("in if answerText");
+                for (child of allChildren){
+                    console.log(child.id);
+                    console.log(child.className);
+                }
+                const answerDivWrapper = document.createElement('div');
+                answerDivWrapper.classList.add('message', 'sent');
+                const answerDiv = document.createElement('div');
+                answerDiv.classList.add('message-header', 'sent');
+                const profileImage = document.createElement('img');
+                profileImage.classList.add("message-img");
+                profileImage.setAttribute('src', "{% static 'images/profile-icon.png' %}");
+                const answerSpan = document.createElement("span");
+                answerSpan.classList.add("message-text");
+                answerSpan.innerText = answerText;
+                answerDiv.appendChild(profileImage);
+                answerDiv.appendChild(answerSpan);
+                answerDivWrapper.appendChild(answerDiv);
+                chatContainer.appendChild(answerDivWrapper);
+            }
+
+            // Scroll to the bottom of the chat container for better user experience
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        // Function to handle rendering the next question and input area
+        function displayNextQuestion() {
+            if (currentQuestionIndex >= questions.length) {
+                // alert("Thank you for completing the questionnaire!");
+                window.location.href = "{% url 'thankyou' %}";  
+            }
+
+            const currentQuestion = questions[currentQuestionIndex];
+            //displayQuestionInChat(currentQuestionIndex, currentQuestion.question_text);  // Show current question
+            if (!displayedQuestions.includes(currentQuestion.order)){
+                const chatContainer = document.getElementById('chat-container');
+                // Create a new question div and add it to the chat container
+                const questionDivWrapper = document.createElement('div');
+                questionDivWrapper.classList.add('message');
+                const questionDiv = document.createElement('div');
+                questionDiv.classList.add('message-header');
+                
+                const chatbotImage = document.createElement('img');
+                chatbotImage.classList.add("message-img");
+                chatbotImage.setAttribute('src', "{% static 'images/drbot-globe.png' %}");
+
+                const questionSpan = document.createElement("span");
+                questionSpan.classList.add("message-text");
+                questionSpan.innerText = currentQuestion.question_text;
+                questionDiv.appendChild(chatbotImage);
+                questionDiv.appendChild(questionSpan);
+                questionDivWrapper.appendChild(questionDiv);
+                //questionDiv.innerText = questionText;
+                chatContainer.appendChild(questionDivWrapper);
+                displayedQuestions.push(currentQuestion.order);
+            }
+            const inputArea = document.createElement('div');
+            inputArea.classList.add('input-area');
+            const answerContainer = document.createElement('div');
+
+            if (currentQuestion.question_type === 'multiple_choice') {
+                currentQuestion.choices.forEach(choice => {
+                    const label = document.createElement('label');
+                    const input = document.createElement('input');
+                    input.classList.add('spaced-input');
+                    input.type = 'radio';
+                    input.name = 'answer';
+                    input.value = choice;
+                    label.appendChild(input);
+                    label.appendChild(document.createTextNode(choice));
+                    answerContainer.appendChild(label);
+                    answerContainer.appendChild(document.createElement('br'));
+                });
+
+                answerContainer.addEventListener('change', function () {
+                    if (document.querySelector('input[name="answer"]:checked')) {
+                        const answer = document.querySelector('input[name="answer"]:checked').value;
+                        submitAnswer(currentQuestion.id, answer);
+                    }
+                });
+
+            } else if (currentQuestion.question_type === 'text') {
+                const input = document.createElement('input');
+                input.classList.add('spaced-input');
+                input.type = 'text';
+                input.id = 'answer-input';
+                input.placeholder = 'Your answer';
+                answerContainer.appendChild(input);
+
+                input.addEventListener('keypress', function (event) {
+                    if (event.key === 'Enter') {
+                        const answer = input.value;
+                        if (answer) {
+                            submitAnswer(currentQuestion.id, answer);
+                        }
+                    }
+                });
+            }
+
+            inputArea.appendChild(answerContainer);
+            document.getElementById('chat-container').appendChild(inputArea);
+        }
+
+        // Function to submit the answer to the backend and show next question
+        function submitAnswer(questionId, answer) {
+            fetch("{% url 'submit_answer' %}", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': '{{ csrf_token }}'
+                },
+                body: JSON.stringify({
+                    attempt_id: attemptId,
+                    question_id: questionId,
+                    response_text: answer
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    // After successful submission, show the answer in the chat and load the next question
+                    //displayQuestionInChat(currentQuestionIndex, questions[currentQuestionIndex].question_text, answer);
+                    const answerDivWrapper = document.createElement('div');
+                    answerDivWrapper.classList.add('message', 'sent');
+                    const answerDiv = document.createElement('div');
+                    answerDiv.classList.add('message-header', 'sent');
+                    const profileImage = document.createElement('img');
+                    profileImage.classList.add("message-img");
+                    profileImage.setAttribute('src', "{% static 'images/profile-icon.png' %}");
+                    const answerSpan = document.createElement("span");
+                    answerSpan.classList.add("message-text");
+                    answerSpan.innerText = answer;
+                    answerDiv.appendChild(profileImage);
+                    answerDiv.appendChild(answerSpan);
+                    answerDivWrapper.appendChild(answerDiv);
+                    document.getElementById('chat-container').appendChild(answerDivWrapper);
+                    currentQuestionIndex++;
+                    displayNextQuestion();
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        // Initialize the first question on page load
+        window.onload = function() {
+            displayNextQuestion();
+        };
+    </script>
+</body>
+</html>
