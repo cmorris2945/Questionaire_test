@@ -176,7 +176,22 @@
         function displayNextQuestion() {
             if (currentQuestionIndex >= questions.length) {
                 // alert("Thank you for completing the questionnaire!");
-                window.location.href = "{% url 'thankyou' %}";  
+                // window.location.href = "{% url 'thankyou' %}";
+                fetch("{% url 'generate-questions' %}", {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': '{{ csrf_token }}'
+                    },
+                    body: JSON.stringify({
+                        attempt_id: attemptId
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        console.log(data);
+                    }}).catch(error => console.error('Error:', error));  
             }
 
             const currentQuestion = questions[currentQuestionIndex];

@@ -7,4 +7,5 @@ urlpatterns = [
     path('next-question/<int:attempt_id>/<int:question_id>/', views.get_next_question, name='get_next_question'),
     path('submit_answer', views.submit_answer, name="submit_answer"),
     path('thankyou', views.thankyou, name="thankyou"),
+    # path('generate-questions', views.generate_questions, name="generate-questions"),
 ]

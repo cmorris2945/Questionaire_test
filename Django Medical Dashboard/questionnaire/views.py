@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .models import Questionnaire, PatientResponse, Attempt
 from django.http import JsonResponse
+# from .service import generate_dynamic_questions
 import json
 
 @login_required
@@ -65,3 +66,16 @@ def submit_answer(request):
 
 def thankyou(request):
     return render(request, 'thankyou.html')
+
+# def generate_questions(request):
+#     if request.method == 'POST':
+#         data = json.loads(request.body)
+#         attempt_id = data.get('attempt_id')
+#         responses = PatientResponse.objects.filter(attempt_id=attempt_id).all()
+#         conversation_history = ""
+#         for response in responses:
+#             conversation_history += f"Question: {response.question.question_text}\n"
+#             conversation_history += f"Answer: {response.response_text}\n\n"
+#         dynamic_questions = generate_dynamic_questions(conversation_history)
+#         print(dynamic_questions)
+#         return JsonResponse({"dynamic_questions": dynamic_questions})
