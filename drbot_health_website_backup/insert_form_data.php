@@ -41,12 +41,12 @@ if (isset($_POST['inquiry_witin'])) {
   // SQL query to get count of records in 'inquiry_within' table
   $sql = "SELECT COUNT(*) as total FROM inquiry_within";
   // Execute the query
-  $result = mysqli_query($conn, $sql);
+  $result = sqlsrv_query($conn, $sql);
 
   // Check if query execution was successful
   if ($result) {
     // Fetch the result as an associative array
-    $row = mysqli_fetch_assoc($result);
+    $row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC);
     $count_enq = $row['total'];
     $enq_id = $enq_id + $count_enq;
   }
@@ -56,7 +56,7 @@ if (isset($_POST['inquiry_witin'])) {
         VALUES ('$enq_id', '$name', '$mobile_number', '$specify_location_of_cancer', '$insurance', '$remark',  '$location', '$age', '$email', '$gender', '$relation', '$diagnosis', '$testing', '$tests', '$opinion', '$noOpinionReason', '$interested', '$discussion', '$currentDate')";
 
 
-  if ($conn->query($sql_inquiry) === TRUE) {
+  if (sqlsrv_query($conn,$sql_inquiry) === TRUE) {
     // Prepare mail content
     $messagecontent = "<html>
     <head>
@@ -183,11 +183,12 @@ if (isset($_POST['inquiry_witin'])) {
       echo "Email sending failed. Error: {$e->getMessage()}";
     }
   } else {
-    echo "Error: " . $conn->error;
+    die(print_r(sqlsrv_errors(), true));
   }
 
   // Close database connection
-  $conn->close();
+  sqlsrv_free_stmt($result);
+  sqlsrv_close($conn);
 }
 
 ?>

@@ -28,7 +28,7 @@ if (isset($_POST['contact_form'])) {
   $sql = "INSERT INTO contact_form (email, message, created_date) VALUES ('" . $email . "', '" . $message . "', '" . $currentDate . "')";
 
   // Execute SQL statement
-  if ($conn->query($sql) === TRUE) {
+  if (sqlsrv_query($conn,$sql) === TRUE) {
     // Email notification
     $messageform = "<html>
 <head>
@@ -93,9 +93,11 @@ if (isset($_POST['contact_form'])) {
       echo "Email sending failed. Error: {$e->getMessage()}";
     }
   } else {
-    echo "Error: " . $conn->error;
+    // echo "Error: " . $conn->error;
+    die(print_r(sqlsrv_errors(), true));
   }
 
   // Close database connection
-  $conn->close();
+  sqlsrv_free_stmt($result);
+  sqlsrv_close($conn);
 }

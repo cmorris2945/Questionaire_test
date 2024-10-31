@@ -25,7 +25,7 @@ if (isset($_POST['subscribe'])) {
     $sql = "INSERT INTO subsribe (email_subscribe, created_date) VALUES ('" . $email . "', '" . $currentDate . "')";
 
     // Execute SQL statement
-    if ($conn->query($sql) === TRUE) {
+    if (sqlsrv_query($conn,$sql) === TRUE) {
         // Email notification
         $messagesubscribe = "<html>
         <head>
@@ -87,13 +87,12 @@ if (isset($_POST['subscribe'])) {
             echo "Email sending failed. Error: {$mail->ErrorInfo}";
         }
     } else {
-        echo "Error: " . $conn->error;
+      die(print_r(sqlsrv_errors(), true));
     }
-	
-	
-
+  
     // Close database connection
-    $conn->close();
+    sqlsrv_free_stmt($result);
+    sqlsrv_close($conn);
 }
 
 ?>

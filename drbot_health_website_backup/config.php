@@ -1,13 +1,22 @@
-<?php 
-// Database connection
-$servername = "localhost";
-$username = "drbot_health_user";
-$password = "drbot_health@12345";
-$database = "drbot_health_final";
-$conn = new mysqli($servername, $username, $password, $database);
+//<?php 
+$servername = "tcp:drbotserver.database.windows.net,1433"; // Update with your Azure SQL Server name
+$username = "drbot"; // Include the server name in the username
+$password = "AquaMan40!@";
+$database = "drbothealthdb";
+
+// Connection options
+$connectionOptions = array(
+    "Database" => $database,
+    "Uid" => $username,
+    "PWD" => $password,
+    "CharacterSet" => "UTF-8"
+);
+
+// Establish the connection
+$conn = sqlsrv_connect($servername, $connectionOptions);
 
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($conn === false) {
+    die(print_r(sqlsrv_errors(), true)); // Print SQLSRV errors
 }
 ?>
