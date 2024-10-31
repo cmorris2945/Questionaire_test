@@ -1,4 +1,9 @@
-<?php include("config.php"); ?>
+<?php include("config.php"); 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
+
 <!DOCTYPE html>
 <!-- saved from url=(0025)https://www.drbot.health/ -->
 <html class="" lang="en-US" data-scroll-dir-x="0" data-scroll-dir-y="1">
@@ -517,16 +522,19 @@
                                         
                                         // Increment the visitor counter in a single UPDATE query
                                         $sqlUpdate = "UPDATE visitor_counter SET visitor_counter = visitor_counter + 1";
-                                        if ($conn->query($sqlUpdate) === TRUE) {
+                                        
+                                        if (sqlsrv_query($conn,$sqlUpdate) === TRUE) {
                                             // Query executed successfully
                                             //echo "Visitor counter incremented successfully.<br>";
                                         
                                             // Retrieve the updated visitor counter value
                                             $sqlSelect = "SELECT visitor_counter FROM visitor_counter";
-                                            $result = $conn->query($sqlSelect);
+                                            
+                                            $result = sqlsrv_query($conn,$sqlSelect);
                                         
                                             if ($result) {
-                                                $row = $result->fetch_assoc();
+                                                $row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC);
+                                                
                                                 if ($row) {
                                                     $counter = $row['visitor_counter'];
                                                     $count = strlen($counter); // Calculate the 
