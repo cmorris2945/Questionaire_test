@@ -1,7 +1,7 @@
 <?php include("config.php");
-print_r("included config");
+//print_r("included config");
 $globalCounter = "";
-print_r("initialized global variable");
+//print_r("initialized global variable");
 ?>
 
 <!DOCTYPE html>
