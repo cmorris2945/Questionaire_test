@@ -1,7 +1,7 @@
-<?php include("config.php"); 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+<?php include("config.php");
+print_r("included config");
+$globalCounter = "";
+print_r("initialized global variable");
 ?>
 
 <!DOCTYPE html>
@@ -538,6 +538,7 @@ error_reporting(E_ALL);
                                                 if ($row) {
                                                     $counter = $row['visitor_counter'];
                                                     $count = strlen($counter); // Calculate the 
+                                                    $globalCounter = $counter;
                                                 }
                     
                                             } 
@@ -550,6 +551,7 @@ error_reporting(E_ALL);
                                
                                 <ul id="visitor_counter" class="counter">  
                                 <?php
+                                $counter = $globalCounter;
                                 $counter_str = (string)$counter;?>
                                 <p style="padding-top: 3px;">Visitor Count</p>&nbsp;
                                 <?php for ($i = 0; $i < strlen($counter_str); $i++) { ?>
