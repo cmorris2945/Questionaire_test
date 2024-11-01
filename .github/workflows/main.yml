@@ -55,7 +55,7 @@ jobs:
           name: php-app
 
       - name: Unzip artifact for deployment
-        run: unzip release.zip "drbot_health_website_backup"
+        run: unzip release.zip "drbot_health_website_backup/*"
       
       - name: Login to Azure
         uses: azure/login@v2
