@@ -3,29 +3,42 @@ if (isset($_POST['contact_form'])) {
     include("config.php");
 
   // Validate reCAPTCHA
-  $recaptchaSecret = '6Ldfxr0pAAAAAH6HTlKQ1GlVWkV957b3NBfXGQ7P';
-  $recaptchaResponse = $_POST['g-recaptcha-response'];
+  //$recaptchaSecret = '6Ldfxr0pAAAAAH6HTlKQ1GlVWkV957b3NBfXGQ7P';
+  //$recaptchaResponse = $_POST['g-recaptcha-response'];
 
   // Make API request to verify reCAPTCHA response
-  $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$recaptchaResponse}");
-  $response = json_decode($response);
+  //$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$recaptchaResponse}");
+  //$response = json_decode($response);
 
   // Check reCAPTCHA verification result
-  if (!$response->success) {
+  //if (!$response->success) {
     // reCAPTCHA verification failed
-    $_SESSION['flashError'] = 'reCAPTCHA verification failed. Please try again.';
+    //$_SESSION['flashError'] = 'reCAPTCHA verification failed. Please try again.';
     //header("Location: index.php"); // Redirect back to the form
     //exit();
-  }
+  //}
   //end captcha code start
 
   // Form data
   $email = $_POST['email'];
   $message = $_POST['message'];
   $currentDate = date('Y-m-d');
+  $enq_id = 10000;
+
+  $sql = "SELECT COUNT(*) as total FROM contact_form";
+  // Execute the query
+  $result = sqlsrv_query($conn, $sql);
+
+  // Check if query execution was successful
+  if ($result) {
+    // Fetch the result as an associative array
+    $row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC);
+    $count_enq = $row['total'];
+    $enq_id = $enq_id + $count_enq;
+  }
 
   // SQL to insert data into database
-  $sql = "INSERT INTO contact_form (email, message, created_date) VALUES ('" . $email . "', '" . $message . "', '" . $currentDate . "')";
+  $sql = "INSERT INTO contact_form (id, email, message, created_date) VALUES ('" . $enq_id ."', '" . $email . "', '" . $message . "', '" . $currentDate . "')";
 
   // Execute SQL statement
   if (sqlsrv_query($conn,$sql) === TRUE) {
@@ -90,11 +103,16 @@ if (isset($_POST['contact_form'])) {
       header("Location: index.php");
       exit();
     } catch (Exception $e) {
-      echo "Email sending failed. Error: {$e->getMessage()}";
+      //echo "Email sending failed. Error: {$e->getMessage()}";
+      header("Location: index.php");
+      exit();
     }
   } else {
     // echo "Error: " . $conn->error;
-    die(print_r(sqlsrv_errors(), true));
+    //die(print_r(sqlsrv_errors(), true));
+    //print_r(sqlsrv_errors(), true);
+    header("Location: index.php");
+    exit();
   }
 
   // Close database connection

@@ -3,26 +3,37 @@ if (isset($_POST['subscribe'])) {
     include("config.php");
 
     // Validate reCAPTCHA
-    $recaptchaSecret = '6Ldfxr0pAAAAAH6HTlKQ1GlVWkV957b3NBfXGQ7P';
-    $recaptchaResponse = $_POST['g-recaptcha-response'];
+    //$recaptchaSecret = '6Ldfxr0pAAAAAH6HTlKQ1GlVWkV957b3NBfXGQ7P';
+    //$recaptchaResponse = $_POST['g-recaptcha-response'];
 
     // Make API request to verify reCAPTCHA response
-    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$recaptchaResponse}");
-    $response = json_decode($response);
+    //$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$recaptchaResponse}");
+    //$response = json_decode($response);
 
     // Check reCAPTCHA verification result
-    if (!$response->success) {
-        $_SESSION['flashError'] = 'reCAPTCHA verification failed. Please try again.';
+    //if (!$response->success) {
+        //$_SESSION['flashError'] = 'reCAPTCHA verification failed. Please try again.';
         //header("Location: index.php"); // Redirect back to the form
        // exit();
-    }
+    //}
 
     // Get form data
     $email = $_POST['email']; 
     $currentDate = date('Y-m-d');
-
+    $enq_id = 10000;
+    $sql = "SELECT COUNT(*) as total FROM subsribe";
+    // Execute the query
+    $result = sqlsrv_query($conn, $sql);
+  
+    // Check if query execution was successful
+    if ($result) {
+      // Fetch the result as an associative array
+      $row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC);
+      $count_enq = $row['total'];
+      $enq_id = $enq_id + $count_enq;
+    }
     // Construct SQL query (without prepared statement)
-    $sql = "INSERT INTO subsribe (email_subscribe, created_date) VALUES ('" . $email . "', '" . $currentDate . "')";
+    $sql = "INSERT INTO subsribe (id, email_subscribe, created_date) VALUES ('" . $enq_id ."', '" . $email . "', '" . $currentDate . "')";
 
     // Execute SQL statement
     if (sqlsrv_query($conn,$sql) === TRUE) {

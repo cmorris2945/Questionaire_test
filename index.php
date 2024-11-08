@@ -30,7 +30,7 @@ $globalCounter = "";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
     <style>
         @font-face {
@@ -418,7 +418,7 @@ $globalCounter = "";
                                                         <textarea class="textarea  textarea--message  contactform__textarea js-message-input" id="page-zones__main-widgets__64b8333956519-widgets__64b833395bcd9-zones__64b833395f3e0-widgets__64b9382c036e1__textarea--message" name="message" aria-required="true" required=""></textarea>
                                                     </div>
                                                     <!-- reCAPTCHA widget -->
-                                                    <div class="g-recaptcha" data-sitekey="6Ldfxr0pAAAAAFzy5iz3D90fiX2DROREg-JhwPlk" data-callback="recaptchaCallback" required></div>
+                                                    <!-- <div class="g-recaptcha" data-sitekey="6Ldfxr0pAAAAAFzy5iz3D90fiX2DROREg-JhwPlk" data-callback="recaptchaCallback" required></div> -->
                                                     <div class="form-group  contactform__form-group">
                                                         <button class="button  button--submit  contactform__button js-button" name="contact_form" type="submit" value="Submit">
                                                             <span class="loading-spinner js-loading-spinner hidden"></span>
@@ -511,7 +511,7 @@ $globalCounter = "";
                                                 <input type="email" required="" class="" placeholder="Type your email address" name="email" autocomplete="email" spellcheck="false" aria-required="true" required="">
                                             </div>
                                             <!-- reCAPTCHA widget -->
-                                            <div class="g-recaptcha" data-sitekey="6Ldfxr0pAAAAAFzy5iz3D90fiX2DROREg-JhwPlk" data-callback="recaptchaCallback" required></div>
+                                            <!-- <div class="g-recaptcha" data-sitekey="6Ldfxr0pAAAAAFzy5iz3D90fiX2DROREg-JhwPlk" data-callback="recaptchaCallback" required></div> -->
                                             <div class="form-group advancedcontactform__form-group" style="margin-top: 10px;">
                                                 <button class="button button--submit js-button advancedcontactform__button" type="submit" name="subscribe">Subscribe!</button>
                                             </div>
@@ -937,7 +937,7 @@ $globalCounter = "";
                 <br>
 
                 <!-- reCAPTCHA widget -->
-                <div class="g-recaptcha" data-sitekey="6Ldfxr0pAAAAAFzy5iz3D90fiX2DROREg-JhwPlk" data-callback="recaptchaCallback" required></div>
+                <!-- <div class="g-recaptcha" data-sitekey="6Ldfxr0pAAAAAFzy5iz3D90fiX2DROREg-JhwPlk" data-callback="recaptchaCallback" required></div> -->
                 <br>
 
 
@@ -990,10 +990,10 @@ $globalCounter = "";
                 }
 
                 // Check if reCAPTCHA is completed
-                if (grecaptcha.getResponse().length == 0) {
-                    document.getElementById("captcha_error").innerHTML = "Please complete the reCAPTCHA.";
-                    return false;
-                }
+                //if (grecaptcha.getResponse().length == 0) {
+                    //document.getElementById("captcha_error").innerHTML = "Please complete the reCAPTCHA.";
+                    //return false;
+                //}
                 return true;
 
 
@@ -1246,7 +1246,7 @@ $globalCounter = "";
             "isFullVersionTenSite": true,
             "page": {
                 "pageFeatures": {
-                    "features": ["recaptcha", "recaptcha"],
+                    //"features": ["recaptcha", "recaptcha"],
                     "plugins": []
                 },
                 "componentTree": {
@@ -4061,7 +4061,7 @@ $globalCounter = "";
     </script>
     <script src="./Home Page_files/translations.js.download"></script>
     <script src="./Home Page_files/published-v10-site-libs.js.download"></script>
-    <script src="./Home Page_files/recaptcha.js.download"></script>
+    <!-- <script src="./Home Page_files/recaptcha.js.download"></script> -->
     <script src="./Home Page_files/published-v8-site.js.download"></script>
     <script src="./Home Page_files/twig-widget-views-v2.js.download"></script>
     <script nonce="">

@@ -1,4 +1,4 @@
-//<?php 
+<?php 
 $servername = "tcp:drbotserver.database.windows.net,1433"; // Update with your Azure SQL Server name
 $username = "drbot"; // Include the server name in the username
 $password = "AquaMan40!@";

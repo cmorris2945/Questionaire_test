@@ -3,19 +3,19 @@ if (isset($_POST['inquiry_witin'])) {
   include("config.php");
 
   // Validate reCAPTCHA
-  $recaptchaSecret = '6Ldfxr0pAAAAAH6HTlKQ1GlVWkV957b3NBfXGQ7P';
-  $recaptchaResponse = $_POST['g-recaptcha-response'];
+  //$recaptchaSecret = '6Ldfxr0pAAAAAH6HTlKQ1GlVWkV957b3NBfXGQ7P';
+  //$recaptchaResponse = $_POST['g-recaptcha-response'];
 
   // Make API request to verify reCAPTCHA response
-  $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$recaptchaResponse}");
-  $response = json_decode($response);
+  //$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$recaptchaResponse}");
+  //$response = json_decode($response);
 
   // Check reCAPTCHA verification result
-  if (!$response->success) {
-    $_SESSION['flashError'] = 'reCAPTCHA verification failed. Please try again.';
+  //if (!$response->success) {
+    //$_SESSION['flashError'] = 'reCAPTCHA verification failed. Please try again.';
     //header("Location: index.php"); // Redirect back to the form
-    exit();
-  }
+    //exit();
+  //}
 
   // Form data
   $name = $_POST['name'];
@@ -52,8 +52,8 @@ if (isset($_POST['inquiry_witin'])) {
   }
 
   // SQL to insert data into database
-  $sql_inquiry = "INSERT INTO inquiry_within (enq_id, name, mobile_number, specify_location_of_cancer, insurance, remark,  location, age, email, gender, relation, diagnosis, testing, tests, opinion, noOpinionReason, interested, discussion, date) 
-        VALUES ('$enq_id', '$name', '$mobile_number', '$specify_location_of_cancer', '$insurance', '$remark',  '$location', '$age', '$email', '$gender', '$relation', '$diagnosis', '$testing', '$tests', '$opinion', '$noOpinionReason', '$interested', '$discussion', '$currentDate')";
+  $sql_inquiry = "INSERT INTO inquiry_within (id, enq_id, name, mobile_number, specify_location_of_cancer, insurance, remark,  location, age, email, gender, relation, diagnosis, testing, tests, opinion, noOpinionReason, interested, discussion, date) 
+        VALUES ('$enq_id','$enq_id', '$name', '$mobile_number', '$specify_location_of_cancer', '$insurance', '$remark',  '$location', '$age', '$email', '$gender', '$relation', '$diagnosis', '$testing', '$tests', '$opinion', '$noOpinionReason', '$interested', '$discussion', '$currentDate')";
 
 
   if (sqlsrv_query($conn,$sql_inquiry) === TRUE) {
@@ -181,9 +181,14 @@ if (isset($_POST['inquiry_witin'])) {
       exit();
     } catch (Exception $e) {
       echo "Email sending failed. Error: {$e->getMessage()}";
+      //header("Location: index.php");
+      //exit();
     }
   } else {
     die(print_r(sqlsrv_errors(), true));
+    //print_r(sqlsrv_errors(), true);
+    //header("Location: index.php");
+    //exit();
   }
 
   // Close database connection
