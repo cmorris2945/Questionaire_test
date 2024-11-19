@@ -1,9 +1,11 @@
 # app.py
 
 from flask import Flask, render_template, request, redirect, url_for
-from database import db, init_db, Patient  # Import from database.py
+from database import db, init_db, Patient, ContactForm, Subscribe, InquiryWithin  # Import from database.py
 import traceback
 from flask_migrate import Migrate
+from sqlalchemy import func
+from datetime import datetime
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -12,8 +14,75 @@ app = Flask(__name__)
 init_db(app)
 migrate = Migrate(app, db)  # Add this line to initialize Flask-Migrate
 
+@app.route('/', methods=['GET'])
+def indexPHP():
+    return render_template('index-php.html')
+
+@app.route('/contact', methods=['POST'])
+def contact_us():
+    if request.method == "POST":
+        count = db.session.query(func.count(ContactForm.id)).scalar()
+        email = request.form["email"]
+        message = request.form["message"]
+        current_date = datetime.now()
+        created_date = current_date.strftime("%Y-%m-%d")
+        id = count + 1010
+        contact = ContactForm(id=id, email=email, message=message, created_date=created_date)
+        db.session.add(contact)
+        db.session.commit()
+    return render_template('index-php.html')
+
+@app.route('/subscribe', methods=["POST"])
+def subscribe():
+    if request.method == "POST":
+        count = db.session.query(func.count(Subscribe.id)).scalar()
+        email = request.form["email"]
+        current_date = datetime.now()
+        created_date = current_date.strftime("%Y-%m-%d")
+        id = count + 1010
+        sub = Subscribe(id=id, email_subscribe=email, created_date=created_date)
+        db.session.add(sub)
+        db.session.commit()
+    return render_template('index-php.html')
+
+@app.route('/inquiry_within', methods=["POST"])
+def inquiry_within():
+    if request.method == "POST":
+        count = db.session.query(func.count(InquiryWithin.id)).scalar()
+        name = request.form['name']
+        location = request.form['location']
+        age = request.form['age']
+        email = request.form['email']
+        gender = request.form['gender']
+        relation = request.form['relation']
+        diagnosis = request.form['diagnosisType']
+        specify_location_of_cancer = request.form['locationInput']
+        insurance = request.form['insurance']
+        mobile_number = request.form['mobile_number']
+        testing = request.form.get('testing', 'no')
+        tests = request.form.get('tests', '')
+        opinion = request.form['opinion']
+        noOpinionReason = request.form.get('noOpinionReason', '')
+        interested = request.form['interested']
+        remark = request.form['remark']
+        discussion = request.form.get('discussion', '')
+        current_date = datetime.now()
+        created_date = current_date.strftime("%Y-%m-%d")
+        enq_id = 10000 + count
+        inquiry = InquiryWithin(id=enq_id, enq_id=enq_id,name=name,location=location,
+                                age=age, email=email, mobile_number=mobile_number, gender=gender,
+                                relation=relation, diagnosis=diagnosis, specify_location_of_cancer=specify_location_of_cancer,
+                                testing=testing, tests=tests, insurance=insurance, opinion=opinion,
+                                noOpinionReason=noOpinionReason, interested=interested,
+                                discussion=discussion, remark=remark, date=created_date)
+        db.session.add(inquiry)
+        db.session.commit()
+        return redirect(url_for('index'))
+    else:
+        return render_template('index-php.html')
+    pass
 # Route for the main page
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/index', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         try:

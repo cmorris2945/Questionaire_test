@@ -50,3 +50,42 @@ class Patient(db.Model):
     treatment_approach = db.Column(db.String(100))
     doctor_preferences = db.Column(db.String(100))
     # selected_doctor = db.Column(db.String(100))
+
+class ContactForm(db.Model):
+    __tablename__= "contact_form"
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=False)
+    email = db.Column(db.String(100))
+    message = db.Column(db.Text)
+    created_date = db.Column(db.String(20))
+
+class Subscribe(db.Model):
+    __tablename__= "subsribe"
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=False)
+    email_subscribe = db.Column(db.String(50))
+    created_date = db.Column(db.String(20))
+
+class InquiryWithin(db.Model):
+    __tablename__= "inquiry_within"
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=False)
+    enq_id = db.Column(db.Integer)
+    name = db.Column(db.String(50))
+    mobile_number = db.Column(db.String(50)) 
+    specify_location_of_cancer = db.Column(db.String(50)) 
+    insurance = db.Column(db.String(50))
+    remark = db.Column(db.String(50))
+    location = db.Column(db.String(50))
+    age = db.Column(db.String(50))
+    email = db.Column(db.String(50))
+    gender = db.Column(db.String(50))
+    relation = db.Column(db.String(50))
+    diagnosis = db.Column(db.String(50))
+    testing = db.Column(db.String(50))
+    tests = db.Column(db.String(50))
+    opinion = db.Column(db.String(50))
+    noOpinionReason = db.Column(db.String(50))
+    interested = db.Column(db.String(50))
+    discussion = db.Column(db.String(50))
+    date = db.Column(db.String(50))
