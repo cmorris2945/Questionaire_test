@@ -1,0 +1,43 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version_x,gender,anchor_age,anchor_year,anchor_year_group,dod,icd_version_y,diagnoses
+10015272,27993466,3,C9000,10,F,78,2137,2014 - 2016,,10,Multiple myeloma not having achieved remission
+10005817,28661809,7,C7B8,10,M,66,2132,2014 - 2016,2135-01-19,10,Other secondary neuroendocrine tumors
+10005817,28661809,10,C7A8,10,M,66,2132,2014 - 2016,2135-01-19,10,Other malignant neuroendocrine tumors
+10014354,29780751,6,C6292,10,M,60,2146,2014 - 2016,,10,"Malignant neoplasm of left testis, unspecified whether descended or undescended"
+10014354,29780751,2,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,27562275,3,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,29600294,2,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,26013492,4,C6212,10,M,60,2146,2014 - 2016,,10,Malignant neoplasm of descended left testis
+10014354,26013492,2,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,26722126,2,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,24096336,4,C9111,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type in remission
+10014354,20900955,6,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,22502504,3,C6292,10,M,60,2146,2014 - 2016,,10,"Malignant neoplasm of left testis, unspecified whether descended or undescended"
+10014354,22502504,14,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,26173805,6,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,23132022,2,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,24980601,2,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,26486158,4,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,26486158,7,C6290,10,M,60,2146,2014 - 2016,,10,"Malignant neoplasm of unspecified testis, unspecified whether descended or undescended"
+10014354,29757856,7,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,26228185,3,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,27494880,7,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,22508257,3,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,22741225,2,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,24357615,2,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,28335091,2,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10014354,27487226,7,C9110,10,M,60,2146,2014 - 2016,,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+10037928,24885579,3,C029,10,F,78,2175,2011 - 2013,,10,"Malignant neoplasm of tongue, unspecified"
+10035631,29276678,12,C92Z0,10,M,63,2112,2011 - 2013,2116-03-12,10,Other myeloid leukemia not having achieved remission
+10035631,21476294,1,C92Z2,10,M,63,2112,2011 - 2013,2116-03-12,10,"Other myeloid leukemia, in relapse"
+10035631,21599196,2,C9202,10,M,63,2112,2011 - 2013,2116-03-12,10,"Acute myeloblastic leukemia, in relapse"
+10012853,20457729,1,C73,10,F,91,2175,2014 - 2016,,10,Malignant neoplasm of thyroid gland
+10012853,26739864,1,C73,10,F,91,2175,2014 - 2016,,10,Malignant neoplasm of thyroid gland
+10019003,27525946,10,C946,10,F,65,2148,2011 - 2013,2155-12-03,10,"Myelodysplastic disease, not classified"
+10019003,27525946,9,C9590,10,F,65,2148,2011 - 2013,2155-12-03,10,"Leukemia, unspecified not having achieved remission"
+10021312,28829452,3,C3490,10,F,55,2113,2014 - 2016,,10,Malignant neoplasm of unspecified part of unspecified bronchus or lung
+10021312,25020332,1,C3402,10,F,55,2113,2014 - 2016,,10,Malignant neoplasm of left main bronchus
+10021312,25020332,2,C3401,10,F,55,2113,2014 - 2016,,10,Malignant neoplasm of right main bronchus
+10003400,23559586,12,C211,10,F,72,2134,2011 - 2013,2137-09-02,10,Malignant neoplasm of anal canal
+10003400,23559586,11,C7889,10,F,72,2134,2011 - 2013,2137-09-02,10,Secondary malignant neoplasm of other digestive organs
+10003400,23559586,10,C786,10,F,72,2134,2011 - 2013,2137-09-02,10,Secondary malignant neoplasm of retroperitoneum and peritoneum
+10003400,23559586,7,C9000,10,F,72,2134,2011 - 2013,2137-09-02,10,Multiple myeloma not having achieved remission

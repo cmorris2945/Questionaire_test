@@ -1,0 +1,1470 @@
+icd_code,icd_version,long_title,cancer_type
+C160,10,Malignant neoplasm of cardia,Gastrointestinal Cancer
+C162,10,Malignant neoplasm of body of stomach,Gastrointestinal Cancer
+C3431,10,"Malignant neoplasm of lower lobe, right bronchus or lung",Malignant neoplasm of bronchus and lung
+C431,10,"Malignant melanoma of eyelid, including canthus",Malignant melanoma of skin
+C44319,10,Basal cell carcinoma of skin of other parts of face,Other malignant neoplasms of skin
+C449,10,"Other and unspecified malignant neoplasm of skin, unspecified",Other malignant neoplasms of skin
+C4A39,10,Merkel cell carcinoma of other parts of face,Merkel cell carcinoma
+C50019,10,"Malignant neoplasm of nipple and areola, unspecified female breast",Breast Cancer
+C50929,10,Malignant neoplasm of unspecified site of unspecified male breast,Breast Cancer
+C541,10,Malignant neoplasm of endometrium,Malignant neoplasm of corpus uteri
+C62,10,Malignant neoplasm of testis,Malignant neoplasm of testis
+C630,10,Malignant neoplasm of epididymis,Malignant neoplasm of other male genital organs
+C67,10,Malignant neoplasm of bladder,Malignant neoplasm of bladder
+C764,10,Malignant neoplasm of upper limb,Malignant neoplasm of other and ill-defined sites
+C7889,10,Secondary malignant neoplasm of other digestive organs,Secondary malignant neoplasm of respiratory and digestive organs
+C8115,10,"Nodular sclerosis Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",Hodgkin lymphoma
+C8125,10,"Mixed cellularity Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",Hodgkin lymphoma
+C8197,10,"Hodgkin lymphoma, unspecified, spleen",Hodgkin lymphoma
+C8296,10,"Follicular lymphoma, unspecified, intrapelvic lymph nodes",Non-Hodgkin Lymphoma
+C8445,10,"Peripheral T-cell lymphoma, not classified, lymph nodes of inguinal region and lower limb",Mature T/NK-cell lymphomas
+C9001,10,Multiple myeloma in remission,Multiple myeloma and malignant plasma cell neoplasms
+C922,10,"Atypical chronic myeloid leukemia, BCR/ABL-negative",Leukemia
+C931,10,Chronic myelomonocytic leukemia,Monocytic leukemia
+C049,10,"Malignant neoplasm of floor of mouth, unspecified",Malignant neoplasm of floor of mouth
+C069,10,"Malignant neoplasm of mouth, unspecified",Malignant neoplasm of other parts of mouth
+C165,10,"Malignant neoplasm of lesser curvature of stomach, unspecified",Gastrointestinal Cancer
+C171,10,Malignant neoplasm of jejunum,Malignant neoplasm of small intestine
+C329,10,"Malignant neoplasm of larynx, unspecified",Malignant neoplasm of larynx
+C3432,10,"Malignant neoplasm of lower lobe, left bronchus or lung",Malignant neoplasm of bronchus and lung
+C38,10,"Malignant neoplasm of heart, mediastinum and pleura","Malignant neoplasm of heart, mediastinum, and pleura"
+C4010,10,Malignant neoplasm of short bones of unspecified upper limb,Malignant neoplasm of bone and articular cartilage of limbs
+C44291,10,Other specified malignant neoplasm of skin of unspecified ear and external auricular canal,Other malignant neoplasms of skin
+C44629,10,"Squamous cell carcinoma of skin of left upper limb, including shoulder",Other malignant neoplasms of skin
+C4499,10,"Other specified malignant neoplasm of skin, unspecified",Other malignant neoplasms of skin
+C451,10,Mesothelioma of peritoneum,Mesothelioma
+C463,10,Kaposi's sarcoma of lymph nodes,Kaposi's sarcoma
+C490,10,"Malignant neoplasm of connective and soft tissue of head, face and neck",Malignant neoplasm of other connective tissues
+C652,10,Malignant neoplasm of left renal pelvis,Malignant neoplasm of renal pelvis
+C659,10,Malignant neoplasm of unspecified renal pelvis,Malignant neoplasm of renal pelvis
+C6911,10,Malignant neoplasm of right cornea,Malignant neoplasm of eye and adnexa
+C714,10,Malignant neoplasm of occipital lobe,Malignant neoplasm of brain
+C768,10,Malignant neoplasm of other specified ill-defined sites,Malignant neoplasm of other and ill-defined sites
+C7972,10,Secondary malignant neoplasm of left adrenal gland,Secondary malignant neoplasm of other sites
+C7B03,10,Secondary carcinoid tumors of bone,Secondary neuroendocrine tumors
+C8147,10,"Lymphocyte-rich Hodgkin lymphoma, spleen",Hodgkin lymphoma
+C8212,10,"Follicular lymphoma grade II, intrathoracic lymph nodes",Non-Hodgkin Lymphoma
+C8221,10,"Follicular lymphoma grade III, unspecified, lymph nodes of head, face, and neck",Non-Hodgkin Lymphoma
+C823,10,Follicular lymphoma grade IIIa,Non-Hodgkin Lymphoma
+C8250,10,"Diffuse follicle center lymphoma, unspecified site",Non-Hodgkin Lymphoma
+C8313,10,"Mantle cell lymphoma, intra-abdominal lymph nodes",Non-Hodgkin lymphoma
+C837,10,Burkitt lymphoma,Non-Hodgkin lymphoma
+C841,10,Sezary disease,Mature T/NK-cell lymphomas
+C8415,10,"Sezary disease, lymph nodes of inguinal region and lower limb",Mature T/NK-cell lymphomas
+C847,10,"Anaplastic large cell lymphoma, ALK-negative",Mature T/NK-cell lymphomas
+C8516,10,"Unspecified B-cell lymphoma, intrapelvic lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C8595,10,"Non-Hodgkin lymphoma, unspecified, lymph nodes of inguinal region and lower limb",Other specified and unspecified types of non-Hodgkin lymphoma
+C91,10,Lymphoid leukemia,Leukemia
+C9190,10,"Lymphoid leukemia, unspecified not having achieved remission",Leukemia
+C130,10,Malignant neoplasm of postcricoid region,Malignant neoplasm of hypopharynx
+C161,10,Malignant neoplasm of fundus of stomach,Gastrointestinal Cancer
+C180,10,Malignant neoplasm of cecum,Gastrointestinal Cancer
+C34,10,Malignant neoplasm of bronchus and lung,Malignant neoplasm of bronchus and lung
+C412,10,Malignant neoplasm of vertebral column,Malignant neoplasm of bone and articular cartilage of other sites
+C4351,10,Malignant melanoma of anal skin,Malignant melanoma of skin
+C441092,10,"Unspecified malignant neoplasm of skin of left lower eyelid, including canthus",Other malignant neoplasms of skin
+C44129,10,"Squamous cell carcinoma of skin of left eyelid, including canthus",Other malignant neoplasms of skin
+C4432,10,Squamous cell carcinoma of skin of other and unspecified parts of face,Other malignant neoplasms of skin
+C44601,10,"Unspecified malignant neoplasm of skin of unspecified upper limb, including shoulder",Other malignant neoplasms of skin
+C44699,10,"Other specified malignant neoplasm of skin of left upper limb, including shoulder",Other malignant neoplasms of skin
+C621,10,Malignant neoplasm of descended testis,Malignant neoplasm of testis
+C6300,10,Malignant neoplasm of unspecified epididymis,Malignant neoplasm of other male genital organs
+C680,10,Malignant neoplasm of urethra,Malignant neoplasm of other urinary organs
+C6902,10,Malignant neoplasm of left conjunctiva,Malignant neoplasm of eye and adnexa
+C7412,10,Malignant neoplasm of medulla of left adrenal gland,Malignant neoplasm of adrenal gland
+C7A094,10,"Malignant carcinoid tumor of the foregut, unspecified",Malignant neuroendocrine tumors
+C8123,10,"Mixed cellularity Hodgkin lymphoma, intra-abdominal lymph nodes",Hodgkin lymphoma
+C8136,10,"Lymphocyte depleted Hodgkin lymphoma, intrapelvic lymph nodes",Hodgkin lymphoma
+C8227,10,"Follicular lymphoma grade III, unspecified, spleen",Non-Hodgkin Lymphoma
+C8297,10,"Follicular lymphoma, unspecified, spleen",Non-Hodgkin Lymphoma
+C831,10,Mantle cell lymphoma,Non-Hodgkin lymphoma
+C8448,10,"Peripheral T-cell lymphoma, not classified, lymph nodes of multiple sites",Mature T/NK-cell lymphomas
+C8585,10,"Other specified types of non-Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",Other specified and unspecified types of non-Hodgkin lymphoma
+C8592,10,"Non-Hodgkin lymphoma, unspecified, intrathoracic lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C9162,10,"Prolymphocytic leukemia of T-cell type, in relapse",Leukemia
+C021,10,Malignant neoplasm of border of tongue,Head and Neck Cancer
+C181,10,Malignant neoplasm of appendix,Gastrointestinal Cancer
+C43111,10,"Malignant melanoma of right upper eyelid, including canthus",Malignant melanoma of skin
+C441992,10,"Other specified malignant neoplasm of skin of left lower eyelid, including canthus",Other malignant neoplasms of skin
+C4422,10,Squamous cell carcinoma of skin of ear and external auricular canal,Other malignant neoplasms of skin
+C445,10,Other and unspecified malignant neoplasm of skin of trunk,Other malignant neoplasms of skin
+C459,10,"Mesothelioma, unspecified",Mesothelioma
+C4A121,10,"Merkel cell carcinoma of left upper eyelid, including canthus",Merkel cell carcinoma
+C6200,10,Malignant neoplasm of unspecified undescended testis,Malignant neoplasm of testis
+C688,10,Malignant neoplasm of overlapping sites of urinary organs,Malignant neoplasm of other urinary organs
+C723,10,Malignant neoplasm of optic nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C75,10,Malignant neoplasm of other endocrine glands and related structures,Malignant neoplasm of other endocrine glands
+C761,10,Malignant neoplasm of thorax,Malignant neoplasm of other and ill-defined sites
+C774,10,Secondary and unspecified malignant neoplasm of inguinal and lower limb lymph nodes,Secondary and unspecified malignant neoplasm of lymph nodes
+C794,10,Secondary malignant neoplasm of other and unspecified parts of nervous system,Secondary malignant neoplasm of other sites
+C813,10,Lymphocyte depleted Hodgkin lymphoma,Hodgkin lymphoma
+C8173,10,"Other Hodgkin lymphoma, intra-abdominal lymph nodes",Hodgkin lymphoma
+C8194,10,"Hodgkin lymphoma, unspecified, lymph nodes of axilla and upper limb",Hodgkin lymphoma
+C8202,10,"Follicular lymphoma grade I, intrathoracic lymph nodes",Non-Hodgkin Lymphoma
+C8238,10,"Follicular lymphoma grade IIIa, lymph nodes of multiple sites",Non-Hodgkin Lymphoma
+C8308,10,"Small cell B-cell lymphoma, lymph nodes of multiple sites",Non-Hodgkin lymphoma
+C8388,10,"Other non-follicular lymphoma, lymph nodes of multiple sites",Non-Hodgkin lymphoma
+C849,10,"Mature T/NK-cell lymphomas, unspecified",Mature T/NK-cell lymphomas
+C8513,10,"Unspecified B-cell lymphoma, intra-abdominal lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C8519,10,"Unspecified B-cell lymphoma, extranodal and solid organ sites",Other specified and unspecified types of non-Hodgkin lymphoma
+C9010,10,Plasma cell leukemia not having achieved remission,Multiple myeloma and malignant plasma cell neoplasms
+C9402,10,"Acute erythroid leukemia, in relapse",Other leukemias of specified cell types
+C002,10,"Malignant neoplasm of external lip, unspecified",Head and Neck Cancer
+C051,10,Malignant neoplasm of soft palate,Malignant neoplasm of palate
+C320,10,Malignant neoplasm of glottis,Malignant neoplasm of larynx
+C328,10,Malignant neoplasm of overlapping sites of larynx,Malignant neoplasm of larynx
+C4031,10,Malignant neoplasm of short bones of right lower limb,Malignant neoplasm of bone and articular cartilage of limbs
+C442,10,Other and unspecified malignant neoplasm of skin of ear and external auricular canal,Other malignant neoplasms of skin
+C44311,10,Basal cell carcinoma of skin of nose,Other malignant neoplasms of skin
+C493,10,Malignant neoplasm of connective and soft tissue of thorax,Malignant neoplasm of other connective tissues
+C49A1,10,Gastrointestinal stromal tumor of esophagus,Malignant neoplasm of other connective tissues
+C5031,10,"Malignant neoplasm of lower-inner quadrant of breast, female",Breast Cancer
+C6901,10,Malignant neoplasm of right conjunctiva,Malignant neoplasm of eye and adnexa
+C691,10,Malignant neoplasm of cornea,Malignant neoplasm of eye and adnexa
+C694,10,Malignant neoplasm of ciliary body,Malignant neoplasm of eye and adnexa
+C713,10,Malignant neoplasm of parietal lobe,Malignant neoplasm of brain
+C7411,10,Malignant neoplasm of medulla of right adrenal gland,Malignant neoplasm of adrenal gland
+C751,10,Malignant neoplasm of pituitary gland,Malignant neoplasm of other endocrine glands
+C8139,10,"Lymphocyte depleted Hodgkin lymphoma, extranodal and solid organ sites",Hodgkin lymphoma
+C83,10,Non-follicular lymphoma,Non-Hodgkin lymphoma
+C8338,10,"Diffuse large B-cell lymphoma, lymph nodes of multiple sites",Non-Hodgkin lymphoma
+C8390,10,"Non-follicular (diffuse) lymphoma, unspecified, unspecified site",Non-Hodgkin lymphoma
+C8408,10,"Mycosis fungoides, lymph nodes of multiple sites",Mature T/NK-cell lymphomas
+C8419,10,"Sezary disease, extranodal and solid organ sites",Mature T/NK-cell lymphomas
+C8441,10,"Peripheral T-cell lymphoma, not classified, lymph nodes of head, face, and neck",Mature T/NK-cell lymphomas
+C8449,10,"Peripheral T-cell lymphoma, not classified, extranodal and solid organ sites",Mature T/NK-cell lymphomas
+C8465,10,"Anaplastic large cell lymphoma, ALK-positive, lymph nodes of inguinal region and lower limb",Mature T/NK-cell lymphomas
+C8474,10,"Anaplastic large cell lymphoma, ALK-negative, lymph nodes of axilla and upper limb",Mature T/NK-cell lymphomas
+C84A6,10,"Cutaneous T-cell lymphoma, unspecified, intrapelvic lymph nodes",Mature T/NK-cell lymphomas
+C8596,10,"Non-Hodgkin lymphoma, unspecified, intrapelvic lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C9030,10,Solitary plasmacytoma not having achieved remission,Multiple myeloma and malignant plasma cell neoplasms
+C9161,10,"Prolymphocytic leukemia of T-cell type, in remission",Leukemia
+C9420,10,Acute megakaryoblastic leukemia not having achieved remission,Other leukemias of specified cell types
+C342,10,"Malignant neoplasm of middle lobe, bronchus or lung",Malignant neoplasm of bronchus and lung
+C49A,10,Gastrointestinal stromal tumor,Malignant neoplasm of other connective tissues
+C4A9,10,"Merkel cell carcinoma, unspecified",Merkel cell carcinoma
+C500,10,Malignant neoplasm of nipple and areola,Breast Cancer
+C5012,10,"Malignant neoplasm of central portion of breast, male",Breast Cancer
+C50421,10,Malignant neoplasm of upper-outer quadrant of right male breast,Breast Cancer
+C5062,10,"Malignant neoplasm of axillary tail of breast, male",Breast Cancer
+C5700,10,Malignant neoplasm of unspecified fallopian tube,Malignant neoplasm of other female genital organs
+C675,10,Malignant neoplasm of bladder neck,Malignant neoplasm of bladder
+C677,10,Malignant neoplasm of urachus,Malignant neoplasm of bladder
+C6921,10,Malignant neoplasm of right retina,Malignant neoplasm of eye and adnexa
+C754,10,Malignant neoplasm of carotid body,Malignant neoplasm of other endocrine glands
+C7B09,10,Secondary carcinoid tumors of other sites,Secondary neuroendocrine tumors
+C7B8,10,Other secondary neuroendocrine tumors,Secondary neuroendocrine tumors
+C8130,10,"Lymphocyte depleted Hodgkin lymphoma, unspecified site",Hodgkin lymphoma
+C8146,10,"Lymphocyte-rich Hodgkin lymphoma, intrapelvic lymph nodes",Hodgkin lymphoma
+C8179,10,"Other Hodgkin lymphoma, extranodal and solid organ sites",Hodgkin lymphoma
+C8254,10,"Diffuse follicle center lymphoma, lymph nodes of axilla and upper limb",Non-Hodgkin Lymphoma
+C8393,10,"Non-follicular (diffuse) lymphoma, unspecified, intra-abdominal lymph nodes",Non-Hodgkin lymphoma
+C84A5,10,"Cutaneous T-cell lymphoma, unspecified, lymph nodes of inguinal region and lower limb",Mature T/NK-cell lymphomas
+C84A7,10,"Cutaneous T-cell lymphoma, unspecified, spleen",Mature T/NK-cell lymphomas
+C9101,10,"Acute lymphoblastic leukemia, in remission",Leukemia
+C942,10,Acute megakaryoblastic leukemia,Other leukemias of specified cell types
+C9512,10,"Chronic leukemia of unspecified cell type, in relapse",Leukemia of unspecified cell type
+C009,10,"Malignant neoplasm of lip, unspecified",Head and Neck Cancer
+C030,10,Malignant neoplasm of upper gum,Malignant neoplasm of gum
+C068,10,Malignant neoplasm of overlapping sites of other and unspecified parts of mouth,Malignant neoplasm of other parts of mouth
+C14,10,"Malignant neoplasm of other and ill-defined sites in the lip, oral cavity and pharynx",Malignant neoplasm of other ill-defined sites
+C251,10,Malignant neoplasm of body of pancreas,Malignant neoplasm of pancreas
+C269,10,Malignant neoplasm of ill-defined sites within the digestive system,Malignant neoplasm of other digestive organs
+C4331,10,Malignant melanoma of nose,Malignant melanoma of skin
+C44202,10,Unspecified malignant neoplasm of skin of right ear and external auricular canal,Other malignant neoplasms of skin
+C470,10,"Malignant neoplasm of peripheral nerves of head, face and neck",Malignant neoplasm of peripheral nerves
+C471,10,"Malignant neoplasm of peripheral nerves of upper limb, including shoulder",Malignant neoplasm of peripheral nerves
+C472,10,"Malignant neoplasm of peripheral nerves of lower limb, including hip",Malignant neoplasm of peripheral nerves
+C48,10,Malignant neoplasm of retroperitoneum and peritoneum,Malignant neoplasm of retroperitoneum and peritoneum
+C4A0,10,Merkel cell carcinoma of lip,Merkel cell carcinoma
+C571,10,Malignant neoplasm of broad ligament,Malignant neoplasm of other female genital organs
+C638,10,Malignant neoplasm of overlapping sites of male genital organs,Malignant neoplasm of other male genital organs
+C649,10,"Malignant neoplasm of unspecified kidney, except renal pelvis",Urinary Tract Cancer
+C791,10,Secondary malignant neoplasm of bladder and other and unspecified urinary organs,Secondary malignant neoplasm of other sites
+C8209,10,"Follicular lymphoma grade I, extranodal and solid organ sites",Non-Hodgkin Lymphoma
+C8213,10,"Follicular lymphoma grade II, intra-abdominal lymph nodes",Non-Hodgkin Lymphoma
+C8216,10,"Follicular lymphoma grade II, intrapelvic lymph nodes",Non-Hodgkin Lymphoma
+C8231,10,"Follicular lymphoma grade IIIa, lymph nodes of head, face, and neck",Non-Hodgkin Lymphoma
+C8291,10,"Follicular lymphoma, unspecified, lymph nodes of head, face, and neck",Non-Hodgkin Lymphoma
+C8305,10,"Small cell B-cell lymphoma, lymph nodes of inguinal region and lower limb",Non-Hodgkin lymphoma
+C8359,10,"Lymphoblastic (diffuse) lymphoma, extranodal and solid organ sites",Non-Hodgkin lymphoma
+C839,10,"Non-follicular (diffuse) lymphoma, unspecified",Non-Hodgkin lymphoma
+C8476,10,"Anaplastic large cell lymphoma, ALK-negative, intrapelvic lymph nodes",Mature T/NK-cell lymphomas
+C8479,10,"Anaplastic large cell lymphoma, ALK-negative, extranodal and solid organ sites",Mature T/NK-cell lymphomas
+C84Z8,10,"Other mature T/NK-cell lymphomas, lymph nodes of multiple sites",Mature T/NK-cell lymphomas
+C915,10,Adult T-cell lymphoma/leukemia (HTLV-1-associated),Leukemia
+C9332,10,"Juvenile myelomonocytic leukemia, in relapse",Monocytic leukemia
+C940,10,Acute erythroid leukemia,Other leukemias of specified cell types
+C113,10,Malignant neoplasm of anterior wall of nasopharynx,Malignant neoplasm of nasopharynx
+C15,10,Malignant neoplasm of esophagus,Gastrointestinal Cancer
+C159,10,"Malignant neoplasm of esophagus, unspecified",Gastrointestinal Cancer
+C23,10,Malignant neoplasm of gallbladder,Malignant neoplasm of gallbladder
+C403,10,Malignant neoplasm of short bones of lower limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4091,10,Malignant neoplasm of unspecified bones and articular cartilage of right limb,Malignant neoplasm of bone and articular cartilage of limbs
+C441191,10,"Basal cell carcinoma of skin of left upper eyelid, including canthus",Other malignant neoplasms of skin
+C44191,10,"Other specified malignant neoplasm of skin of unspecified eyelid, including canthus",Other malignant neoplasms of skin
+C4450,10,Unspecified malignant neoplasm of skin of trunk,Other malignant neoplasms of skin
+C447,10,"Other and unspecified malignant neoplasm of skin of lower limb, including hip",Other malignant neoplasms of skin
+C44791,10,"Other specified malignant neoplasm of skin of unspecified lower limb, including hip",Other malignant neoplasms of skin
+C478,10,Malignant neoplasm of overlapping sites of peripheral nerves and autonomic nervous system,Malignant neoplasm of peripheral nerves
+C4A1,10,"Merkel cell carcinoma of eyelid, including canthus",Merkel cell carcinoma
+C4A11,10,"Merkel cell carcinoma of right eyelid, including canthus",Merkel cell carcinoma
+C5002,10,"Malignant neoplasm of nipple and areola, male",Breast Cancer
+C50229,10,Malignant neoplasm of upper-inner quadrant of unspecified male breast,Breast Cancer
+C6910,10,Malignant neoplasm of unspecified cornea,Malignant neoplasm of eye and adnexa
+C7651,10,Malignant neoplasm of right lower limb,Malignant neoplasm of other and ill-defined sites
+C7919,10,Secondary malignant neoplasm of other urinary organs,Secondary malignant neoplasm of other sites
+C7932,10,Secondary malignant neoplasm of cerebral meninges,Secondary malignant neoplasm of other sites
+C8107,10,"Nodular lymphocyte predominant Hodgkin lymphoma, spleen",Hodgkin lymphoma
+C8218,10,"Follicular lymphoma grade II, lymph nodes of multiple sites",Non-Hodgkin Lymphoma
+C8224,10,"Follicular lymphoma grade III, unspecified, lymph nodes of axilla and upper limb",Non-Hodgkin Lymphoma
+C826,10,Cutaneous follicle center lymphoma,Non-Hodgkin Lymphoma
+C8412,10,"Sezary disease, intrathoracic lymph nodes",Mature T/NK-cell lymphomas
+C8495,10,"Mature T/NK-cell lymphomas, unspecified, lymph nodes of inguinal region and lower limb",Mature T/NK-cell lymphomas
+C84Z4,10,"Other mature T/NK-cell lymphomas, lymph nodes of axilla and upper limb",Mature T/NK-cell lymphomas
+C8525,10,"Mediastinal (thymic) large B-cell lymphoma, lymph nodes of inguinal region and lower limb",Other specified and unspecified types of non-Hodgkin lymphoma
+C910,10,Acute lymphoblastic leukemia [ALL],Leukemia
+C9151,10,"Adult T-cell lymphoma/leukemia (HTLV-1-associated), in remission",Leukemia
+C919,10,"Lymphoid leukemia, unspecified",Leukemia
+C9392,10,"Monocytic leukemia, unspecified in relapse",Monocytic leukemia
+C9629,10,Other malignant mast cell neoplasm,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C061,10,Malignant neoplasm of vestibule of mouth,Malignant neoplasm of other parts of mouth
+C08,10,Malignant neoplasm of other and unspecified major salivary glands,Malignant neoplasm of other salivary glands
+C100,10,Malignant neoplasm of vallecula,Malignant neoplasm of oropharynx
+C189,10,"Malignant neoplasm of colon, unspecified",Gastrointestinal Cancer
+C241,10,Malignant neoplasm of ampulla of Vater,Malignant neoplasm of other and unspecified parts of biliary tract
+C435,10,Malignant melanoma of trunk,Malignant melanoma of skin
+C4412,10,"Squamous cell carcinoma of skin of eyelid, including canthus",Other malignant neoplasms of skin
+C44122,10,"Squamous cell carcinoma of skin of right eyelid, including canthus",Other malignant neoplasms of skin
+C4429,10,Other specified malignant neoplasm of skin of ear and external auricular canal,Other malignant neoplasms of skin
+C44390,10,Other specified malignant neoplasm of skin of unspecified parts of face,Other malignant neoplasms of skin
+C44612,10,"Basal cell carcinoma of skin of right upper limb, including shoulder",Other malignant neoplasms of skin
+C4922,10,"Malignant neoplasm of connective and soft tissue of left lower limb, including hip",Malignant neoplasm of other connective tissues
+C50029,10,"Malignant neoplasm of nipple and areola, unspecified male breast",Breast Cancer
+C570,10,Malignant neoplasm of fallopian tube,Malignant neoplasm of other female genital organs
+C6900,10,Malignant neoplasm of unspecified conjunctiva,Malignant neoplasm of eye and adnexa
+C7652,10,Malignant neoplasm of left lower limb,Malignant neoplasm of other and ill-defined sites
+C7B01,10,Secondary carcinoid tumors of distant lymph nodes,Secondary neuroendocrine tumors
+C8193,10,"Hodgkin lymphoma, unspecified, intra-abdominal lymph nodes",Hodgkin lymphoma
+C8240,10,"Follicular lymphoma grade IIIb, unspecified site",Non-Hodgkin Lymphoma
+C8391,10,"Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of head, face, and neck",Non-Hodgkin lymphoma
+C8392,10,"Non-follicular (diffuse) lymphoma, unspecified, intrathoracic lymph nodes",Non-Hodgkin lymphoma
+C8413,10,"Sezary disease, intra-abdominal lymph nodes",Mature T/NK-cell lymphomas
+C8467,10,"Anaplastic large cell lymphoma, ALK-positive, spleen",Mature T/NK-cell lymphomas
+C8475,10,"Anaplastic large cell lymphoma, ALK-negative, lymph nodes of inguinal region and lower limb",Mature T/NK-cell lymphomas
+C9022,10,Extramedullary plasmacytoma in relapse,Multiple myeloma and malignant plasma cell neoplasms
+C91A1,10,"Mature B-cell leukemia Burkitt-type, in remission",Leukemia
+C91A2,10,"Mature B-cell leukemia Burkitt-type, in relapse",Leukemia
+C94,10,Other leukemias of specified cell type,Other leukemias of specified cell types
+C96Z,10,"Other specified malignant neoplasms of lymphoid, hematopoietic and related tissue","Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C003,10,"Malignant neoplasm of upper lip, inner aspect",Head and Neck Cancer
+C006,10,"Malignant neoplasm of commissure of lip, unspecified",Head and Neck Cancer
+C081,10,Malignant neoplasm of sublingual gland,Malignant neoplasm of other salivary glands
+C164,10,Malignant neoplasm of pylorus,Gastrointestinal Cancer
+C172,10,Malignant neoplasm of ileum,Malignant neoplasm of small intestine
+C248,10,Malignant neoplasm of overlapping sites of biliary tract,Malignant neoplasm of other and unspecified parts of biliary tract
+C26,10,Malignant neoplasm of other and ill-defined digestive organs,Malignant neoplasm of other digestive organs
+C3491,10,Malignant neoplasm of unspecified part of right bronchus or lung,Malignant neoplasm of bronchus and lung
+C4370,10,"Malignant melanoma of unspecified lower limb, including hip",Malignant melanoma of skin
+C441991,10,"Other specified malignant neoplasm of skin of left upper eyelid, including canthus",Other malignant neoplasms of skin
+C44511,10,Basal cell carcinoma of skin of breast,Other malignant neoplasms of skin
+C4650,10,Kaposi's sarcoma of unspecified lung,Kaposi's sarcoma
+C479,10,"Malignant neoplasm of peripheral nerves and autonomic nervous system, unspecified",Malignant neoplasm of peripheral nerves
+C50111,10,Malignant neoplasm of central portion of right female breast,Breast Cancer
+C50212,10,Malignant neoplasm of upper-inner quadrant of left female breast,Breast Cancer
+C5061,10,"Malignant neoplasm of axillary tail of breast, female",Breast Cancer
+C50622,10,Malignant neoplasm of axillary tail of left male breast,Breast Cancer
+C5711,10,Malignant neoplasm of right broad ligament,Malignant neoplasm of other female genital organs
+C7240,10,Malignant neoplasm of unspecified acoustic nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C773,10,Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes,Secondary and unspecified malignant neoplasm of lymph nodes
+C7801,10,Secondary malignant neoplasm of right lung,Secondary malignant neoplasm of respiratory and digestive organs
+C8117,10,"Nodular sclerosis Hodgkin lymphoma, spleen",Hodgkin lymphoma
+C8145,10,"Lymphocyte-rich Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",Hodgkin lymphoma
+C8490,10,"Mature T/NK-cell lymphomas, unspecified, unspecified site",Mature T/NK-cell lymphomas
+C8497,10,"Mature T/NK-cell lymphomas, unspecified, spleen",Mature T/NK-cell lymphomas
+C888,10,Other malignant immunoproliferative diseases,Malignant immunoproliferative diseases
+C933,10,Juvenile myelomonocytic leukemia,Monocytic leukemia
+C041,10,Malignant neoplasm of lateral floor of mouth,Malignant neoplasm of floor of mouth
+C098,10,Malignant neoplasm of overlapping sites of tonsil,Malignant neoplasm of tonsil
+C12,10,Malignant neoplasm of pyriform sinus,Malignant neoplasm of pyriform sinus
+C13,10,Malignant neoplasm of hypopharynx,Malignant neoplasm of hypopharynx
+C249,10,"Malignant neoplasm of biliary tract, unspecified",Malignant neoplasm of other and unspecified parts of biliary tract
+C30,10,Malignant neoplasm of nasal cavity and middle ear,Respiratory Cancer
+C348,10,Malignant neoplasm of overlapping sites of bronchus and lung,Malignant neoplasm of bronchus and lung
+C4090,10,Malignant neoplasm of unspecified bones and articular cartilage of unspecified limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4359,10,Malignant melanoma of other part of trunk,Malignant melanoma of skin
+C439,10,"Malignant melanoma of skin, unspecified",Malignant melanoma of skin
+C4410,10,"Unspecified malignant neoplasm of skin of eyelid, including canthus",Other malignant neoplasms of skin
+C44112,10,"Basal cell carcinoma of skin of right eyelid, including canthus",Other malignant neoplasms of skin
+C441391,10,"Sebaceous cell carcinoma of skin of left upper eyelid, including canthus",Other malignant neoplasms of skin
+C441921,10,"Other specified malignant neoplasm of skin of right upper eyelid, including canthus",Other malignant neoplasms of skin
+C44209,10,Unspecified malignant neoplasm of skin of left ear and external auricular canal,Other malignant neoplasms of skin
+C44212,10,Basal cell carcinoma of skin of right ear and external auricular canal,Other malignant neoplasms of skin
+C4430,10,Unspecified malignant neoplasm of skin of other and unspecified parts of face,Other malignant neoplasms of skin
+C44529,10,Squamous cell carcinoma of skin of other part of trunk,Other malignant neoplasms of skin
+C473,10,Malignant neoplasm of peripheral nerves of thorax,Malignant neoplasm of peripheral nerves
+C481,10,Malignant neoplasm of specified parts of peritoneum,Malignant neoplasm of retroperitoneum and peritoneum
+C504,10,Malignant neoplasm of upper-outer quadrant of breast,Breast Cancer
+C562,10,Malignant neoplasm of left ovary,Malignant neoplasm of ovary
+C573,10,Malignant neoplasm of parametrium,Malignant neoplasm of other female genital organs
+C6201,10,Malignant neoplasm of undescended right testis,Malignant neoplasm of testis
+C6211,10,Malignant neoplasm of descended right testis,Malignant neoplasm of testis
+C673,10,Malignant neoplasm of anterior wall of bladder,Malignant neoplasm of bladder
+C6982,10,Malignant neoplasm of overlapping sites of left eye and adnexa,Malignant neoplasm of eye and adnexa
+C73,10,Malignant neoplasm of thyroid gland,Malignant neoplasm of thyroid gland
+C763,10,Malignant neoplasm of pelvis,Malignant neoplasm of other and ill-defined sites
+C8128,10,"Mixed cellularity Hodgkin lymphoma, lymph nodes of multiple sites",Hodgkin lymphoma
+C8230,10,"Follicular lymphoma grade IIIa, unspecified site",Non-Hodgkin Lymphoma
+C8284,10,"Other types of follicular lymphoma, lymph nodes of axilla and upper limb",Non-Hodgkin Lymphoma
+C829,10,"Follicular lymphoma, unspecified",Non-Hodgkin Lymphoma
+C8375,10,"Burkitt lymphoma, lymph nodes of inguinal region and lower limb",Non-Hodgkin lymphoma
+C8401,10,"Mycosis fungoides, lymph nodes of head, face, and neck",Mature T/NK-cell lymphomas
+C8594,10,"Non-Hodgkin lymphoma, unspecified, lymph nodes of axilla and upper limb",Other specified and unspecified types of non-Hodgkin lymphoma
+C9020,10,Extramedullary plasmacytoma not having achieved remission,Multiple myeloma and malignant plasma cell neoplasms
+C914,10,Hairy cell leukemia,Leukemia
+C004,10,"Malignant neoplasm of lower lip, inner aspect",Head and Neck Cancer
+C138,10,Malignant neoplasm of overlapping sites of hypopharynx,Malignant neoplasm of hypopharynx
+C229,10,"Malignant neoplasm of liver, not specified as primary or secondary",Malignant neoplasm of liver and intrahepatic bile ducts
+C33,10,Malignant neoplasm of trachea,Malignant neoplasm of trachea
+C3490,10,Malignant neoplasm of unspecified part of unspecified bronchus or lung,Malignant neoplasm of bronchus and lung
+C4372,10,"Malignant melanoma of left lower limb, including hip",Malignant melanoma of skin
+C44119,10,"Basal cell carcinoma of skin of left eyelid, including canthus",Other malignant neoplasms of skin
+C44201,10,Unspecified malignant neoplasm of skin of unspecified ear and external auricular canal,Other malignant neoplasms of skin
+C44619,10,"Basal cell carcinoma of skin of left upper limb, including shoulder",Other malignant neoplasms of skin
+C4A22,10,Merkel cell carcinoma of left ear and external auricular canal,Merkel cell carcinoma
+C50822,10,Malignant neoplasm of overlapping sites of left male breast,Breast Cancer
+C61,10,Malignant neoplasm of prostate,Malignant neoplasm of prostate
+C6950,10,Malignant neoplasm of unspecified lacrimal gland and duct,Malignant neoplasm of eye and adnexa
+C711,10,Malignant neoplasm of frontal lobe,Malignant neoplasm of brain
+C7A096,10,"Malignant carcinoid tumor of the hindgut, unspecified",Malignant neuroendocrine tumors
+C8148,10,"Lymphocyte-rich Hodgkin lymphoma, lymph nodes of multiple sites",Hodgkin lymphoma
+C8192,10,"Hodgkin lymphoma, unspecified, intrathoracic lymph nodes",Hodgkin lymphoma
+C8196,10,"Hodgkin lymphoma, unspecified, intrapelvic lymph nodes",Hodgkin lymphoma
+C8201,10,"Follicular lymphoma grade I, lymph nodes of head, face, and neck",Non-Hodgkin Lymphoma
+C8226,10,"Follicular lymphoma grade III, unspecified, intrapelvic lymph nodes",Non-Hodgkin Lymphoma
+C828,10,Other types of follicular lymphoma,Non-Hodgkin Lymphoma
+C8381,10,"Other non-follicular lymphoma, lymph nodes of head, face, and neck",Non-Hodgkin lymphoma
+C8494,10,"Mature T/NK-cell lymphomas, unspecified, lymph nodes of axilla and upper limb",Mature T/NK-cell lymphomas
+C8528,10,"Mediastinal (thymic) large B-cell lymphoma, lymph nodes of multiple sites",Other specified and unspecified types of non-Hodgkin lymphoma
+C9032,10,Solitary plasmacytoma in relapse,Multiple myeloma and malignant plasma cell neoplasms
+C9260,10,Acute myeloid leukemia with 11q23-abnormality not having achieved remission,Leukemia
+C9311,10,"Chronic myelomonocytic leukemia, in remission",Monocytic leukemia
+C103,10,Malignant neoplasm of posterior wall of oropharynx,Malignant neoplasm of oropharynx
+C166,10,"Malignant neoplasm of greater curvature of stomach, unspecified",Gastrointestinal Cancer
+C390,10,"Malignant neoplasm of upper respiratory tract, part unspecified",Malignant neoplasm of other respiratory organs
+C44139,10,"Sebaceous cell carcinoma of skin of left eyelid, including canthus",Other malignant neoplasms of skin
+C44219,10,Basal cell carcinoma of skin of left ear and external auricular canal,Other malignant neoplasms of skin
+C44501,10,Unspecified malignant neoplasm of skin of breast,Other malignant neoplasms of skin
+C53,10,Malignant neoplasm of cervix uteri,Malignant neoplasm of cervix uteri
+C5710,10,Malignant neoplasm of unspecified broad ligament,Malignant neoplasm of other female genital organs
+C641,10,"Malignant neoplasm of right kidney, except renal pelvis",Urinary Tract Cancer
+C700,10,Malignant neoplasm of cerebral meninges,Malignant neoplasm of meninges
+C7A026,10,Malignant carcinoid tumor of the rectum,Malignant neuroendocrine tumors
+C8290,10,"Follicular lymphoma, unspecified, unspecified site",Non-Hodgkin Lymphoma
+C8382,10,"Other non-follicular lymphoma, intrathoracic lymph nodes",Non-Hodgkin lymphoma
+C8405,10,"Mycosis fungoides, lymph nodes of inguinal region and lower limb",Mature T/NK-cell lymphomas
+C8440,10,"Peripheral T-cell lymphoma, not classified, unspecified site",Mature T/NK-cell lymphomas
+C846,10,"Anaplastic large cell lymphoma, ALK-positive",Mature T/NK-cell lymphomas
+C84A,10,"Cutaneous T-cell lymphoma, unspecified",Mature T/NK-cell lymphomas
+C84Z2,10,"Other mature T/NK-cell lymphomas, intrathoracic lymph nodes",Mature T/NK-cell lymphomas
+C858,10,Other specified types of non-Hodgkin lymphoma,Other specified and unspecified types of non-Hodgkin lymphoma
+C8581,10,"Other specified types of non-Hodgkin lymphoma, lymph nodes of head, face, and neck",Other specified and unspecified types of non-Hodgkin lymphoma
+C929,10,"Myeloid leukemia, unspecified",Leukemia
+C9290,10,"Myeloid leukemia, unspecified, not having achieved remission",Leukemia
+C92A0,10,"Acute myeloid leukemia with multilineage dysplasia, not having achieved remission",Leukemia
+C9310,10,Chronic myelomonocytic leukemia not having achieved remission,Monocytic leukemia
+C95,10,Leukemia of unspecified cell type,Leukemia of unspecified cell type
+C9620,10,"Malignant mast cell neoplasm, unspecified","Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C050,10,Malignant neoplasm of hard palate,Malignant neoplasm of palate
+C058,10,Malignant neoplasm of overlapping sites of palate,Malignant neoplasm of palate
+C06,10,Malignant neoplasm of other and unspecified parts of mouth,Malignant neoplasm of other parts of mouth
+C110,10,Malignant neoplasm of superior wall of nasopharynx,Malignant neoplasm of nasopharynx
+C312,10,Malignant neoplasm of frontal sinus,Malignant neoplasm of accessory sinuses
+C3402,10,Malignant neoplasm of left main bronchus,Malignant neoplasm of bronchus and lung
+C39,10,Malignant neoplasm of other and ill-defined sites in the respiratory system and intrathoracic organs,Malignant neoplasm of other respiratory organs
+C4021,10,Malignant neoplasm of long bones of right lower limb,Malignant neoplasm of bone and articular cartilage of limbs
+C465,10,Kaposi's sarcoma of lung,Kaposi's sarcoma
+C4A7,10,"Merkel cell carcinoma of lower limb, including hip",Merkel cell carcinoma
+C50919,10,Malignant neoplasm of unspecified site of unspecified female breast,Breast Cancer
+C63,10,Malignant neoplasm of other and unspecified male genital organs,Malignant neoplasm of other male genital organs
+C6932,10,Malignant neoplasm of left choroid,Malignant neoplasm of eye and adnexa
+C712,10,Malignant neoplasm of temporal lobe,Malignant neoplasm of brain
+C721,10,Malignant neoplasm of cauda equina,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C7800,10,Secondary malignant neoplasm of unspecified lung,Secondary malignant neoplasm of respiratory and digestive organs
+C7A010,10,Malignant carcinoid tumor of the duodenum,Malignant neuroendocrine tumors
+C7A090,10,Malignant carcinoid tumor of the bronchus and lung,Malignant neuroendocrine tumors
+C8109,10,"Nodular lymphocyte predominant Hodgkin lymphoma, extranodal and solid organ sites",Hodgkin lymphoma
+C8120,10,"Mixed cellularity Hodgkin lymphoma, unspecified site",Hodgkin lymphoma
+C8191,10,"Hodgkin lymphoma, unspecified, lymph nodes of head, face, and neck",Hodgkin lymphoma
+C8198,10,"Hodgkin lymphoma, unspecified, lymph nodes of multiple sites",Hodgkin lymphoma
+C8208,10,"Follicular lymphoma grade I, lymph nodes of multiple sites",Non-Hodgkin Lymphoma
+C8262,10,"Cutaneous follicle center lymphoma, intrathoracic lymph nodes",Non-Hodgkin Lymphoma
+C8280,10,"Other types of follicular lymphoma, unspecified site",Non-Hodgkin Lymphoma
+C8371,10,"Burkitt lymphoma, lymph nodes of head, face, and neck",Non-Hodgkin lymphoma
+C8460,10,"Anaplastic large cell lymphoma, ALK-positive, unspecified site",Mature T/NK-cell lymphomas
+C8463,10,"Anaplastic large cell lymphoma, ALK-positive, intra-abdominal lymph nodes",Mature T/NK-cell lymphomas
+C84A2,10,"Cutaneous T-cell lymphoma, unspecified, intrathoracic lymph nodes",Mature T/NK-cell lymphomas
+C852,10,Mediastinal (thymic) large B-cell lymphoma,Other specified and unspecified types of non-Hodgkin lymphoma
+C903,10,Solitary plasmacytoma,Multiple myeloma and malignant plasma cell neoplasms
+C9232,10,"Myeloid sarcoma, in relapse",Leukemia
+C925,10,Acute myelomonocytic leukemia,Leukemia
+C92Z,10,Other myeloid leukemia,Leukemia
+C001,10,Malignant neoplasm of external lower lip,Head and Neck Cancer
+C052,10,Malignant neoplasm of uvula,Malignant neoplasm of palate
+C163,10,Malignant neoplasm of pyloric antrum,Gastrointestinal Cancer
+C183,10,Malignant neoplasm of hepatic flexure,Gastrointestinal Cancer
+C253,10,Malignant neoplasm of pancreatic duct,Malignant neoplasm of pancreas
+C430,10,Malignant melanoma of lip,Malignant melanoma of skin
+C4322,10,Malignant melanoma of left ear and external auricular canal,Malignant melanoma of skin
+C441021,10,"Unspecified malignant neoplasm of skin of right upper eyelid, including canthus",Other malignant neoplasms of skin
+C44320,10,Squamous cell carcinoma of skin of unspecified parts of face,Other malignant neoplasms of skin
+C4460,10,"Unspecified malignant neoplasm of skin of upper limb, including shoulder",Other malignant neoplasms of skin
+C44692,10,"Other specified malignant neoplasm of skin of right upper limb, including shoulder",Other malignant neoplasms of skin
+C44722,10,"Squamous cell carcinoma of skin of right lower limb, including hip",Other malignant neoplasms of skin
+C448,10,Other and unspecified malignant neoplasm of overlapping sites of skin,Other malignant neoplasms of skin
+C464,10,Kaposi's sarcoma of gastrointestinal sites,Kaposi's sarcoma
+C467,10,Kaposi's sarcoma of other sites,Kaposi's sarcoma
+C474,10,Malignant neoplasm of peripheral nerves of abdomen,Malignant neoplasm of peripheral nerves
+C578,10,Malignant neoplasm of overlapping sites of female genital organs,Malignant neoplasm of other female genital organs
+C681,10,Malignant neoplasm of paraurethral glands,Malignant neoplasm of other urinary organs
+C72,10,"Malignant neoplasm of spinal cord, cranial nerves and other parts of central nervous system","Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C752,10,Malignant neoplasm of craniopharyngeal duct,Malignant neoplasm of other endocrine glands
+C7911,10,Secondary malignant neoplasm of bladder,Secondary malignant neoplasm of other sites
+C7A09,10,Malignant carcinoid tumors of other sites,Malignant neuroendocrine tumors
+C8124,10,"Mixed cellularity Hodgkin lymphoma, lymph nodes of axilla and upper limb",Hodgkin lymphoma
+C8225,10,"Follicular lymphoma grade III, unspecified, lymph nodes of inguinal region and lower limb",Non-Hodgkin Lymphoma
+C824,10,Follicular lymphoma grade IIIb,Non-Hodgkin Lymphoma
+C8246,10,"Follicular lymphoma grade IIIb, intrapelvic lymph nodes",Non-Hodgkin Lymphoma
+C8298,10,"Follicular lymphoma, unspecified, lymph nodes of multiple sites",Non-Hodgkin Lymphoma
+C8353,10,"Lymphoblastic (diffuse) lymphoma, intra-abdominal lymph nodes",Non-Hodgkin lymphoma
+C8404,10,"Mycosis fungoides, lymph nodes of axilla and upper limb",Mature T/NK-cell lymphomas
+C902,10,Extramedullary plasmacytoma,Multiple myeloma and malignant plasma cell neoplasms
+C9130,10,Prolymphocytic leukemia of B-cell type not having achieved remission,Leukemia
+C9160,10,Prolymphocytic leukemia of T-cell type not having achieved remission,Leukemia
+C9302,10,"Acute monoblastic/monocytic leukemia, in relapse",Monocytic leukemia
+C091,10,Malignant neoplasm of tonsillar pillar (anterior) (posterior),Malignant neoplasm of tonsil
+C250,10,Malignant neoplasm of head of pancreas,Malignant neoplasm of pancreas
+C3400,10,Malignant neoplasm of unspecified main bronchus,Malignant neoplasm of bronchus and lung
+C44719,10,"Basal cell carcinoma of skin of left lower limb, including hip",Other malignant neoplasms of skin
+C4721,10,"Malignant neoplasm of peripheral nerves of right lower limb, including hip",Malignant neoplasm of peripheral nerves
+C499,10,"Malignant neoplasm of connective and soft tissue, unspecified",Malignant neoplasm of other connective tissues
+C4A111,10,"Merkel cell carcinoma of right upper eyelid, including canthus",Merkel cell carcinoma
+C60,10,Malignant neoplasm of penis,Malignant neoplasm of penis
+C7910,10,Secondary malignant neoplasm of unspecified urinary organs,Secondary malignant neoplasm of other sites
+C7949,10,Secondary malignant neoplasm of other parts of nervous system,Secondary malignant neoplasm of other sites
+C7A012,10,Malignant carcinoid tumor of the ileum,Malignant neuroendocrine tumors
+C8176,10,"Other Hodgkin lymphoma, intrapelvic lymph nodes",Hodgkin lymphoma
+C8234,10,"Follicular lymphoma grade IIIa, lymph nodes of axilla and upper limb",Non-Hodgkin Lymphoma
+C8266,10,"Cutaneous follicle center lymphoma, intrapelvic lymph nodes",Non-Hodgkin Lymphoma
+C8315,10,"Mantle cell lymphoma, lymph nodes of inguinal region and lower limb",Non-Hodgkin lymphoma
+C8380,10,"Other non-follicular lymphoma, unspecified site",Non-Hodgkin lymphoma
+C8394,10,"Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of axilla and upper limb",Non-Hodgkin lymphoma
+C840,10,Mycosis fungoides,Mature T/NK-cell lymphomas
+C85,10,Other specified and unspecified types of non-Hodgkin lymphoma,Other specified and unspecified types of non-Hodgkin lymphoma
+C8527,10,"Mediastinal (thymic) large B-cell lymphoma, spleen",Other specified and unspecified types of non-Hodgkin lymphoma
+C8593,10,"Non-Hodgkin lymphoma, unspecified, intra-abdominal lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C9021,10,Extramedullary plasmacytoma in remission,Multiple myeloma and malignant plasma cell neoplasms
+C9131,10,"Prolymphocytic leukemia of B-cell type, in remission",Leukemia
+C09,10,Malignant neoplasm of tonsil,Malignant neoplasm of tonsil
+C185,10,Malignant neoplasm of splenic flexure,Gastrointestinal Cancer
+C4421,10,Basal cell carcinoma of skin of ear and external auricular canal,Other malignant neoplasms of skin
+C44709,10,"Unspecified malignant neoplasm of skin of left lower limb, including hip",Other malignant neoplasms of skin
+C4472,10,"Squamous cell carcinoma of skin of lower limb, including hip",Other malignant neoplasms of skin
+C50319,10,Malignant neoplasm of lower-inner quadrant of unspecified female breast,Breast Cancer
+C50811,10,Malignant neoplasm of overlapping sites of right female breast,Breast Cancer
+C538,10,Malignant neoplasm of overlapping sites of cervix uteri,Malignant neoplasm of cervix uteri
+C569,10,Malignant neoplasm of unspecified ovary,Malignant neoplasm of ovary
+C780,10,Secondary malignant neoplasm of lung,Secondary malignant neoplasm of respiratory and digestive organs
+C7802,10,Secondary malignant neoplasm of left lung,Secondary malignant neoplasm of respiratory and digestive organs
+C8104,10,"Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of axilla and upper limb",Hodgkin lymphoma
+C8142,10,"Lymphocyte-rich Hodgkin lymphoma, intrathoracic lymph nodes",Hodgkin lymphoma
+C8245,10,"Follicular lymphoma grade IIIb, lymph nodes of inguinal region and lower limb",Non-Hodgkin Lymphoma
+C8334,10,"Diffuse large B-cell lymphoma, lymph nodes of axilla and upper limb",Non-Hodgkin lymphoma
+C84A3,10,"Cutaneous T-cell lymphoma, unspecified, intra-abdominal lymph nodes",Mature T/NK-cell lymphomas
+C84Z3,10,"Other mature T/NK-cell lymphomas, intra-abdominal lymph nodes",Mature T/NK-cell lymphomas
+C91Z0,10,Other lymphoid leukemia not having achieved remission,Leukemia
+C93,10,Monocytic leukemia,Monocytic leukemia
+C9482,10,"Other specified leukemias, in relapse",Other leukemias of specified cell types
+C950,10,Acute leukemia of unspecified cell type,Leukemia of unspecified cell type
+C04,10,Malignant neoplasm of floor of mouth,Malignant neoplasm of floor of mouth
+C05,10,Malignant neoplasm of palate,Malignant neoplasm of palate
+C4000,10,Malignant neoplasm of scapula and long bones of unspecified upper limb,Malignant neoplasm of bone and articular cartilage of limbs
+C414,10,"Malignant neoplasm of pelvic bones, sacrum and coccyx",Malignant neoplasm of bone and articular cartilage of other sites
+C452,10,Mesothelioma of pericardium,Mesothelioma
+C495,10,Malignant neoplasm of connective and soft tissue of pelvis,Malignant neoplasm of other connective tissues
+C506,10,Malignant neoplasm of axillary tail of breast,Breast Cancer
+C50612,10,Malignant neoplasm of axillary tail of left female breast,Breast Cancer
+C509,10,Malignant neoplasm of breast of unspecified site,Breast Cancer
+C50922,10,Malignant neoplasm of unspecified site of left male breast,Breast Cancer
+C548,10,Malignant neoplasm of overlapping sites of corpus uteri,Malignant neoplasm of corpus uteri
+C600,10,Malignant neoplasm of prepuce,Malignant neoplasm of penis
+C6292,10,"Malignant neoplasm of left testis, unspecified whether descended or undescended",Malignant neoplasm of testis
+C674,10,Malignant neoplasm of posterior wall of bladder,Malignant neoplasm of bladder
+C710,10,"Malignant neoplasm of cerebrum, except lobes and ventricles",Malignant neoplasm of brain
+C725,10,Malignant neoplasm of other and unspecified cranial nerves,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C7952,10,Secondary malignant neoplasm of bone marrow,Secondary malignant neoplasm of other sites
+C7982,10,Secondary malignant neoplasm of genital organs,Secondary malignant neoplasm of other sites
+C7B04,10,Secondary carcinoid tumors of peritoneum,Secondary neuroendocrine tumors
+C801,10,"Malignant (primary) neoplasm, unspecified",Malignant neoplasm without specification of site
+C8249,10,"Follicular lymphoma grade IIIb, extranodal and solid organ sites",Non-Hodgkin Lymphoma
+C8253,10,"Diffuse follicle center lymphoma, intra-abdominal lymph nodes",Non-Hodgkin Lymphoma
+C8260,10,"Cutaneous follicle center lymphoma, unspecified site",Non-Hodgkin Lymphoma
+C8292,10,"Follicular lymphoma, unspecified, intrathoracic lymph nodes",Non-Hodgkin Lymphoma
+C8302,10,"Small cell B-cell lymphoma, intrathoracic lymph nodes",Non-Hodgkin lymphoma
+C8410,10,"Sezary disease, unspecified site",Mature T/NK-cell lymphomas
+C8416,10,"Sezary disease, intrapelvic lymph nodes",Mature T/NK-cell lymphomas
+C8443,10,"Peripheral T-cell lymphoma, not classified, intra-abdominal lymph nodes",Mature T/NK-cell lymphomas
+C8492,10,"Mature T/NK-cell lymphomas, unspecified, intrathoracic lymph nodes",Mature T/NK-cell lymphomas
+C86,10,Other specified types of T/NK-cell lymphoma,Other specified types of T/NK-cell lymphoma
+C9202,10,"Acute myeloblastic leukemia, in relapse",Leukemia
+C9222,10,"Atypical chronic myeloid leukemia, BCR/ABL-negative, in relapse",Leukemia
+C9422,10,"Acute megakaryoblastic leukemia, in relapse",Other leukemias of specified cell types
+C173,10,"Meckel's diverticulum, malignant",Malignant neoplasm of small intestine
+C223,10,Angiosarcoma of liver,Malignant neoplasm of liver and intrahepatic bile ducts
+C311,10,Malignant neoplasm of ethmoidal sinus,Malignant neoplasm of accessory sinuses
+C3482,10,Malignant neoplasm of overlapping sites of left bronchus and lung,Malignant neoplasm of bronchus and lung
+C349,10,Malignant neoplasm of unspecified part of bronchus or lung,Malignant neoplasm of bronchus and lung
+C4092,10,Malignant neoplasm of unspecified bones and articular cartilage of left limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4339,10,Malignant melanoma of other parts of face,Malignant melanoma of skin
+C441922,10,"Other specified malignant neoplasm of skin of right lower eyelid, including canthus",Other malignant neoplasms of skin
+C44329,10,Squamous cell carcinoma of skin of other parts of face,Other malignant neoplasms of skin
+C4711,10,"Malignant neoplasm of peripheral nerves of right upper limb, including shoulder",Malignant neoplasm of peripheral nerves
+C4A51,10,Merkel cell carcinoma of anal skin,Merkel cell carcinoma
+C4A70,10,"Merkel cell carcinoma of unspecified lower limb, including hip",Merkel cell carcinoma
+C50011,10,"Malignant neoplasm of nipple and areola, right female breast",Breast Cancer
+C50129,10,Malignant neoplasm of central portion of unspecified male breast,Breast Cancer
+C50821,10,Malignant neoplasm of overlapping sites of right male breast,Breast Cancer
+C50912,10,Malignant neoplasm of unspecified site of left female breast,Breast Cancer
+C5722,10,Malignant neoplasm of left round ligament,Malignant neoplasm of other female genital organs
+C632,10,Malignant neoplasm of scrotum,Malignant neoplasm of other male genital organs
+C639,10,"Malignant neoplasm of male genital organ, unspecified",Malignant neoplasm of other male genital organs
+C672,10,Malignant neoplasm of lateral wall of bladder,Malignant neoplasm of bladder
+C678,10,Malignant neoplasm of overlapping sites of bladder,Malignant neoplasm of bladder
+C7410,10,Malignant neoplasm of medulla of unspecified adrenal gland,Malignant neoplasm of adrenal gland
+C7641,10,Malignant neoplasm of right upper limb,Malignant neoplasm of other and ill-defined sites
+C7642,10,Malignant neoplasm of left upper limb,Malignant neoplasm of other and ill-defined sites
+C783,10,Secondary malignant neoplasm of other and unspecified respiratory organs,Secondary malignant neoplasm of respiratory and digestive organs
+C788,10,Secondary malignant neoplasm of other and unspecified digestive organs,Secondary malignant neoplasm of respiratory and digestive organs
+C8102,10,"Nodular lymphocyte predominant Hodgkin lymphoma, intrathoracic lymph nodes",Hodgkin lymphoma
+C8258,10,"Diffuse follicle center lymphoma, lymph nodes of multiple sites",Non-Hodgkin Lymphoma
+C8356,10,"Lymphoblastic (diffuse) lymphoma, intrapelvic lymph nodes",Non-Hodgkin lymphoma
+C8418,10,"Sezary disease, lymph nodes of multiple sites",Mature T/NK-cell lymphomas
+C8472,10,"Anaplastic large cell lymphoma, ALK-negative, intrathoracic lymph nodes",Mature T/NK-cell lymphomas
+C8529,10,"Mediastinal (thymic) large B-cell lymphoma, extranodal and solid organ sites",Other specified and unspecified types of non-Hodgkin lymphoma
+C089,10,"Malignant neoplasm of major salivary gland, unspecified",Malignant neoplasm of other salivary glands
+C142,10,Malignant neoplasm of Waldeyer's ring,Malignant neoplasm of other ill-defined sites
+C252,10,Malignant neoplasm of tail of pancreas,Malignant neoplasm of pancreas
+C441022,10,"Unspecified malignant neoplasm of skin of right lower eyelid, including canthus",Other malignant neoplasms of skin
+C44321,10,Squamous cell carcinoma of skin of nose,Other malignant neoplasms of skin
+C492,10,"Malignant neoplasm of connective and soft tissue of lower limb, including hip",Malignant neoplasm of other connective tissues
+C494,10,Malignant neoplasm of connective and soft tissue of abdomen,Malignant neoplasm of other connective tissues
+C496,10,"Malignant neoplasm of connective and soft tissue of trunk, unspecified",Malignant neoplasm of other connective tissues
+C502,10,Malignant neoplasm of upper-inner quadrant of breast,Breast Cancer
+C5052,10,"Malignant neoplasm of lower-outer quadrant of breast, male",Breast Cancer
+C676,10,Malignant neoplasm of ureteric orifice,Malignant neoplasm of bladder
+C786,10,Secondary malignant neoplasm of retroperitoneum and peritoneum,Secondary malignant neoplasm of respiratory and digestive organs
+C793,10,Secondary malignant neoplasm of brain and cerebral meninges,Secondary malignant neoplasm of other sites
+C798,10,Secondary malignant neoplasm of other specified sites,Secondary malignant neoplasm of other sites
+C8127,10,"Mixed cellularity Hodgkin lymphoma, spleen",Hodgkin lymphoma
+C8143,10,"Lymphocyte-rich Hodgkin lymphoma, intra-abdominal lymph nodes",Hodgkin lymphoma
+C8281,10,"Other types of follicular lymphoma, lymph nodes of head, face, and neck",Non-Hodgkin Lymphoma
+C8378,10,"Burkitt lymphoma, lymph nodes of multiple sites",Non-Hodgkin lymphoma
+C8409,10,"Mycosis fungoides, extranodal and solid organ sites",Mature T/NK-cell lymphomas
+C8515,10,"Unspecified B-cell lymphoma, lymph nodes of inguinal region and lower limb",Other specified and unspecified types of non-Hodgkin lymphoma
+C8598,10,"Non-Hodgkin lymphoma, unspecified, lymph nodes of multiple sites",Other specified and unspecified types of non-Hodgkin lymphoma
+C889,10,"Malignant immunoproliferative disease, unspecified",Malignant immunoproliferative diseases
+C9011,10,Plasma cell leukemia in remission,Multiple myeloma and malignant plasma cell neoplasms
+C9100,10,Acute lymphoblastic leukemia not having achieved remission,Leukemia
+C91A0,10,Mature B-cell leukemia Burkitt-type not having achieved remission,Leukemia
+C9421,10,"Acute megakaryoblastic leukemia, in remission",Other leukemias of specified cell types
+C022,10,Malignant neoplasm of ventral surface of tongue,Head and Neck Cancer
+C155,10,Malignant neoplasm of lower third of esophagus,Gastrointestinal Cancer
+C32,10,Malignant neoplasm of larynx,Malignant neoplasm of larynx
+C384,10,Malignant neoplasm of pleura,"Malignant neoplasm of heart, mediastinum, and pleura"
+C4081,10,Malignant neoplasm of overlapping sites of bone and articular cartilage of right limb,Malignant neoplasm of bone and articular cartilage of limbs
+C433,10,Malignant melanoma of other and unspecified parts of face,Malignant melanoma of skin
+C44509,10,Unspecified malignant neoplasm of skin of other part of trunk,Other malignant neoplasms of skin
+C44591,10,Other specified malignant neoplasm of skin of breast,Other malignant neoplasms of skin
+C4470,10,"Unspecified malignant neoplasm of skin of lower limb, including hip",Other malignant neoplasms of skin
+C4652,10,Kaposi's sarcoma of left lung,Kaposi's sarcoma
+C4A71,10,"Merkel cell carcinoma of right lower limb, including hip",Merkel cell carcinoma
+C50412,10,Malignant neoplasm of upper-outer quadrant of left female breast,Breast Cancer
+C549,10,"Malignant neoplasm of corpus uteri, unspecified",Malignant neoplasm of corpus uteri
+C7640,10,Malignant neoplasm of unspecified upper limb,Malignant neoplasm of other and ill-defined sites
+C775,10,Secondary and unspecified malignant neoplasm of intrapelvic lymph nodes,Secondary and unspecified malignant neoplasm of lymph nodes
+C7981,10,Secondary malignant neoplasm of breast,Secondary malignant neoplasm of other sites
+C8103,10,"Nodular lymphocyte predominant Hodgkin lymphoma, intra-abdominal lymph nodes",Hodgkin lymphoma
+C8241,10,"Follicular lymphoma grade IIIb, lymph nodes of head, face, and neck",Non-Hodgkin Lymphoma
+C8247,10,"Follicular lymphoma grade IIIb, spleen",Non-Hodgkin Lymphoma
+C8251,10,"Diffuse follicle center lymphoma, lymph nodes of head, face, and neck",Non-Hodgkin Lymphoma
+C8268,10,"Cutaneous follicle center lymphoma, lymph nodes of multiple sites",Non-Hodgkin Lymphoma
+C8307,10,"Small cell B-cell lymphoma, spleen",Non-Hodgkin lymphoma
+C8332,10,"Diffuse large B-cell lymphoma, intrathoracic lymph nodes",Non-Hodgkin lymphoma
+C8414,10,"Sezary disease, lymph nodes of axilla and upper limb",Mature T/NK-cell lymphomas
+C8583,10,"Other specified types of non-Hodgkin lymphoma, intra-abdominal lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C8597,10,"Non-Hodgkin lymphoma, unspecified, spleen",Other specified and unspecified types of non-Hodgkin lymphoma
+C9012,10,Plasma cell leukemia in relapse,Multiple myeloma and malignant plasma cell neoplasms
+C9240,10,"Acute promyelocytic leukemia, not having achieved remission",Leukemia
+C9301,10,"Acute monoblastic/monocytic leukemia, in remission",Monocytic leukemia
+C01,10,Malignant neoplasm of base of tongue,Head and Neck Cancer
+C0689,10,Malignant neoplasm of overlapping sites of other parts of mouth,Malignant neoplasm of other parts of mouth
+C228,10,"Malignant neoplasm of liver, primary, unspecified as to type",Malignant neoplasm of liver and intrahepatic bile ducts
+C313,10,Malignant neoplasm of sphenoid sinus,Malignant neoplasm of accessory sinuses
+C4082,10,Malignant neoplasm of overlapping sites of bone and articular cartilage of left limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4310,10,"Malignant melanoma of unspecified eyelid, including canthus",Malignant melanoma of skin
+C4352,10,Malignant melanoma of skin of breast,Malignant melanoma of skin
+C441,10,"Other and unspecified malignant neoplasm of skin of eyelid, including canthus",Other malignant neoplasms of skin
+C4A8,10,Merkel cell carcinoma of overlapping sites,Merkel cell carcinoma
+C50519,10,Malignant neoplasm of lower-outer quadrant of unspecified female breast,Breast Cancer
+C50629,10,Malignant neoplasm of axillary tail of unspecified male breast,Breast Cancer
+C5092,10,"Malignant neoplasm of breast of unspecified site, male",Breast Cancer
+C518,10,Malignant neoplasm of overlapping sites of vulva,Malignant neoplasm of vulva
+C6290,10,"Malignant neoplasm of unspecified testis, unspecified whether descended or undescended",Malignant neoplasm of testis
+C7491,10,Malignant neoplasm of unspecified part of right adrenal gland,Malignant neoplasm of adrenal gland
+C750,10,Malignant neoplasm of parathyroid gland,Malignant neoplasm of other endocrine glands
+C7A011,10,Malignant carcinoid tumor of the jejunum,Malignant neuroendocrine tumors
+C7A024,10,Malignant carcinoid tumor of the descending colon,Malignant neuroendocrine tumors
+C814,10,Lymphocyte-rich Hodgkin lymphoma,Hodgkin lymphoma
+C8220,10,"Follicular lymphoma grade III, unspecified, unspecified site",Non-Hodgkin Lymphoma
+C8286,10,"Other types of follicular lymphoma, intrapelvic lymph nodes",Non-Hodgkin Lymphoma
+C8295,10,"Follicular lymphoma, unspecified, lymph nodes of inguinal region and lower limb",Non-Hodgkin Lymphoma
+C8462,10,"Anaplastic large cell lymphoma, ALK-positive, intrathoracic lymph nodes",Mature T/NK-cell lymphomas
+C8493,10,"Mature T/NK-cell lymphomas, unspecified, intra-abdominal lymph nodes",Mature T/NK-cell lymphomas
+C861,10,Hepatosplenic T-cell lymphoma,Other specified types of T/NK-cell lymphoma
+C9111,10,Chronic lymphocytic leukemia of B-cell type in remission,Leukemia
+C9112,10,Chronic lymphocytic leukemia of B-cell type in relapse,Leukemia
+C91Z,10,Other lymphoid leukemia,Leukemia
+C93Z1,10,"Other monocytic leukemia, in remission",Monocytic leukemia
+C9440,10,Acute panmyelosis with myelofibrosis not having achieved remission,Other leukemias of specified cell types
+C40,10,Malignant neoplasm of bone and articular cartilage of limbs,Malignant neoplasm of bone and articular cartilage of limbs
+C441392,10,"Sebaceous cell carcinoma of skin of left lower eyelid, including canthus",Other malignant neoplasms of skin
+C47,10,Malignant neoplasm of peripheral nerves and autonomic nervous system,Malignant neoplasm of peripheral nerves
+C4712,10,"Malignant neoplasm of peripheral nerves of left upper limb, including shoulder",Malignant neoplasm of peripheral nerves
+C4912,10,"Malignant neoplasm of connective and soft tissue of left upper limb, including shoulder",Malignant neoplasm of other connective tissues
+C50611,10,Malignant neoplasm of axillary tail of right female breast,Breast Cancer
+C510,10,Malignant neoplasm of labium majus,Malignant neoplasm of vulva
+C5721,10,Malignant neoplasm of right round ligament,Malignant neoplasm of other female genital organs
+C631,10,Malignant neoplasm of spermatic cord,Malignant neoplasm of other male genital organs
+C661,10,Malignant neoplasm of right ureter,Malignant neoplasm of ureter
+C753,10,Malignant neoplasm of pineal gland,Malignant neoplasm of other endocrine glands
+C772,10,Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes,Secondary and unspecified malignant neoplasm of lymph nodes
+C782,10,Secondary malignant neoplasm of pleura,Secondary malignant neoplasm of respiratory and digestive organs
+C7A025,10,Malignant carcinoid tumor of the sigmoid colon,Malignant neuroendocrine tumors
+C81,10,Hodgkin lymphoma,Hodgkin lymphoma
+C8215,10,"Follicular lymphoma grade II, lymph nodes of inguinal region and lower limb",Non-Hodgkin Lymphoma
+C8223,10,"Follicular lymphoma grade III, unspecified, intra-abdominal lymph nodes",Non-Hodgkin Lymphoma
+C8330,10,"Diffuse large B-cell lymphoma, unspecified site",Non-Hodgkin lymphoma
+C8399,10,"Non-follicular (diffuse) lymphoma, unspecified, extranodal and solid organ sites",Non-Hodgkin lymphoma
+C8447,10,"Peripheral T-cell lymphoma, not classified, spleen",Mature T/NK-cell lymphomas
+C84A1,10,"Cutaneous T-cell lymphoma, unspecified lymph nodes of head, face, and neck",Mature T/NK-cell lymphomas
+C866,10,Primary cutaneous CD30-positive T-cell proliferations,Other specified types of T/NK-cell lymphoma
+C926,10,Acute myeloid leukemia with 11q23-abnormality,Leukemia
+C9501,10,"Acute leukemia of unspecified cell type, in remission",Leukemia of unspecified cell type
+C9621,10,Aggressive systemic mastocytosis,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C18,10,Malignant neoplasm of colon,Gastrointestinal Cancer
+C321,10,Malignant neoplasm of supraglottis,Malignant neoplasm of larynx
+C341,10,"Malignant neoplasm of upper lobe, bronchus or lung",Malignant neoplasm of bronchus and lung
+C3411,10,"Malignant neoplasm of upper lobe, right bronchus or lung",Malignant neoplasm of bronchus and lung
+C441122,10,"Basal cell carcinoma of skin of right lower eyelid, including canthus",Other malignant neoplasms of skin
+C44132,10,"Sebaceous cell carcinoma of skin of right eyelid, including canthus",Other malignant neoplasms of skin
+C4420,10,Unspecified malignant neoplasm of skin of ear and external auricular canal,Other malignant neoplasms of skin
+C44500,10,Unspecified malignant neoplasm of anal skin,Other malignant neoplasms of skin
+C4710,10,"Malignant neoplasm of peripheral nerves of unspecified upper limb, including shoulder",Malignant neoplasm of peripheral nerves
+C512,10,Malignant neoplasm of clitoris,Malignant neoplasm of vulva
+C539,10,"Malignant neoplasm of cervix uteri, unspecified",Malignant neoplasm of cervix uteri
+C579,10,"Malignant neoplasm of female genital organ, unspecified",Malignant neoplasm of other female genital organs
+C642,10,"Malignant neoplasm of left kidney, except renal pelvis",Urinary Tract Cancer
+C669,10,Malignant neoplasm of unspecified ureter,Malignant neoplasm of ureter
+C670,10,Malignant neoplasm of trigone of bladder,Malignant neoplasm of bladder
+C718,10,Malignant neoplasm of overlapping sites of brain,Malignant neoplasm of brain
+C74,10,Malignant neoplasm of adrenal gland,Malignant neoplasm of adrenal gland
+C784,10,Secondary malignant neoplasm of small intestine,Secondary malignant neoplasm of respiratory and digestive organs
+C7902,10,Secondary malignant neoplasm of left kidney and renal pelvis,Secondary malignant neoplasm of other sites
+C8112,10,"Nodular sclerosis Hodgkin lymphoma, intrathoracic lymph nodes",Hodgkin lymphoma
+C8113,10,"Nodular sclerosis Hodgkin lymphoma, intra-abdominal lymph nodes",Hodgkin lymphoma
+C8211,10,"Follicular lymphoma grade II, lymph nodes of head, face, and neck",Non-Hodgkin Lymphoma
+C8219,10,"Follicular lymphoma grade II, extranodal and solid organ sites",Non-Hodgkin Lymphoma
+C8311,10,"Mantle cell lymphoma, lymph nodes of head, face, and neck",Non-Hodgkin lymphoma
+C8312,10,"Mantle cell lymphoma, intrathoracic lymph nodes",Non-Hodgkin lymphoma
+C8406,10,"Mycosis fungoides, intrapelvic lymph nodes",Mature T/NK-cell lymphomas
+C84Z,10,Other mature T/NK-cell lymphomas,Mature T/NK-cell lymphomas
+C9242,10,"Acute promyelocytic leukemia, in relapse",Leukemia
+C9592,10,"Leukemia, unspecified, in relapse",Leukemia of unspecified cell type
+C008,10,Malignant neoplasm of overlapping sites of lip,Head and Neck Cancer
+C158,10,Malignant neoplasm of overlapping sites of esophagus,Gastrointestinal Cancer
+C169,10,"Malignant neoplasm of stomach, unspecified",Gastrointestinal Cancer
+C257,10,Malignant neoplasm of other parts of pancreas,Malignant neoplasm of pancreas
+C3492,10,Malignant neoplasm of unspecified part of left bronchus or lung,Malignant neoplasm of bronchus and lung
+C4320,10,Malignant melanoma of unspecified ear and external auricular canal,Malignant melanoma of skin
+C4411,10,"Basal cell carcinoma of skin of eyelid, including canthus",Other malignant neoplasms of skin
+C441192,10,"Basal cell carcinoma of skin of left lower eyelid, including canthus",Other malignant neoplasms of skin
+C44310,10,Basal cell carcinoma of skin of unspecified parts of face,Other malignant neoplasms of skin
+C44599,10,Other specified malignant neoplasm of skin of other part of trunk,Other malignant neoplasms of skin
+C498,10,Malignant neoplasm of overlapping sites of connective and soft tissue,Malignant neoplasm of other connective tissues
+C50012,10,"Malignant neoplasm of nipple and areola, left female breast",Breast Cancer
+C6212,10,Malignant neoplasm of descended left testis,Malignant neoplasm of testis
+C7931,10,Secondary malignant neoplasm of brain,Secondary malignant neoplasm of other sites
+C7960,10,Secondary malignant neoplasm of unspecified ovary,Secondary malignant neoplasm of other sites
+C7A023,10,Malignant carcinoid tumor of the transverse colon,Malignant neuroendocrine tumors
+C7B,10,Secondary neuroendocrine tumors,Secondary neuroendocrine tumors
+C8129,10,"Mixed cellularity Hodgkin lymphoma, extranodal and solid organ sites",Hodgkin lymphoma
+C8232,10,"Follicular lymphoma grade IIIa, intrathoracic lymph nodes",Non-Hodgkin Lymphoma
+C8267,10,"Cutaneous follicle center lymphoma, spleen",Non-Hodgkin Lymphoma
+C8269,10,"Cutaneous follicle center lymphoma, extranodal and solid organ sites",Non-Hodgkin Lymphoma
+C8287,10,"Other types of follicular lymphoma, spleen",Non-Hodgkin Lymphoma
+C8300,10,"Small cell B-cell lymphoma, unspecified site",Non-Hodgkin lymphoma
+C8333,10,"Diffuse large B-cell lymphoma, intra-abdominal lymph nodes",Non-Hodgkin lymphoma
+C8389,10,"Other non-follicular lymphoma, extranodal and solid organ sites",Non-Hodgkin lymphoma
+C8469,10,"Anaplastic large cell lymphoma, ALK-positive, extranodal and solid organ sites",Mature T/NK-cell lymphomas
+C911,10,Chronic lymphocytic leukemia of B-cell type,Leukemia
+C048,10,Malignant neoplasm of overlapping sites of floor of mouth,Malignant neoplasm of floor of mouth
+C10,10,Malignant neoplasm of oropharynx,Malignant neoplasm of oropharynx
+C104,10,Malignant neoplasm of branchial cleft,Malignant neoplasm of oropharynx
+C140,10,"Malignant neoplasm of pharynx, unspecified",Malignant neoplasm of other ill-defined sites
+C399,10,"Malignant neoplasm of lower respiratory tract, part unspecified",Malignant neoplasm of other respiratory organs
+C401,10,Malignant neoplasm of short bones of upper limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4030,10,Malignant neoplasm of short bones of unspecified lower limb,Malignant neoplasm of bone and articular cartilage of limbs
+C43121,10,"Malignant melanoma of left upper eyelid, including canthus",Malignant melanoma of skin
+C44521,10,Squamous cell carcinoma of skin of breast,Other malignant neoplasms of skin
+C4480,10,Unspecified malignant neoplasm of overlapping sites of skin,Other malignant neoplasms of skin
+C460,10,Kaposi's sarcoma of skin,Kaposi's sarcoma
+C689,10,"Malignant neoplasm of urinary organ, unspecified",Malignant neoplasm of other urinary organs
+C692,10,Malignant neoplasm of retina,Malignant neoplasm of eye and adnexa
+C698,10,Malignant neoplasm of overlapping sites of eye and adnexa,Malignant neoplasm of eye and adnexa
+C7490,10,Malignant neoplasm of unspecified part of unspecified adrenal gland,Malignant neoplasm of adrenal gland
+C771,10,Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes,Secondary and unspecified malignant neoplasm of lymph nodes
+C8100,10,"Nodular lymphocyte predominant Hodgkin lymphoma, unspecified site",Hodgkin lymphoma
+C8354,10,"Lymphoblastic (diffuse) lymphoma, lymph nodes of axilla and upper limb",Non-Hodgkin lymphoma
+C8383,10,"Other non-follicular lymphoma, intra-abdominal lymph nodes",Non-Hodgkin lymphoma
+C8384,10,"Other non-follicular lymphoma, lymph nodes of axilla and upper limb",Non-Hodgkin lymphoma
+C8477,10,"Anaplastic large cell lymphoma, ALK-negative, spleen",Mature T/NK-cell lymphomas
+C84A0,10,"Cutaneous T-cell lymphoma, unspecified, unspecified site",Mature T/NK-cell lymphomas
+C851,10,Unspecified B-cell lymphoma,Other specified and unspecified types of non-Hodgkin lymphoma
+C8589,10,"Other specified types of non-Hodgkin lymphoma, extranodal and solid organ sites",Other specified and unspecified types of non-Hodgkin lymphoma
+C9191,10,"Lymphoid leukemia, unspecified, in remission",Leukemia
+C9391,10,"Monocytic leukemia, unspecified in remission",Monocytic leukemia
+C060,10,Malignant neoplasm of cheek mucosa,Malignant neoplasm of other parts of mouth
+C112,10,Malignant neoplasm of lateral wall of nasopharynx,Malignant neoplasm of nasopharynx
+C343,10,"Malignant neoplasm of lower lobe, bronchus or lung",Malignant neoplasm of bronchus and lung
+C436,10,"Malignant melanoma of upper limb, including shoulder",Malignant melanoma of skin
+C44211,10,Basal cell carcinoma of skin of unspecified ear and external auricular canal,Other malignant neoplasms of skin
+C4440,10,Unspecified malignant neoplasm of skin of scalp and neck,Other malignant neoplasms of skin
+C4449,10,Other specified malignant neoplasm of skin of scalp and neck,Other malignant neoplasms of skin
+C4720,10,"Malignant neoplasm of peripheral nerves of unspecified lower limb, including hip",Malignant neoplasm of peripheral nerves
+C50211,10,Malignant neoplasm of upper-inner quadrant of right female breast,Breast Cancer
+C50312,10,Malignant neoplasm of lower-inner quadrant of left female breast,Breast Cancer
+C50529,10,Malignant neoplasm of lower-outer quadrant of unspecified male breast,Breast Cancer
+C50619,10,Malignant neoplasm of axillary tail of unspecified female breast,Breast Cancer
+C57,10,Malignant neoplasm of other and unspecified female genital organs,Malignant neoplasm of other female genital organs
+C715,10,Malignant neoplasm of cerebral ventricle,Malignant neoplasm of brain
+C7241,10,Malignant neoplasm of right acoustic nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C7250,10,Malignant neoplasm of unspecified cranial nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C8132,10,"Lymphocyte depleted Hodgkin lymphoma, intrathoracic lymph nodes",Hodgkin lymphoma
+C8133,10,"Lymphocyte depleted Hodgkin lymphoma, intra-abdominal lymph nodes",Hodgkin lymphoma
+C8135,10,"Lymphocyte depleted Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",Hodgkin lymphoma
+C8199,10,"Hodgkin lymphoma, unspecified, extranodal and solid organ sites",Hodgkin lymphoma
+C8261,10,"Cutaneous follicle center lymphoma, lymph nodes of head, face, and neck",Non-Hodgkin Lymphoma
+C8355,10,"Lymphoblastic (diffuse) lymphoma, lymph nodes of inguinal region and lower limb",Non-Hodgkin lymphoma
+C8398,10,"Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of multiple sites",Non-Hodgkin lymphoma
+C844,10,"Peripheral T-cell lymphoma, not classified",Mature T/NK-cell lymphomas
+C8464,10,"Anaplastic large cell lymphoma, ALK-positive, lymph nodes of axilla and upper limb",Mature T/NK-cell lymphomas
+C860,10,"Extranodal NK/T-cell lymphoma, nasal type",Other specified types of T/NK-cell lymphoma
+C91Z1,10,"Other lymphoid leukemia, in remission",Leukemia
+C92A,10,Acute myeloid leukemia with multilineage dysplasia,Leukemia
+C939,10,"Monocytic leukemia, unspecified",Monocytic leukemia
+C93Z0,10,"Other monocytic leukemia, not having achieved remission",Monocytic leukemia
+C9430,10,Mast cell leukemia not having achieved remission,Other leukemias of specified cell types
+C946,10,"Myelodysplastic disease, not classified",Other leukemias of specified cell types
+C02,10,Malignant neoplasm of other and unspecified parts of tongue,Head and Neck Cancer
+C111,10,Malignant neoplasm of posterior wall of nasopharynx,Malignant neoplasm of nasopharynx
+C119,10,"Malignant neoplasm of nasopharynx, unspecified",Malignant neoplasm of nasopharynx
+C24,10,Malignant neoplasm of other and unspecified parts of biliary tract,Malignant neoplasm of other and unspecified parts of biliary tract
+C254,10,Malignant neoplasm of endocrine pancreas,Malignant neoplasm of pancreas
+C409,10,Malignant neoplasm of unspecified bones and articular cartilage of limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4452,10,Squamous cell carcinoma of skin of trunk,Other malignant neoplasms of skin
+C44611,10,"Basal cell carcinoma of skin of unspecified upper limb, including shoulder",Other malignant neoplasms of skin
+C457,10,Mesothelioma of other sites,Mesothelioma
+C469,10,"Kaposi's sarcoma, unspecified",Kaposi's sarcoma
+C480,10,Malignant neoplasm of retroperitoneum,Malignant neoplasm of retroperitoneum and peritoneum
+C491,10,"Malignant neoplasm of connective and soft tissue of upper limb, including shoulder",Malignant neoplasm of other connective tissues
+C4A,10,Merkel cell carcinoma,Merkel cell carcinoma
+C50022,10,"Malignant neoplasm of nipple and areola, left male breast",Breast Cancer
+C5022,10,"Malignant neoplasm of upper-inner quadrant of breast, male",Breast Cancer
+C531,10,Malignant neoplasm of exocervix,Malignant neoplasm of cervix uteri
+C55,10,"Malignant neoplasm of uterus, part unspecified","Malignant neoplasm of uterus, part unspecified"
+C637,10,Malignant neoplasm of other specified male genital organs,Malignant neoplasm of other male genital organs
+C724,10,Malignant neoplasm of acoustic nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C797,10,Secondary malignant neoplasm of adrenal gland,Secondary malignant neoplasm of other sites
+C8446,10,"Peripheral T-cell lymphoma, not classified, intrapelvic lymph nodes",Mature T/NK-cell lymphomas
+C8586,10,"Other specified types of non-Hodgkin lymphoma, intrapelvic lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C88,10,Malignant immunoproliferative diseases and certain other B-cell lymphomas,Malignant immunoproliferative diseases
+C92Z0,10,Other myeloid leukemia not having achieved remission,Leukemia
+C962,10,Malignant mast cell neoplasm,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C005,10,"Malignant neoplasm of lip, unspecified, inner aspect",Head and Neck Cancer
+C148,10,"Malignant neoplasm of overlapping sites of lip, oral cavity and pharynx",Malignant neoplasm of other ill-defined sites
+C210,10,"Malignant neoplasm of anus, unspecified",Malignant neoplasm of anus and anal canal
+C227,10,Other specified carcinomas of liver,Malignant neoplasm of liver and intrahepatic bile ducts
+C441121,10,"Basal cell carcinoma of skin of right upper eyelid, including canthus",Other malignant neoplasms of skin
+C44301,10,Unspecified malignant neoplasm of skin of nose,Other malignant neoplasms of skin
+C4722,10,"Malignant neoplasm of peripheral nerves of left lower limb, including hip",Malignant neoplasm of peripheral nerves
+C4A52,10,Merkel cell carcinoma of skin of breast,Merkel cell carcinoma
+C4A59,10,Merkel cell carcinoma of other part of trunk,Merkel cell carcinoma
+C503,10,Malignant neoplasm of lower-inner quadrant of breast,Breast Cancer
+C5091,10,"Malignant neoplasm of breast of unspecified site, female",Breast Cancer
+C51,10,Malignant neoplasm of vulva,Malignant neoplasm of vulva
+C577,10,Malignant neoplasm of other specified female genital organs,Malignant neoplasm of other female genital organs
+C58,10,Malignant neoplasm of placenta,Malignant neoplasm of placenta
+C6202,10,Malignant neoplasm of undescended left testis,Malignant neoplasm of testis
+C6312,10,Malignant neoplasm of left spermatic cord,Malignant neoplasm of other male genital organs
+C66,10,Malignant neoplasm of ureter,Malignant neoplasm of ureter
+C6912,10,Malignant neoplasm of left cornea,Malignant neoplasm of eye and adnexa
+C6990,10,Malignant neoplasm of unspecified site of unspecified eye,Malignant neoplasm of eye and adnexa
+C701,10,Malignant neoplasm of spinal meninges,Malignant neoplasm of meninges
+C770,10,"Secondary and unspecified malignant neoplasm of lymph nodes of head, face and neck",Secondary and unspecified malignant neoplasm of lymph nodes
+C7961,10,Secondary malignant neoplasm of right ovary,Secondary malignant neoplasm of other sites
+C8137,10,"Lymphocyte depleted Hodgkin lymphoma, spleen",Hodgkin lymphoma
+C8236,10,"Follicular lymphoma grade IIIa, intrapelvic lymph nodes",Non-Hodgkin Lymphoma
+C8288,10,"Other types of follicular lymphoma, lymph nodes of multiple sites",Non-Hodgkin Lymphoma
+C8478,10,"Anaplastic large cell lymphoma, ALK-negative, lymph nodes of multiple sites",Mature T/NK-cell lymphomas
+C84A9,10,"Cutaneous T-cell lymphoma, unspecified, extranodal and solid organ sites",Mature T/NK-cell lymphomas
+C8517,10,"Unspecified B-cell lymphoma, spleen",Other specified and unspecified types of non-Hodgkin lymphoma
+C9331,10,"Juvenile myelomonocytic leukemia, in remission",Monocytic leukemia
+C944,10,Acute panmyelosis with myelofibrosis,Other leukemias of specified cell types
+C9622,10,Mast cell sarcoma,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C131,10,"Malignant neoplasm of aryepiglottic fold, hypopharyngeal aspect",Malignant neoplasm of hypopharynx
+C182,10,Malignant neoplasm of ascending colon,Gastrointestinal Cancer
+C25,10,Malignant neoplasm of pancreas,Malignant neoplasm of pancreas
+C400,10,Malignant neoplasm of scapula and long bones of upper limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4032,10,Malignant neoplasm of short bones of left lower limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4311,10,"Malignant melanoma of right eyelid, including canthus",Malignant melanoma of skin
+C441322,10,"Sebaceous cell carcinoma of skin of right lower eyelid, including canthus",Other malignant neoplasms of skin
+C44300,10,Unspecified malignant neoplasm of skin of unspecified part of face,Other malignant neoplasms of skin
+C4431,10,Basal cell carcinoma of skin of other and unspecified parts of face,Other malignant neoplasms of skin
+C45,10,Mesothelioma,Mesothelioma
+C4911,10,"Malignant neoplasm of connective and soft tissue of right upper limb, including shoulder",Malignant neoplasm of other connective tissues
+C4A6,10,"Merkel cell carcinoma of upper limb, including shoulder",Merkel cell carcinoma
+C4A60,10,"Merkel cell carcinoma of unspecified upper limb, including shoulder",Merkel cell carcinoma
+C50,10,Malignant neoplasm of breast,Breast Cancer
+C50121,10,Malignant neoplasm of central portion of right male breast,Breast Cancer
+C50122,10,Malignant neoplasm of central portion of left male breast,Breast Cancer
+C50521,10,Malignant neoplasm of lower-outer quadrant of right male breast,Breast Cancer
+C508,10,Malignant neoplasm of overlapping sites of breast,Breast Cancer
+C5082,10,"Malignant neoplasm of overlapping sites of breast, male",Breast Cancer
+C52,10,Malignant neoplasm of vagina,Malignant neoplasm of vagina
+C740,10,Malignant neoplasm of cortex of adrenal gland,Malignant neoplasm of adrenal gland
+C799,10,Secondary malignant neoplasm of unspecified site,Secondary malignant neoplasm of other sites
+C7A022,10,Malignant carcinoid tumor of the ascending colon,Malignant neuroendocrine tumors
+C7A093,10,Malignant carcinoid tumor of the kidney,Malignant neuroendocrine tumors
+C8106,10,"Nodular lymphocyte predominant Hodgkin lymphoma, intrapelvic lymph nodes",Hodgkin lymphoma
+C8131,10,"Lymphocyte depleted Hodgkin lymphoma, lymph nodes of head, face, and neck",Hodgkin lymphoma
+C830,10,Small cell B-cell lymphoma,Non-Hodgkin lymphoma
+C8306,10,"Small cell B-cell lymphoma, intrapelvic lymph nodes",Non-Hodgkin lymphoma
+C8471,10,"Anaplastic large cell lymphoma, ALK-negative, lymph nodes of head, face, and neck",Mature T/NK-cell lymphomas
+C863,10,Subcutaneous panniculitis-like T-cell lymphoma,Other specified types of T/NK-cell lymphoma
+C884,10,Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma],Malignant immunoproliferative diseases
+C91A,10,Mature B-cell leukemia Burkitt-type,Leukemia
+C9511,10,"Chronic leukemia of unspecified cell type, in remission",Leukemia of unspecified cell type
+C965,10,Multifocal and unisystemic Langerhans-cell histiocytosis,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C040,10,Malignant neoplasm of anterior floor of mouth,Malignant neoplasm of floor of mouth
+C109,10,"Malignant neoplasm of oropharynx, unspecified",Malignant neoplasm of oropharynx
+C153,10,Malignant neoplasm of upper third of esophagus,Gastrointestinal Cancer
+C318,10,Malignant neoplasm of overlapping sites of accessory sinuses,Malignant neoplasm of accessory sinuses
+C4A21,10,Merkel cell carcinoma of right ear and external auricular canal,Merkel cell carcinoma
+C56,10,Malignant neoplasm of ovary,Malignant neoplasm of ovary
+C6931,10,Malignant neoplasm of right choroid,Malignant neoplasm of eye and adnexa
+C7222,10,Malignant neoplasm of left olfactory nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C7A020,10,Malignant carcinoid tumor of the appendix,Malignant neuroendocrine tumors
+C8126,10,"Mixed cellularity Hodgkin lymphoma, intrapelvic lymph nodes",Hodgkin lymphoma
+C8373,10,"Burkitt lymphoma, intra-abdominal lymph nodes",Non-Hodgkin lymphoma
+C8473,10,"Anaplastic large cell lymphoma, ALK-negative, intra-abdominal lymph nodes",Mature T/NK-cell lymphomas
+C84Z7,10,"Other mature T/NK-cell lymphomas, spleen",Mature T/NK-cell lymphomas
+C8582,10,"Other specified types of non-Hodgkin lymphoma, intrathoracic lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C8590,10,"Non-Hodgkin lymphoma, unspecified, unspecified site",Other specified and unspecified types of non-Hodgkin lymphoma
+C9132,10,"Prolymphocytic leukemia of B-cell type, in relapse",Leukemia
+C91Z2,10,"Other lymphoid leukemia, in relapse",Leukemia
+C920,10,Acute myeloblastic leukemia,Leukemia
+C9200,10,"Acute myeloblastic leukemia, not having achieved remission",Leukemia
+C921,10,"Chronic myeloid leukemia, BCR/ABL-positive",Leukemia
+C9230,10,"Myeloid sarcoma, not having achieved remission",Leukemia
+C9241,10,"Acute promyelocytic leukemia, in remission",Leukemia
+C9481,10,"Other specified leukemias, in remission",Other leukemias of specified cell types
+C969,10,"Malignant neoplasm of lymphoid, hematopoietic and related tissue, unspecified","Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C221,10,Intrahepatic bile duct carcinoma,Malignant neoplasm of liver and intrahepatic bile ducts
+C380,10,Malignant neoplasm of heart,"Malignant neoplasm of heart, mediastinum, and pleura"
+C382,10,Malignant neoplasm of posterior mediastinum,"Malignant neoplasm of heart, mediastinum, and pleura"
+C402,10,Malignant neoplasm of long bones of lower limb,Malignant neoplasm of bone and articular cartilage of limbs
+C411,10,Malignant neoplasm of mandible,Malignant neoplasm of bone and articular cartilage of other sites
+C4400,10,Unspecified malignant neoplasm of skin of lip,Other malignant neoplasms of skin
+C44309,10,Unspecified malignant neoplasm of skin of other parts of face,Other malignant neoplasms of skin
+C44510,10,Basal cell carcinoma of anal skin,Other malignant neoplasms of skin
+C44519,10,Basal cell carcinoma of skin of other part of trunk,Other malignant neoplasms of skin
+C446,10,"Other and unspecified malignant neoplasm of skin of upper limb, including shoulder",Other malignant neoplasms of skin
+C44609,10,"Unspecified malignant neoplasm of skin of left upper limb, including shoulder",Other malignant neoplasms of skin
+C4469,10,"Other specified malignant neoplasm of skin of upper limb, including shoulder",Other malignant neoplasms of skin
+C46,10,Kaposi's sarcoma,Kaposi's sarcoma
+C482,10,"Malignant neoplasm of peritoneum, unspecified",Malignant neoplasm of retroperitoneum and peritoneum
+C4910,10,"Malignant neoplasm of connective and soft tissue of unspecified upper limb, including shoulder",Malignant neoplasm of other connective tissues
+C50511,10,Malignant neoplasm of lower-outer quadrant of right female breast,Breast Cancer
+C572,10,Malignant neoplasm of round ligament,Malignant neoplasm of other female genital organs
+C629,10,"Malignant neoplasm of testis, unspecified whether descended or undescended",Malignant neoplasm of testis
+C6942,10,Malignant neoplasm of left ciliary body,Malignant neoplasm of eye and adnexa
+C696,10,Malignant neoplasm of orbit,Malignant neoplasm of eye and adnexa
+C699,10,Malignant neoplasm of unspecified site of eye,Malignant neoplasm of eye and adnexa
+C7221,10,Malignant neoplasm of right olfactory nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C758,10,"Malignant neoplasm with pluriglandular involvement, unspecified",Malignant neoplasm of other endocrine glands
+C78,10,Secondary malignant neoplasm of respiratory and digestive organs,Secondary malignant neoplasm of respiratory and digestive organs
+C8114,10,"Nodular sclerosis Hodgkin lymphoma, lymph nodes of axilla and upper limb",Hodgkin lymphoma
+C8235,10,"Follicular lymphoma grade IIIa, lymph nodes of inguinal region and lower limb",Non-Hodgkin Lymphoma
+C8244,10,"Follicular lymphoma grade IIIb, lymph nodes of axilla and upper limb",Non-Hodgkin Lymphoma
+C8289,10,"Other types of follicular lymphoma, extranodal and solid organ sites",Non-Hodgkin Lymphoma
+C8337,10,"Diffuse large B-cell lymphoma, spleen",Non-Hodgkin lymphoma
+C8374,10,"Burkitt lymphoma, lymph nodes of axilla and upper limb",Non-Hodgkin lymphoma
+C9231,10,"Myeloid sarcoma, in remission",Leukemia
+C9261,10,Acute myeloid leukemia with 11q23-abnormality in remission,Leukemia
+C9330,10,"Juvenile myelomonocytic leukemia, not having achieved remission",Monocytic leukemia
+C960,10,Multifocal and multisystemic (disseminated) Langerhans-cell histiocytosis,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C062,10,Malignant neoplasm of retromolar area,Malignant neoplasm of other parts of mouth
+C07,10,Malignant neoplasm of parotid gland,Malignant neoplasm of parotid gland
+C102,10,Malignant neoplasm of lateral wall of oropharynx,Malignant neoplasm of oropharynx
+C188,10,Malignant neoplasm of overlapping sites of colon,Gastrointestinal Cancer
+C44702,10,"Unspecified malignant neoplasm of skin of right lower limb, including hip",Other malignant neoplasms of skin
+C4920,10,"Malignant neoplasm of connective and soft tissue of unspecified lower limb, including hip",Malignant neoplasm of other connective tissues
+C49A9,10,Gastrointestinal stromal tumor of other sites,Malignant neoplasm of other connective tissues
+C4A12,10,"Merkel cell carcinoma of left eyelid, including canthus",Merkel cell carcinoma
+C50119,10,Malignant neoplasm of central portion of unspecified female breast,Breast Cancer
+C530,10,Malignant neoplasm of endocervix,Malignant neoplasm of cervix uteri
+C602,10,Malignant neoplasm of body of penis,Malignant neoplasm of penis
+C6951,10,Malignant neoplasm of right lacrimal gland and duct,Malignant neoplasm of eye and adnexa
+C765,10,Malignant neoplasm of lower limb,Malignant neoplasm of other and ill-defined sites
+C7839,10,Secondary malignant neoplasm of other respiratory organs,Secondary malignant neoplasm of respiratory and digestive organs
+C787,10,Secondary malignant neoplasm of liver and intrahepatic bile duct,Secondary malignant neoplasm of respiratory and digestive organs
+C7A00,10,Malignant carcinoid tumor of unspecified site,Malignant neuroendocrine tumors
+C7B1,10,Secondary Merkel cell carcinoma,Secondary neuroendocrine tumors
+C8171,10,"Other Hodgkin lymphoma, lymph nodes of head, face, and neck",Hodgkin lymphoma
+C8195,10,"Hodgkin lymphoma, unspecified, lymph nodes of inguinal region and lower limb",Hodgkin lymphoma
+C8204,10,"Follicular lymphoma grade I, lymph nodes of axilla and upper limb",Non-Hodgkin Lymphoma
+C8237,10,"Follicular lymphoma grade IIIa, spleen",Non-Hodgkin Lymphoma
+C8303,10,"Small cell B-cell lymphoma, intra-abdominal lymph nodes",Non-Hodgkin lymphoma
+C8331,10,"Diffuse large B-cell lymphoma, lymph nodes of head, face, and neck",Non-Hodgkin lymphoma
+C8376,10,"Burkitt lymphoma, intrapelvic lymph nodes",Non-Hodgkin lymphoma
+C8387,10,"Other non-follicular lymphoma, spleen",Non-Hodgkin lymphoma
+C8395,10,"Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of inguinal region and lower limb",Non-Hodgkin lymphoma
+C9002,10,Multiple myeloma in relapse,Multiple myeloma and malignant plasma cell neoplasms
+C179,10,"Malignant neoplasm of small intestine, unspecified",Malignant neoplasm of small intestine
+C22,10,Malignant neoplasm of liver and intrahepatic bile ducts,Malignant neoplasm of liver and intrahepatic bile ducts
+C224,10,Other sarcomas of liver,Malignant neoplasm of liver and intrahepatic bile ducts
+C3412,10,"Malignant neoplasm of upper lobe, left bronchus or lung",Malignant neoplasm of bronchus and lung
+C4413,10,"Sebaceous cell carcinoma of skin of eyelid, including canthus",Other malignant neoplasms of skin
+C44192,10,"Other specified malignant neoplasm of skin of right eyelid, including canthus",Other malignant neoplasms of skin
+C44621,10,"Squamous cell carcinoma of skin of unspecified upper limb, including shoulder",Other malignant neoplasms of skin
+C4491,10,"Basal cell carcinoma of skin, unspecified",Other malignant neoplasms of skin
+C50812,10,Malignant neoplasm of overlapping sites of left female breast,Breast Cancer
+C5712,10,Malignant neoplasm of left broad ligament,Malignant neoplasm of other female genital organs
+C6311,10,Malignant neoplasm of right spermatic cord,Malignant neoplasm of other male genital organs
+C64,10,"Malignant neoplasm of kidney, except renal pelvis",Urinary Tract Cancer
+C679,10,"Malignant neoplasm of bladder, unspecified",Malignant neoplasm of bladder
+C68,10,Malignant neoplasm of other and unspecified urinary organs,Malignant neoplasm of other urinary organs
+C690,10,Malignant neoplasm of conjunctiva,Malignant neoplasm of eye and adnexa
+C709,10,"Malignant neoplasm of meninges, unspecified",Malignant neoplasm of meninges
+C7259,10,Malignant neoplasm of other cranial nerves,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C778,10,Secondary and unspecified malignant neoplasm of lymph nodes of multiple regions,Secondary and unspecified malignant neoplasm of lymph nodes
+C8118,10,"Nodular sclerosis Hodgkin lymphoma, lymph nodes of multiple sites",Hodgkin lymphoma
+C8140,10,"Lymphocyte-rich Hodgkin lymphoma, unspecified site",Hodgkin lymphoma
+C82,10,Follicular lymphoma,Non-Hodgkin Lymphoma
+C8214,10,"Follicular lymphoma grade II, lymph nodes of axilla and upper limb",Non-Hodgkin Lymphoma
+C8403,10,"Mycosis fungoides, intra-abdominal lymph nodes",Mature T/NK-cell lymphomas
+C8511,10,"Unspecified B-cell lymphoma, lymph nodes of head, face, and neck",Other specified and unspecified types of non-Hodgkin lymphoma
+C924,10,Acute promyelocytic leukemia,Leukemia
+C9250,10,"Acute myelomonocytic leukemia, not having achieved remission",Leukemia
+C930,10,Acute monoblastic/monocytic leukemia,Monocytic leukemia
+C9300,10,"Acute monoblastic/monocytic leukemia, not having achieved remission",Monocytic leukemia
+C9442,10,"Acute panmyelosis with myelofibrosis, in relapse",Other leukemias of specified cell types
+C9502,10,"Acute leukemia of unspecified cell type, in relapse",Leukemia of unspecified cell type
+C951,10,Chronic leukemia of unspecified cell type,Leukemia of unspecified cell type
+C059,10,"Malignant neoplasm of palate, unspecified",Malignant neoplasm of palate
+C099,10,"Malignant neoplasm of tonsil, unspecified",Malignant neoplasm of tonsil
+C101,10,Malignant neoplasm of anterior surface of epiglottis,Malignant neoplasm of oropharynx
+C261,10,Malignant neoplasm of spleen,Malignant neoplasm of other digestive organs
+C301,10,Malignant neoplasm of middle ear,Respiratory Cancer
+C43,10,Malignant melanoma of skin,Malignant melanoma of skin
+C432,10,Malignant melanoma of ear and external auricular canal,Malignant melanoma of skin
+C4371,10,"Malignant melanoma of right lower limb, including hip",Malignant melanoma of skin
+C441222,10,"Squamous cell carcinoma of skin of right lower eyelid, including canthus",Other malignant neoplasms of skin
+C4482,10,Squamous cell carcinoma of overlapping sites of skin,Other malignant neoplasms of skin
+C49A3,10,Gastrointestinal stromal tumor of small intestine,Malignant neoplasm of other connective tissues
+C5001,10,"Malignant neoplasm of nipple and areola, female",Breast Cancer
+C5032,10,"Malignant neoplasm of lower-inner quadrant of breast, male",Breast Cancer
+C542,10,Malignant neoplasm of myometrium,Malignant neoplasm of corpus uteri
+C6991,10,Malignant neoplasm of unspecified site of right eye,Malignant neoplasm of eye and adnexa
+C70,10,Malignant neoplasm of meninges,Malignant neoplasm of meninges
+C7220,10,Malignant neoplasm of unspecified olfactory nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C7940,10,Secondary malignant neoplasm of unspecified part of nervous system,Secondary malignant neoplasm of other sites
+C796,10,Secondary malignant neoplasm of ovary,Secondary malignant neoplasm of other sites
+C7989,10,Secondary malignant neoplasm of other specified sites,Secondary malignant neoplasm of other sites
+C7A095,10,"Malignant carcinoid tumor of the midgut, unspecified",Malignant neuroendocrine tumors
+C8116,10,"Nodular sclerosis Hodgkin lymphoma, intrapelvic lymph nodes",Hodgkin lymphoma
+C8134,10,"Lymphocyte depleted Hodgkin lymphoma, lymph nodes of axilla and upper limb",Hodgkin lymphoma
+C820,10,Follicular lymphoma grade I,Non-Hodgkin Lymphoma
+C8200,10,"Follicular lymphoma grade I, unspecified site",Non-Hodgkin Lymphoma
+C8207,10,"Follicular lymphoma grade I, spleen",Non-Hodgkin Lymphoma
+C8242,10,"Follicular lymphoma grade IIIb, intrathoracic lymph nodes",Non-Hodgkin Lymphoma
+C8256,10,"Diffuse follicle center lymphoma, intrapelvic lymph nodes",Non-Hodgkin Lymphoma
+C8411,10,"Sezary disease, lymph nodes of head, face, and neck",Mature T/NK-cell lymphomas
+C8468,10,"Anaplastic large cell lymphoma, ALK-positive, lymph nodes of multiple sites",Mature T/NK-cell lymphomas
+C8512,10,"Unspecified B-cell lymphoma, intrathoracic lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C8526,10,"Mediastinal (thymic) large B-cell lymphoma, intrapelvic lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C9210,10,"Chronic myeloid leukemia, BCR/ABL-positive, not having achieved remission",Leukemia
+C93Z,10,Other monocytic leukemia,Monocytic leukemia
+C023,10,"Malignant neoplasm of anterior two-thirds of tongue, part unspecified",Head and Neck Cancer
+C310,10,Malignant neoplasm of maxillary sinus,Malignant neoplasm of accessory sinuses
+C413,10,"Malignant neoplasm of ribs, sternum and clavicle",Malignant neoplasm of bone and articular cartilage of other sites
+C4361,10,"Malignant melanoma of right upper limb, including shoulder",Malignant melanoma of skin
+C4402,10,Squamous cell carcinoma of skin of lip,Other malignant neoplasms of skin
+C44221,10,Squamous cell carcinoma of skin of unspecified ear and external auricular canal,Other malignant neoplasms of skin
+C488,10,Malignant neoplasm of overlapping sites of retroperitoneum and peritoneum,Malignant neoplasm of retroperitoneum and peritoneum
+C4921,10,"Malignant neoplasm of connective and soft tissue of right lower limb, including hip",Malignant neoplasm of other connective tissues
+C50411,10,Malignant neoplasm of upper-outer quadrant of right female breast,Breast Cancer
+C608,10,Malignant neoplasm of overlapping sites of penis,Malignant neoplasm of penis
+C6302,10,Malignant neoplasm of left epididymis,Malignant neoplasm of other male genital organs
+C693,10,Malignant neoplasm of choroid,Malignant neoplasm of eye and adnexa
+C6961,10,Malignant neoplasm of right orbit,Malignant neoplasm of eye and adnexa
+C7402,10,Malignant neoplasm of cortex of left adrenal gland,Malignant neoplasm of adrenal gland
+C760,10,"Malignant neoplasm of head, face and neck",Malignant neoplasm of other and ill-defined sites
+C792,10,Secondary malignant neoplasm of skin,Secondary malignant neoplasm of other sites
+C8110,10,"Nodular sclerosis Hodgkin lymphoma, unspecified site",Hodgkin lymphoma
+C8174,10,"Other Hodgkin lymphoma, lymph nodes of axilla and upper limb",Hodgkin lymphoma
+C8203,10,"Follicular lymphoma grade I, intra-abdominal lymph nodes",Non-Hodgkin Lymphoma
+C8335,10,"Diffuse large B-cell lymphoma, lymph nodes of inguinal region and lower limb",Non-Hodgkin lymphoma
+C8336,10,"Diffuse large B-cell lymphoma, intrapelvic lymph nodes",Non-Hodgkin lymphoma
+C8379,10,"Burkitt lymphoma, extranodal and solid organ sites",Non-Hodgkin lymphoma
+C8442,10,"Peripheral T-cell lymphoma, not classified, intrathoracic lymph nodes",Mature T/NK-cell lymphomas
+C8470,10,"Anaplastic large cell lymphoma, ALK-negative, unspecified site",Mature T/NK-cell lymphomas
+C8518,10,"Unspecified B-cell lymphoma, lymph nodes of multiple sites",Other specified and unspecified types of non-Hodgkin lymphoma
+C882,10,Heavy chain disease,Malignant immunoproliferative diseases
+C90,10,Multiple myeloma and malignant plasma cell neoplasms,Multiple myeloma and malignant plasma cell neoplasms
+C9142,10,"Hairy cell leukemia, in relapse",Leukemia
+C9220,10,"Atypical chronic myeloid leukemia, BCR/ABL-negative, not having achieved remission",Leukemia
+C090,10,Malignant neoplasm of tonsillar fossa,Malignant neoplasm of tonsil
+C132,10,Malignant neoplasm of posterior wall of hypopharynx,Malignant neoplasm of hypopharynx
+C240,10,Malignant neoplasm of extrahepatic bile duct,Malignant neoplasm of other and unspecified parts of biliary tract
+C260,10,"Malignant neoplasm of intestinal tract, part unspecified",Malignant neoplasm of other digestive organs
+C37,10,Malignant neoplasm of thymus,Malignant neoplasm of thymus
+C4012,10,Malignant neoplasm of short bones of left upper limb,Malignant neoplasm of bone and articular cartilage of limbs
+C41,10,Malignant neoplasm of bone and articular cartilage of other and unspecified sites,Malignant neoplasm of bone and articular cartilage of other sites
+C4409,10,Other specified malignant neoplasm of skin of lip,Other malignant neoplasms of skin
+C441091,10,"Unspecified malignant neoplasm of skin of left upper eyelid, including canthus",Other malignant neoplasms of skin
+C44111,10,"Basal cell carcinoma of skin of unspecified eyelid, including canthus",Other malignant neoplasms of skin
+C4419,10,"Other specified malignant neoplasm of skin of eyelid, including canthus",Other malignant neoplasms of skin
+C44299,10,Other specified malignant neoplasm of skin of left ear and external auricular canal,Other malignant neoplasms of skin
+C44399,10,Other specified malignant neoplasm of skin of other parts of face,Other malignant neoplasms of skin
+C44520,10,Squamous cell carcinoma of anal skin,Other malignant neoplasms of skin
+C4651,10,Kaposi's sarcoma of right lung,Kaposi's sarcoma
+C4A20,10,Merkel cell carcinoma of unspecified ear and external auricular canal,Merkel cell carcinoma
+C50321,10,Malignant neoplasm of lower-inner quadrant of right male breast,Breast Cancer
+C50422,10,Malignant neoplasm of upper-outer quadrant of left male breast,Breast Cancer
+C50429,10,Malignant neoplasm of upper-outer quadrant of unspecified male breast,Breast Cancer
+C543,10,Malignant neoplasm of fundus uteri,Malignant neoplasm of corpus uteri
+C574,10,"Malignant neoplasm of uterine adnexa, unspecified",Malignant neoplasm of other female genital organs
+C716,10,Malignant neoplasm of cerebellum,Malignant neoplasm of brain
+C729,10,"Malignant neoplasm of central nervous system, unspecified","Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C795,10,Secondary malignant neoplasm of bone and bone marrow,Secondary malignant neoplasm of other sites
+C8111,10,"Nodular sclerosis Hodgkin lymphoma, lymph nodes of head, face, and neck",Hodgkin lymphoma
+C8372,10,"Burkitt lymphoma, intrathoracic lymph nodes",Non-Hodgkin lymphoma
+C8396,10,"Non-follicular (diffuse) lymphoma, unspecified, intrapelvic lymph nodes",Non-Hodgkin lymphoma
+C84Z6,10,"Other mature T/NK-cell lymphomas, intrapelvic lymph nodes",Mature T/NK-cell lymphomas
+C8524,10,"Mediastinal (thymic) large B-cell lymphoma, lymph nodes of axilla and upper limb",Other specified and unspecified types of non-Hodgkin lymphoma
+C913,10,Prolymphocytic leukemia of B-cell type,Leukemia
+C9221,10,"Atypical chronic myeloid leukemia, BCR/ABL-negative, in remission",Leukemia
+C943,10,Mast cell leukemia,Other leukemias of specified cell types
+C9431,10,"Mast cell leukemia, in remission",Other leukemias of specified cell types
+C948,10,Other specified leukemias,Other leukemias of specified cell types
+C964,10,Sarcoma of dendritic cells (accessory cells),"Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C000,10,Malignant neoplasm of external upper lip,Head and Neck Cancer
+C031,10,Malignant neoplasm of lower gum,Malignant neoplasm of gum
+C20,10,Malignant neoplasm of rectum,Malignant neoplasm of rectum
+C222,10,Hepatoblastoma,Malignant neoplasm of liver and intrahepatic bile ducts
+C419,10,"Malignant neoplasm of bone and articular cartilage, unspecified",Malignant neoplasm of bone and articular cartilage of other sites
+C4360,10,"Malignant melanoma of unspecified upper limb, including shoulder",Malignant melanoma of skin
+C443,10,Other and unspecified malignant neoplasm of skin of other and unspecified parts of face,Other malignant neoplasms of skin
+C4442,10,Squamous cell carcinoma of skin of scalp and neck,Other malignant neoplasms of skin
+C4459,10,Other specified malignant neoplasm of skin of trunk,Other malignant neoplasms of skin
+C4490,10,"Unspecified malignant neoplasm of skin, unspecified",Other malignant neoplasms of skin
+C450,10,Mesothelioma of pleura,Mesothelioma
+C4A4,10,Merkel cell carcinoma of scalp and neck,Merkel cell carcinoma
+C5051,10,"Malignant neoplasm of lower-outer quadrant of breast, female",Breast Cancer
+C722,10,Malignant neoplasm of olfactory nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C762,10,Malignant neoplasm of abdomen,Malignant neoplasm of other and ill-defined sites
+C802,10,Malignant neoplasm associated with transplanted organ,Malignant neoplasm without specification of site
+C8141,10,"Lymphocyte-rich Hodgkin lymphoma, lymph nodes of head, face, and neck",Hodgkin lymphoma
+C8175,10,"Other Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",Hodgkin lymphoma
+C8259,10,"Diffuse follicle center lymphoma, extranodal and solid organ sites",Non-Hodgkin Lymphoma
+C8400,10,"Mycosis fungoides, unspecified site",Mature T/NK-cell lymphomas
+C84A4,10,"Cutaneous T-cell lymphoma, unspecified, lymph nodes of axilla and upper limb",Mature T/NK-cell lymphomas
+C8510,10,"Unspecified B-cell lymphoma, unspecified site",Other specified and unspecified types of non-Hodgkin lymphoma
+C8522,10,"Mediastinal (thymic) large B-cell lymphoma, intrathoracic lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C900,10,Multiple myeloma,Multiple myeloma and malignant plasma cell neoplasms
+C9141,10,"Hairy cell leukemia, in remission",Leukemia
+C92,10,Myeloid leukemia,Leukemia
+C9212,10,"Chronic myeloid leukemia, BCR/ABL-positive, in relapse",Leukemia
+C9251,10,"Acute myelomonocytic leukemia, in remission",Leukemia
+C9252,10,"Acute myelomonocytic leukemia, in relapse",Leukemia
+C9292,10,"Myeloid leukemia, unspecified in relapse",Leukemia
+C9510,10,Chronic leukemia of unspecified cell type not having achieved remission,Leukemia of unspecified cell type
+C024,10,Malignant neoplasm of lingual tonsil,Head and Neck Cancer
+C212,10,Malignant neoplasm of cloacogenic zone,Malignant neoplasm of anus and anal canal
+C44101,10,"Unspecified malignant neoplasm of skin of unspecified eyelid, including canthus",Other malignant neoplasms of skin
+C4451,10,Basal cell carcinoma of skin of trunk,Other malignant neoplasms of skin
+C44691,10,"Other specified malignant neoplasm of skin of unspecified upper limb, including shoulder",Other malignant neoplasms of skin
+C44729,10,"Squamous cell carcinoma of skin of left lower limb, including hip",Other malignant neoplasms of skin
+C49A0,10,"Gastrointestinal stromal tumor, unspecified site",Malignant neoplasm of other connective tissues
+C4A2,10,Merkel cell carcinoma of ear and external auricular canal,Merkel cell carcinoma
+C4A30,10,Merkel cell carcinoma of unspecified part of face,Merkel cell carcinoma
+C50311,10,Malignant neoplasm of lower-inner quadrant of right female breast,Breast Cancer
+C50522,10,Malignant neoplasm of lower-outer quadrant of left male breast,Breast Cancer
+C662,10,Malignant neoplasm of left ureter,Malignant neoplasm of ureter
+C6920,10,Malignant neoplasm of unspecified retina,Malignant neoplasm of eye and adnexa
+C695,10,Malignant neoplasm of lacrimal gland and duct,Malignant neoplasm of eye and adnexa
+C6952,10,Malignant neoplasm of left lacrimal gland and duct,Malignant neoplasm of eye and adnexa
+C6981,10,Malignant neoplasm of overlapping sites of right eye and adnexa,Malignant neoplasm of eye and adnexa
+C7A01,10,Malignant carcinoid tumors of the small intestine,Malignant neuroendocrine tumors
+C80,10,Malignant neoplasm without specification of site,Malignant neoplasm without specification of site
+C8119,10,"Nodular sclerosis Hodgkin lymphoma, extranodal and solid organ sites",Hodgkin lymphoma
+C812,10,Mixed cellularity Hodgkin lymphoma,Hodgkin lymphoma
+C8144,10,"Lymphocyte-rich Hodgkin lymphoma, lymph nodes of axilla and upper limb",Hodgkin lymphoma
+C819,10,"Hodgkin lymphoma, unspecified",Hodgkin lymphoma
+C8283,10,"Other types of follicular lymphoma, intra-abdominal lymph nodes",Non-Hodgkin Lymphoma
+C8309,10,"Small cell B-cell lymphoma, extranodal and solid organ sites",Non-Hodgkin lymphoma
+C8310,10,"Mantle cell lymphoma, unspecified site",Non-Hodgkin lymphoma
+C8370,10,"Burkitt lymphoma, unspecified site",Non-Hodgkin lymphoma
+C8386,10,"Other non-follicular lymphoma, intrapelvic lymph nodes",Non-Hodgkin lymphoma
+C8498,10,"Mature T/NK-cell lymphomas, unspecified, lymph nodes of multiple sites",Mature T/NK-cell lymphomas
+C8591,10,"Non-Hodgkin lymphoma, unspecified, lymph nodes of head, face, and neck",Other specified and unspecified types of non-Hodgkin lymphoma
+C92Z2,10,"Other myeloid leukemia, in relapse",Leukemia
+C959,10,"Leukemia, unspecified",Leukemia of unspecified cell type
+C028,10,Malignant neoplasm of overlapping sites of tongue,Head and Neck Cancer
+C03,10,Malignant neoplasm of gum,Malignant neoplasm of gum
+C178,10,Malignant neoplasm of overlapping sites of small intestine,Malignant neoplasm of small intestine
+C300,10,Malignant neoplasm of nasal cavity,Respiratory Cancer
+C3480,10,Malignant neoplasm of overlapping sites of unspecified bronchus and lung,Malignant neoplasm of bronchus and lung
+C4080,10,Malignant neoplasm of overlapping sites of bone and articular cartilage of unspecified limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4312,10,"Malignant melanoma of left eyelid, including canthus",Malignant melanoma of skin
+C4362,10,"Malignant melanoma of left upper limb, including shoulder",Malignant melanoma of skin
+C44109,10,"Unspecified malignant neoplasm of skin of left eyelid, including canthus",Other malignant neoplasms of skin
+C441221,10,"Squamous cell carcinoma of skin of right upper eyelid, including canthus",Other malignant neoplasms of skin
+C44131,10,"Sebaceous cell carcinoma of skin of unspecified eyelid, including canthus",Other malignant neoplasms of skin
+C44229,10,Squamous cell carcinoma of skin of left ear and external auricular canal,Other malignant neoplasms of skin
+C44391,10,Other specified malignant neoplasm of skin of nose,Other malignant neoplasms of skin
+C461,10,Kaposi's sarcoma of soft tissue,Kaposi's sarcoma
+C462,10,Kaposi's sarcoma of palate,Kaposi's sarcoma
+C476,10,"Malignant neoplasm of peripheral nerves of trunk, unspecified",Malignant neoplasm of peripheral nerves
+C49,10,Malignant neoplasm of other connective and soft tissue,Malignant neoplasm of other connective tissues
+C50419,10,Malignant neoplasm of upper-outer quadrant of unspecified female breast,Breast Cancer
+C540,10,Malignant neoplasm of isthmus uteri,Malignant neoplasm of corpus uteri
+C7230,10,Malignant neoplasm of unspecified optic nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C741,10,Malignant neoplasm of medulla of adrenal gland,Malignant neoplasm of adrenal gland
+C7B00,10,"Secondary carcinoid tumors, unspecified site",Secondary neuroendocrine tumors
+C8178,10,"Other Hodgkin lymphoma, lymph nodes of multiple sites",Hodgkin lymphoma
+C822,10,"Follicular lymphoma grade III, unspecified",Non-Hodgkin Lymphoma
+C8222,10,"Follicular lymphoma grade III, unspecified, intrathoracic lymph nodes",Non-Hodgkin Lymphoma
+C8248,10,"Follicular lymphoma grade IIIb, lymph nodes of multiple sites",Non-Hodgkin Lymphoma
+C8385,10,"Other non-follicular lymphoma, lymph nodes of inguinal region and lower limb",Non-Hodgkin lymphoma
+C8520,10,"Mediastinal (thymic) large B-cell lymphoma, unspecified site",Other specified and unspecified types of non-Hodgkin lymphoma
+C8588,10,"Other specified types of non-Hodgkin lymphoma, lymph nodes of multiple sites",Other specified and unspecified types of non-Hodgkin lymphoma
+C9480,10,Other specified leukemias not having achieved remission,Other leukemias of specified cell types
+C080,10,Malignant neoplasm of submandibular gland,Malignant neoplasm of other salivary glands
+C340,10,Malignant neoplasm of main bronchus,Malignant neoplasm of bronchus and lung
+C388,10,"Malignant neoplasm of overlapping sites of heart, mediastinum and pleura","Malignant neoplasm of heart, mediastinum, and pleura"
+C4002,10,Malignant neoplasm of scapula and long bones of left upper limb,Malignant neoplasm of bone and articular cartilage of limbs
+C441321,10,"Sebaceous cell carcinoma of skin of right upper eyelid, including canthus",Other malignant neoplasms of skin
+C444,10,Other and unspecified malignant neoplasm of skin of scalp and neck,Other malignant neoplasms of skin
+C44712,10,"Basal cell carcinoma of skin of right lower limb, including hip",Other malignant neoplasms of skin
+C4479,10,"Other specified malignant neoplasm of skin of lower limb, including hip",Other malignant neoplasms of skin
+C4A112,10,"Merkel cell carcinoma of right lower eyelid, including canthus",Merkel cell carcinoma
+C4A62,10,"Merkel cell carcinoma of left upper limb, including shoulder",Merkel cell carcinoma
+C6922,10,Malignant neoplasm of left retina,Malignant neoplasm of eye and adnexa
+C720,10,Malignant neoplasm of spinal cord,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C7232,10,Malignant neoplasm of left optic nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C7901,10,Secondary malignant neoplasm of right kidney and renal pelvis,Secondary malignant neoplasm of other sites
+C7A029,10,"Malignant carcinoid tumor of the large intestine, unspecified portion",Malignant neuroendocrine tumors
+C810,10,Nodular lymphocyte predominant Hodgkin lymphoma,Hodgkin lymphoma
+C8352,10,"Lymphoblastic (diffuse) lymphoma, intrathoracic lymph nodes",Non-Hodgkin lymphoma
+C8397,10,"Non-follicular (diffuse) lymphoma, unspecified, spleen",Non-Hodgkin lymphoma
+C8521,10,"Mediastinal (thymic) large B-cell lymphoma, lymph nodes of head, face, and neck",Other specified and unspecified types of non-Hodgkin lymphoma
+C859,10,"Non-Hodgkin lymphoma, unspecified",Other specified and unspecified types of non-Hodgkin lymphoma
+C916,10,Prolymphocytic leukemia of T-cell type,Leukemia
+C9432,10,"Mast cell leukemia, in relapse",Other leukemias of specified cell types
+C9590,10,"Leukemia, unspecified not having achieved remission",Leukemia of unspecified cell type
+C9591,10,"Leukemia, unspecified, in remission",Leukemia of unspecified cell type
+C039,10,"Malignant neoplasm of gum, unspecified",Malignant neoplasm of gum
+C139,10,"Malignant neoplasm of hypopharynx, unspecified",Malignant neoplasm of hypopharynx
+C21,10,Malignant neoplasm of anus and anal canal,Malignant neoplasm of anus and anal canal
+C220,10,Liver cell carcinoma,Malignant neoplasm of liver and intrahepatic bile ducts
+C31,10,Malignant neoplasm of accessory sinuses,Malignant neoplasm of accessory sinuses
+C3410,10,"Malignant neoplasm of upper lobe, unspecified bronchus or lung",Malignant neoplasm of bronchus and lung
+C4020,10,Malignant neoplasm of long bones of unspecified lower limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4022,10,Malignant neoplasm of long bones of left lower limb,Malignant neoplasm of bone and articular cartilage of limbs
+C434,10,Malignant melanoma of scalp and neck,Malignant melanoma of skin
+C4461,10,"Basal cell carcinoma of skin of upper limb, including shoulder",Other malignant neoplasms of skin
+C4462,10,"Squamous cell carcinoma of skin of upper limb, including shoulder",Other malignant neoplasms of skin
+C44721,10,"Squamous cell carcinoma of skin of unspecified lower limb, including hip",Other malignant neoplasms of skin
+C44799,10,"Other specified malignant neoplasm of skin of left lower limb, including hip",Other malignant neoplasms of skin
+C4492,10,"Squamous cell carcinoma of skin, unspecified",Other malignant neoplasms of skin
+C4A61,10,"Merkel cell carcinoma of right upper limb, including shoulder",Merkel cell carcinoma
+C50021,10,"Malignant neoplasm of nipple and areola, right male breast",Breast Cancer
+C50921,10,Malignant neoplasm of unspecified site of right male breast,Breast Cancer
+C5701,10,Malignant neoplasm of right fallopian tube,Malignant neoplasm of other female genital organs
+C5702,10,Malignant neoplasm of left fallopian tube,Malignant neoplasm of other female genital organs
+C609,10,"Malignant neoplasm of penis, unspecified",Malignant neoplasm of penis
+C6960,10,Malignant neoplasm of unspecified orbit,Malignant neoplasm of eye and adnexa
+C717,10,Malignant neoplasm of brain stem,Malignant neoplasm of brain
+C719,10,"Malignant neoplasm of brain, unspecified",Malignant neoplasm of brain
+C755,10,Malignant neoplasm of aortic body and other paraganglia,Malignant neoplasm of other endocrine glands
+C7650,10,Malignant neoplasm of unspecified lower limb,Malignant neoplasm of other and ill-defined sites
+C7A,10,Malignant neuroendocrine tumors,Malignant neuroendocrine tumors
+C800,10,"Disseminated malignant neoplasm, unspecified",Malignant neoplasm without specification of site
+C811,10,Nodular sclerosis Hodgkin lymphoma,Hodgkin lymphoma
+C8138,10,"Lymphocyte depleted Hodgkin lymphoma, lymph nodes of multiple sites",Hodgkin lymphoma
+C8170,10,"Other Hodgkin lymphoma, unspecified site",Hodgkin lymphoma
+C8205,10,"Follicular lymphoma grade I, lymph nodes of inguinal region and lower limb",Non-Hodgkin Lymphoma
+C8217,10,"Follicular lymphoma grade II, spleen",Non-Hodgkin Lymphoma
+C825,10,Diffuse follicle center lymphoma,Non-Hodgkin Lymphoma
+C8252,10,"Diffuse follicle center lymphoma, intrathoracic lymph nodes",Non-Hodgkin Lymphoma
+C8317,10,"Mantle cell lymphoma, spleen",Non-Hodgkin lymphoma
+C8318,10,"Mantle cell lymphoma, lymph nodes of multiple sites",Non-Hodgkin lymphoma
+C8358,10,"Lymphoblastic (diffuse) lymphoma, lymph nodes of multiple sites",Non-Hodgkin lymphoma
+C838,10,Other non-follicular lymphoma,Non-Hodgkin lymphoma
+C8402,10,"Mycosis fungoides, intrathoracic lymph nodes",Mature T/NK-cell lymphomas
+C8407,10,"Mycosis fungoides, spleen",Mature T/NK-cell lymphomas
+C8417,10,"Sezary disease, spleen",Mature T/NK-cell lymphomas
+C8496,10,"Mature T/NK-cell lymphomas, unspecified, intrapelvic lymph nodes",Mature T/NK-cell lymphomas
+C8499,10,"Mature T/NK-cell lymphomas, unspecified, extranodal and solid organ sites",Mature T/NK-cell lymphomas
+C8587,10,"Other specified types of non-Hodgkin lymphoma, spleen",Other specified and unspecified types of non-Hodgkin lymphoma
+C9000,10,Multiple myeloma not having achieved remission,Multiple myeloma and malignant plasma cell neoplasms
+C901,10,Plasma cell leukemia,Multiple myeloma and malignant plasma cell neoplasms
+C9150,10,Adult T-cell lymphoma/leukemia (HTLV-1-associated) not having achieved remission,Leukemia
+C9262,10,Acute myeloid leukemia with 11q23-abnormality in relapse,Leukemia
+C9500,10,Acute leukemia of unspecified cell type not having achieved remission,Leukemia of unspecified cell type
+C966,10,Unifocal Langerhans-cell histiocytosis,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C96A,10,Histiocytic sarcoma,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C11,10,Malignant neoplasm of nasopharynx,Malignant neoplasm of nasopharynx
+C168,10,Malignant neoplasm of overlapping sites of stomach,Gastrointestinal Cancer
+C319,10,"Malignant neoplasm of accessory sinus, unspecified",Malignant neoplasm of accessory sinuses
+C43112,10,"Malignant melanoma of right lower eyelid, including canthus",Malignant melanoma of skin
+C43122,10,"Malignant melanoma of left lower eyelid, including canthus",Malignant melanoma of skin
+C438,10,Malignant melanoma of overlapping sites of skin,Malignant melanoma of skin
+C441291,10,"Squamous cell carcinoma of skin of left upper eyelid, including canthus",Other malignant neoplasms of skin
+C44222,10,Squamous cell carcinoma of skin of right ear and external auricular canal,Other malignant neoplasms of skin
+C4481,10,Basal cell carcinoma of overlapping sites of skin,Other malignant neoplasms of skin
+C49A5,10,Gastrointestinal stromal tumor of rectum,Malignant neoplasm of other connective tissues
+C4A5,10,Merkel cell carcinoma of trunk,Merkel cell carcinoma
+C50512,10,Malignant neoplasm of lower-outer quadrant of left female breast,Breast Cancer
+C50621,10,Malignant neoplasm of axillary tail of right male breast,Breast Cancer
+C511,10,Malignant neoplasm of labium minus,Malignant neoplasm of vulva
+C561,10,Malignant neoplasm of right ovary,Malignant neoplasm of ovary
+C6210,10,Malignant neoplasm of unspecified descended testis,Malignant neoplasm of testis
+C6301,10,Malignant neoplasm of right epididymis,Malignant neoplasm of other male genital organs
+C76,10,Malignant neoplasm of other and ill-defined sites,Malignant neoplasm of other and ill-defined sites
+C779,10,"Secondary and unspecified malignant neoplasm of lymph node, unspecified",Secondary and unspecified malignant neoplasm of lymph nodes
+C785,10,Secondary malignant neoplasm of large intestine and rectum,Secondary malignant neoplasm of respiratory and digestive organs
+C7962,10,Secondary malignant neoplasm of left ovary,Secondary malignant neoplasm of other sites
+C7B02,10,Secondary carcinoid tumors of liver,Secondary neuroendocrine tumors
+C8105,10,"Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",Hodgkin lymphoma
+C8177,10,"Other Hodgkin lymphoma, spleen",Hodgkin lymphoma
+C8190,10,"Hodgkin lymphoma, unspecified, unspecified site",Hodgkin lymphoma
+C8229,10,"Follicular lymphoma grade III, unspecified, extranodal and solid organ sites",Non-Hodgkin Lymphoma
+C8239,10,"Follicular lymphoma grade IIIa, extranodal and solid organ sites",Non-Hodgkin Lymphoma
+C8304,10,"Small cell B-cell lymphoma, lymph nodes of axilla and upper limb",Non-Hodgkin lymphoma
+C8314,10,"Mantle cell lymphoma, lymph nodes of axilla and upper limb",Non-Hodgkin lymphoma
+C8339,10,"Diffuse large B-cell lymphoma, extranodal and solid organ sites",Non-Hodgkin lymphoma
+C84,10,Mature T/NK-cell lymphomas,Mature T/NK-cell lymphomas
+C8444,10,"Peripheral T-cell lymphoma, not classified, lymph nodes of axilla and upper limb",Mature T/NK-cell lymphomas
+C8466,10,"Anaplastic large cell lymphoma, ALK-positive, intrapelvic lymph nodes",Mature T/NK-cell lymphomas
+C8523,10,"Mediastinal (thymic) large B-cell lymphoma, intra-abdominal lymph nodes",Other specified and unspecified types of non-Hodgkin lymphoma
+C862,10,Enteropathy-type (intestinal) T-cell lymphoma,Other specified types of T/NK-cell lymphoma
+C92A2,10,"Acute myeloid leukemia with multilineage dysplasia, in relapse",Leukemia
+C9312,10,"Chronic myelomonocytic leukemia, in relapse",Monocytic leukemia
+C187,10,Malignant neoplasm of sigmoid colon,Gastrointestinal Cancer
+C3430,10,"Malignant neoplasm of lower lobe, unspecified bronchus or lung",Malignant neoplasm of bronchus and lung
+C4011,10,Malignant neoplasm of short bones of right upper limb,Malignant neoplasm of bone and articular cartilage of limbs
+C4330,10,Malignant melanoma of unspecified part of face,Malignant melanoma of skin
+C4401,10,Basal cell carcinoma of skin of lip,Other malignant neoplasms of skin
+C44121,10,"Squamous cell carcinoma of skin of unspecified eyelid, including canthus",Other malignant neoplasms of skin
+C44199,10,"Other specified malignant neoplasm of skin of left eyelid, including canthus",Other malignant neoplasms of skin
+C44701,10,"Unspecified malignant neoplasm of skin of unspecified lower limb, including hip",Other malignant neoplasms of skin
+C50221,10,Malignant neoplasm of upper-inner quadrant of right male breast,Breast Cancer
+C50322,10,Malignant neoplasm of lower-inner quadrant of left male breast,Breast Cancer
+C50329,10,Malignant neoplasm of lower-inner quadrant of unspecified male breast,Breast Cancer
+C5041,10,"Malignant neoplasm of upper-outer quadrant of breast, female",Breast Cancer
+C50819,10,Malignant neoplasm of overlapping sites of unspecified female breast,Breast Cancer
+C5720,10,Malignant neoplasm of unspecified round ligament,Malignant neoplasm of other female genital organs
+C6291,10,"Malignant neoplasm of right testis, unspecified whether descended or undescended",Malignant neoplasm of testis
+C6310,10,Malignant neoplasm of unspecified spermatic cord,Malignant neoplasm of other male genital organs
+C69,10,Malignant neoplasm of eye and adnexa,Malignant neoplasm of eye and adnexa
+C6941,10,Malignant neoplasm of right ciliary body,Malignant neoplasm of eye and adnexa
+C6992,10,Malignant neoplasm of unspecified site of left eye,Malignant neoplasm of eye and adnexa
+C7242,10,Malignant neoplasm of left acoustic nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C7830,10,Secondary malignant neoplasm of unspecified respiratory organ,Secondary malignant neoplasm of respiratory and digestive organs
+C7A019,10,"Malignant carcinoid tumor of the small intestine, unspecified portion",Malignant neuroendocrine tumors
+C7A02,10,"Malignant carcinoid tumors of the appendix, large intestine, and rectum",Malignant neuroendocrine tumors
+C8108,10,"Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of multiple sites",Hodgkin lymphoma
+C817,10,Other Hodgkin lymphoma,Hodgkin lymphoma
+C8233,10,"Follicular lymphoma grade IIIa, intra-abdominal lymph nodes",Non-Hodgkin Lymphoma
+C8243,10,"Follicular lymphoma grade IIIb, intra-abdominal lymph nodes",Non-Hodgkin Lymphoma
+C84Z0,10,"Other mature T/NK-cell lymphomas, unspecified site",Mature T/NK-cell lymphomas
+C8584,10,"Other specified types of non-Hodgkin lymphoma, lymph nodes of axilla and upper limb",Other specified and unspecified types of non-Hodgkin lymphoma
+C9291,10,"Myeloid leukemia, unspecified in remission",Leukemia
+C9401,10,"Acute erythroid leukemia, in remission",Other leukemias of specified cell types
+C186,10,Malignant neoplasm of descending colon,Gastrointestinal Cancer
+C44,10,Other and unspecified malignant neoplasm of skin,Other malignant neoplasms of skin
+C44711,10,"Basal cell carcinoma of skin of unspecified lower limb, including hip",Other malignant neoplasms of skin
+C49A2,10,Gastrointestinal stromal tumor of stomach,Malignant neoplasm of other connective tissues
+C49A4,10,Gastrointestinal stromal tumor of large intestine,Malignant neoplasm of other connective tissues
+C4A3,10,Merkel cell carcinoma of other and unspecified parts of face,Merkel cell carcinoma
+C5011,10,"Malignant neoplasm of central portion of breast, female",Breast Cancer
+C5081,10,"Malignant neoplasm of overlapping sites of breast, female",Breast Cancer
+C671,10,Malignant neoplasm of dome of bladder,Malignant neoplasm of bladder
+C6930,10,Malignant neoplasm of unspecified choroid,Malignant neoplasm of eye and adnexa
+C6980,10,Malignant neoplasm of overlapping sites of unspecified eye and adnexa,Malignant neoplasm of eye and adnexa
+C7400,10,Malignant neoplasm of cortex of unspecified adrenal gland,Malignant neoplasm of adrenal gland
+C7971,10,Secondary malignant neoplasm of right adrenal gland,Secondary malignant neoplasm of other sites
+C7A1,10,Malignant poorly differentiated neuroendocrine tumors,Malignant neuroendocrine tumors
+C8101,10,"Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of head, face, and neck",Hodgkin lymphoma
+C8293,10,"Follicular lymphoma, unspecified, intra-abdominal lymph nodes",Non-Hodgkin Lymphoma
+C9031,10,Solitary plasmacytoma in remission,Multiple myeloma and malignant plasma cell neoplasms
+C923,10,Myeloid sarcoma,Leukemia
+C9400,10,"Acute erythroid leukemia, not having achieved remission",Other leukemias of specified cell types
+C96,10,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue","Other and unspecified malignant neoplasms of lymphoid, hematopoietic, and related tissue"
+C029,10,"Malignant neoplasm of tongue, unspecified",Head and Neck Cancer
+C108,10,Malignant neoplasm of overlapping sites of oropharynx,Malignant neoplasm of oropharynx
+C170,10,Malignant neoplasm of duodenum,Malignant neoplasm of small intestine
+C3401,10,Malignant neoplasm of right main bronchus,Malignant neoplasm of bronchus and lung
+C381,10,Malignant neoplasm of anterior mediastinum,"Malignant neoplasm of heart, mediastinum, and pleura"
+C4321,10,Malignant melanoma of right ear and external auricular canal,Malignant melanoma of skin
+C4441,10,Basal cell carcinoma of skin of scalp and neck,Other malignant neoplasms of skin
+C4A10,10,"Merkel cell carcinoma of unspecified eyelid, including canthus",Merkel cell carcinoma
+C50911,10,Malignant neoplasm of unspecified site of right female breast,Breast Cancer
+C54,10,Malignant neoplasm of corpus uteri,Malignant neoplasm of corpus uteri
+C6940,10,Malignant neoplasm of unspecified ciliary body,Malignant neoplasm of eye and adnexa
+C7401,10,Malignant neoplasm of cortex of right adrenal gland,Malignant neoplasm of adrenal gland
+C7492,10,Malignant neoplasm of unspecified part of left adrenal gland,Malignant neoplasm of adrenal gland
+C8149,10,"Lymphocyte-rich Hodgkin lymphoma, extranodal and solid organ sites",Hodgkin lymphoma
+C8172,10,"Other Hodgkin lymphoma, intrathoracic lymph nodes",Hodgkin lymphoma
+C8210,10,"Follicular lymphoma grade II, unspecified site",Non-Hodgkin Lymphoma
+C8255,10,"Diffuse follicle center lymphoma, lymph nodes of inguinal region and lower limb",Non-Hodgkin Lymphoma
+C8294,10,"Follicular lymphoma, unspecified, lymph nodes of axilla and upper limb",Non-Hodgkin Lymphoma
+C8316,10,"Mantle cell lymphoma, intrapelvic lymph nodes",Non-Hodgkin lymphoma
+C8319,10,"Mantle cell lymphoma, extranodal and solid organ sites",Non-Hodgkin lymphoma
+C8357,10,"Lymphoblastic (diffuse) lymphoma, spleen",Non-Hodgkin lymphoma
+C84A8,10,"Cutaneous T-cell lymphoma, unspecified, lymph nodes of multiple sites",Mature T/NK-cell lymphomas
+C880,10,Waldenstrom macroglobulinemia,Malignant immunoproliferative diseases
+C883,10,Immunoproliferative small intestinal disease,Malignant immunoproliferative diseases
+C9110,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission,Leukemia
+C9192,10,"Lymphoid leukemia, unspecified, in relapse",Leukemia
+C9390,10,"Monocytic leukemia, unspecified, not having achieved remission",Monocytic leukemia
+C0680,10,Malignant neoplasm of overlapping sites of unspecified parts of mouth,Malignant neoplasm of other parts of mouth
+C154,10,Malignant neoplasm of middle third of esophagus,Gastrointestinal Cancer
+C211,10,Malignant neoplasm of anal canal,Malignant neoplasm of anus and anal canal
+C218,10,"Malignant neoplasm of overlapping sites of rectum, anus and anal canal",Malignant neoplasm of anus and anal canal
+C44622,10,"Squamous cell carcinoma of skin of right upper limb, including shoulder",Other malignant neoplasms of skin
+C475,10,Malignant neoplasm of peripheral nerves of pelvis,Malignant neoplasm of peripheral nerves
+C4A31,10,Merkel cell carcinoma of nose,Merkel cell carcinoma
+C50219,10,Malignant neoplasm of upper-inner quadrant of unspecified female breast,Breast Cancer
+C601,10,Malignant neoplasm of glans penis,Malignant neoplasm of penis
+C651,10,Malignant neoplasm of right renal pelvis,Malignant neoplasm of renal pelvis
+C71,10,Malignant neoplasm of brain,Malignant neoplasm of brain
+C77,10,Secondary and unspecified malignant neoplasm of lymph nodes,Secondary and unspecified malignant neoplasm of lymph nodes
+C7A021,10,Malignant carcinoid tumor of the cecum,Malignant neuroendocrine tumors
+C7A091,10,Malignant carcinoid tumor of the thymus,Malignant neuroendocrine tumors
+C8350,10,"Lymphoblastic (diffuse) lymphoma, unspecified site",Non-Hodgkin lymphoma
+C8491,10,"Mature T/NK-cell lymphomas, unspecified, lymph nodes of head, face, and neck",Mature T/NK-cell lymphomas
+C84Z1,10,"Other mature T/NK-cell lymphomas, lymph nodes of head, face, and neck",Mature T/NK-cell lymphomas
+C84Z5,10,"Other mature T/NK-cell lymphomas, lymph nodes of inguinal region and lower limb",Mature T/NK-cell lymphomas
+C8599,10,"Non-Hodgkin lymphoma, unspecified, extranodal and solid organ sites",Other specified and unspecified types of non-Hodgkin lymphoma
+C9140,10,Hairy cell leukemia not having achieved remission,Leukemia
+C92Z1,10,"Other myeloid leukemia, in remission",Leukemia
+C16,10,Malignant neoplasm of stomach,Gastrointestinal Cancer
+C184,10,Malignant neoplasm of transverse colon,Gastrointestinal Cancer
+C258,10,Malignant neoplasm of overlapping sites of pancreas,Malignant neoplasm of pancreas
+C383,10,"Malignant neoplasm of mediastinum, part unspecified","Malignant neoplasm of heart, mediastinum, and pleura"
+C4001,10,Malignant neoplasm of scapula and long bones of right upper limb,Malignant neoplasm of bone and articular cartilage of limbs
+C408,10,Malignant neoplasm of overlapping sites of bone and articular cartilage of limb,Malignant neoplasm of bone and articular cartilage of limbs
+C410,10,Malignant neoplasm of bones of skull and face,Malignant neoplasm of bone and articular cartilage of other sites
+C44590,10,Other specified malignant neoplasm of anal skin,Other malignant neoplasms of skin
+C4A72,10,"Merkel cell carcinoma of left lower limb, including hip",Merkel cell carcinoma
+C501,10,Malignant neoplasm of central portion of breast,Breast Cancer
+C5021,10,"Malignant neoplasm of upper-inner quadrant of breast, female",Breast Cancer
+C519,10,"Malignant neoplasm of vulva, unspecified",Malignant neoplasm of vulva
+C620,10,Malignant neoplasm of undescended testis,Malignant neoplasm of testis
+C65,10,Malignant neoplasm of renal pelvis,Malignant neoplasm of renal pelvis
+C7231,10,Malignant neoplasm of right optic nerve,"Malignant neoplasm of spinal cord, cranial nerves, and other parts of CNS"
+C749,10,Malignant neoplasm of unspecified part of adrenal gland,Malignant neoplasm of adrenal gland
+C7A0,10,Malignant carcinoid tumors,Malignant neuroendocrine tumors
+C821,10,Follicular lymphoma grade II,Non-Hodgkin Lymphoma
+C8265,10,"Cutaneous follicle center lymphoma, lymph nodes of inguinal region and lower limb",Non-Hodgkin Lymphoma
+C8285,10,"Other types of follicular lymphoma, lymph nodes of inguinal region and lower limb",Non-Hodgkin Lymphoma
+C8299,10,"Follicular lymphoma, unspecified, extranodal and solid organ sites",Non-Hodgkin Lymphoma
+C835,10,Lymphoblastic (diffuse) lymphoma,Non-Hodgkin lymphoma
+C8351,10,"Lymphoblastic (diffuse) lymphoma, lymph nodes of head, face, and neck",Non-Hodgkin lymphoma
+C9152,10,"Adult T-cell lymphoma/leukemia (HTLV-1-associated), in relapse",Leukemia
+C93Z2,10,"Other monocytic leukemia, in relapse",Monocytic leukemia
+C020,10,Malignant neoplasm of dorsal surface of tongue,Head and Neck Cancer
+C118,10,Malignant neoplasm of overlapping sites of nasopharynx,Malignant neoplasm of nasopharynx
+C17,10,Malignant neoplasm of small intestine,Malignant neoplasm of small intestine
+C259,10,"Malignant neoplasm of pancreas, unspecified",Malignant neoplasm of pancreas
+C440,10,Other and unspecified malignant neoplasm of skin of lip,Other malignant neoplasms of skin
+C441292,10,"Squamous cell carcinoma of skin of left lower eyelid, including canthus",Other malignant neoplasms of skin
+C44292,10,Other specified malignant neoplasm of skin of right ear and external auricular canal,Other malignant neoplasms of skin
+C4439,10,Other specified malignant neoplasm of skin of other and unspecified parts of face,Other malignant neoplasms of skin
+C4471,10,"Basal cell carcinoma of skin of lower limb, including hip",Other malignant neoplasms of skin
+C4489,10,Other specified malignant neoplasm of overlapping sites of skin,Other malignant neoplasms of skin
+C4A122,10,"Merkel cell carcinoma of left lower eyelid, including canthus",Merkel cell carcinoma
+C5042,10,"Malignant neoplasm of upper-outer quadrant of breast, male",Breast Cancer
+C6962,10,Malignant neoplasm of left orbit,Malignant neoplasm of eye and adnexa
+C759,10,"Malignant neoplasm of endocrine gland, unspecified",Malignant neoplasm of other endocrine glands
+C7880,10,Secondary malignant neoplasm of unspecified digestive organ,Secondary malignant neoplasm of respiratory and digestive organs
+C79,10,Secondary malignant neoplasm of other and unspecified sites,Secondary malignant neoplasm of other sites
+C790,10,Secondary malignant neoplasm of kidney and renal pelvis,Secondary malignant neoplasm of other sites
+C7900,10,Secondary malignant neoplasm of unspecified kidney and renal pelvis,Secondary malignant neoplasm of other sites
+C7970,10,Secondary malignant neoplasm of unspecified adrenal gland,Secondary malignant neoplasm of other sites
+C7A098,10,Malignant carcinoid tumors of other sites,Malignant neuroendocrine tumors
+C7A8,10,Other malignant neuroendocrine tumors,Malignant neuroendocrine tumors
+C8122,10,"Mixed cellularity Hodgkin lymphoma, intrathoracic lymph nodes",Hodgkin lymphoma
+C8206,10,"Follicular lymphoma grade I, intrapelvic lymph nodes",Non-Hodgkin Lymphoma
+C8228,10,"Follicular lymphoma grade III, unspecified, lymph nodes of multiple sites",Non-Hodgkin Lymphoma
+C8263,10,"Cutaneous follicle center lymphoma, intra-abdominal lymph nodes",Non-Hodgkin Lymphoma
+C8264,10,"Cutaneous follicle center lymphoma, lymph nodes of axilla and upper limb",Non-Hodgkin Lymphoma
+C8301,10,"Small cell B-cell lymphoma, lymph nodes of head, face, and neck",Non-Hodgkin lymphoma
+C84Z9,10,"Other mature T/NK-cell lymphomas, extranodal and solid organ sites",Mature T/NK-cell lymphomas
+C8580,10,"Other specified types of non-Hodgkin lymphoma, unspecified site",Other specified and unspecified types of non-Hodgkin lymphoma
+C864,10,Blastic NK-cell lymphoma,Other specified types of T/NK-cell lymphoma
+C865,10,Angioimmunoblastic T-cell lymphoma,Other specified types of T/NK-cell lymphoma
+C00,10,Malignant neoplasm of lip,Head and Neck Cancer
+C19,10,Malignant neoplasm of rectosigmoid junction,Malignant neoplasm of rectosigmoid junction
+C322,10,Malignant neoplasm of subglottis,Malignant neoplasm of larynx
+C323,10,Malignant neoplasm of laryngeal cartilage,Malignant neoplasm of larynx
+C3481,10,Malignant neoplasm of overlapping sites of right bronchus and lung,Malignant neoplasm of bronchus and lung
+C437,10,"Malignant melanoma of lower limb, including hip",Malignant melanoma of skin
+C44102,10,"Unspecified malignant neoplasm of skin of right eyelid, including canthus",Other malignant neoplasms of skin
+C44602,10,"Unspecified malignant neoplasm of skin of right upper limb, including shoulder",Other malignant neoplasms of skin
+C44792,10,"Other specified malignant neoplasm of skin of right lower limb, including hip",Other malignant neoplasms of skin
+C50112,10,Malignant neoplasm of central portion of left female breast,Breast Cancer
+C50222,10,Malignant neoplasm of upper-inner quadrant of left male breast,Breast Cancer
+C505,10,Malignant neoplasm of lower-outer quadrant of breast,Breast Cancer
+C50829,10,Malignant neoplasm of overlapping sites of unspecified male breast,Breast Cancer
+C781,10,Secondary malignant neoplasm of mediastinum,Secondary malignant neoplasm of respiratory and digestive organs
+C7951,10,Secondary malignant neoplasm of bone,Secondary malignant neoplasm of other sites
+C7A092,10,Malignant carcinoid tumor of the stomach,Malignant neuroendocrine tumors
+C7B0,10,Secondary carcinoid tumors,Secondary neuroendocrine tumors
+C8121,10,"Mixed cellularity Hodgkin lymphoma, lymph nodes of head, face, and neck",Hodgkin lymphoma
+C8257,10,"Diffuse follicle center lymphoma, spleen",Non-Hodgkin Lymphoma
+C8282,10,"Other types of follicular lymphoma, intrathoracic lymph nodes",Non-Hodgkin Lymphoma
+C833,10,Diffuse large B-cell lymphoma,Non-Hodgkin lymphoma
+C8377,10,"Burkitt lymphoma, spleen",Non-Hodgkin lymphoma
+C8461,10,"Anaplastic large cell lymphoma, ALK-positive, lymph nodes of head, face, and neck",Mature T/NK-cell lymphomas
+C8514,10,"Unspecified B-cell lymphoma, lymph nodes of axilla and upper limb",Other specified and unspecified types of non-Hodgkin lymphoma
+C9102,10,"Acute lymphoblastic leukemia, in relapse",Leukemia
+C9201,10,"Acute myeloblastic leukemia, in remission",Leukemia
+C9211,10,"Chronic myeloid leukemia, BCR/ABL-positive, in remission",Leukemia
+C92A1,10,"Acute myeloid leukemia with multilineage dysplasia, in remission",Leukemia
+C9441,10,"Acute panmyelosis with myelofibrosis, in remission",Other leukemias of specified cell types
