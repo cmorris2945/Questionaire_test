@@ -135,7 +135,25 @@
                     </div>
                 </div>
             </div>
-
+            <div class="form-section">
+                <!-- <div id="zip_code"> -->
+                    <div id="diagnosis" style="display: none;">
+                    <!-- <label for="zip_code">What is your zip code?</label> -->
+                    <div class="message received">
+                        <div class="message-header">
+                            <img src="{{ url_for('static', filename='images/drbot-globe.png') }}" alt="Chatbot Message Picture" class="message-img">
+                            <span class="message-text">What is the diagnosis?</span>
+                        </div>
+                    </div>
+                    <input type="text" id="diagnoses" name="diagnoses" onchange="selectOption('diagnosis','diagnosis', this)">
+                    <div class="message sent" style="display: none;">
+                        <div class="message-header sent">
+                            <img src="{{ url_for('static', filename='images/profile-icon.png') }}" alt="User Message Picture" class="message-img">
+                            <span class="message-text"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="form-section">
                 <!-- <div id="stage_section"> -->
                     <div id="question2" style="display: none;">
@@ -776,6 +794,7 @@
                         </div>
                     </div>
                     </div>
+                    
                 </div>
             </div>
             <!-- </div> -->
@@ -803,13 +822,46 @@
         // });
         const selections = {};
         let currentQuestionIndex = 0;
+        let doctors = [];
+        let nextQuestion = null;
 
-        function selectOption(questionId, key, selectedButton) {
+       function selectOption(questionId, key, selectedButton) {
             const options = document.querySelectorAll(`#${questionId} .option`);
             const answer = document.querySelector(`#${questionId} .message.sent .message-text`);
             const answerDiv = document.querySelector(`#${questionId} .message.sent`);
-            console.log(options)
+            console.log(options);
             // Clear previous selections and highlight the selected option
+            if (questionId === 'diagnosis'){// && (selections["diagnoses"] === "Diagnosis Confirmation" || selections["diagnoses"] === "Read About Diagnosis")){
+                // send post call to get the doctors
+                const diagnoses_text = document.getElementById("diagnoses");
+                const diagnoses = diagnoses_text.value;
+                selections["diagnoses"] = diagnoses;
+                answer.textContent = diagnoses;
+                answerDiv.style.display = 'flex';
+                answerDiv.style.flexDirection = 'column-reverse';
+                console.log("before fetch");
+                console.log("diagnoses value is: ", diagnoses)
+                fetch('/match_doctors', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({"diagnoses": selections["diagnoses"]})  // Convert the dictionary to a JSON string
+                 })
+                 .then(response => {
+                    if (response.ok) {
+                        // console.log(response.json());
+                        // const data = response.json();
+                        // console.log(data);
+                        // doctors = data.slice(0,3);
+                        return response.json();
+                    }})
+                    .then(data => {
+                        // console.log(data)
+                        doctors = data;
+                        console.log(doctors);
+                    });
+            }
             if (questionId === 'question17'){
                 const selectedDoctorName = selectedButton.querySelector(".button-title");
                 selections[key] = selectedDoctorName.textContent; // Save selection in dictionary
@@ -830,13 +882,17 @@
             });
             }
             
-
+            if (questionId === 'question1'){
+                console.log(currentQuestionIndex);
+                nextQuestion = document.getElementById("diagnosis");
+            } else {
             // Move to the next question after selection
             currentQuestionIndex++;
-            console.log(currentQuestionIndex)
+            console.log(currentQuestionIndex);
             //const nextQuestion = document.querySelector(`.question:nth-of-type(${currentQuestionIndex + 1})`);
             console.log("question" + currentQuestionIndex);
-            const nextQuestion = document.getElementById("question" + currentQuestionIndex);
+            nextQuestion = document.getElementById("question" + currentQuestionIndex);
+            }
             if (nextQuestion) {
                 setTimeout(function(){
                     nextQuestion.style.display = 'block'; // Show next question
@@ -848,6 +904,13 @@
                     setTimeout(function(){
                         buttonContainer.style.display = 'flex';
                         buttonContainer.scrollIntoView({behavior: 'smooth'});
+                        const buttons = buttonContainer.getElementsByClassName("button-title");
+                        const scores = buttonContainer.getElementsByClassName("button-description");
+                        const count = doctors.length > 3 ? 3: doctors.length;
+                        for(let i =0; i < count; i++){
+                            buttons[i].textContent = doctors[i].name;
+                            scores[i].textContent = "Confidence Score: " + Math.round((doctors[i].match_score / 10) * 100).toString() + "%";
+                        }
                     }, 2000);
                 }
                 
@@ -857,8 +920,8 @@
                 let dob = new Date(document.getElementById('consentDOB').value);
                 let age = ((Date.now() - dob) / (31557600000));
                 selections["age"] = parseInt(age);
-                console.log(selections)
-                fetch('/', {
+                console.log(selections);
+                fetch('/index', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -867,7 +930,7 @@
                  })
                  .then(response => {
                     if (response.redirected) {
-                        window.location = response.url
+                        window.location = response.url;
                     }});
                 // .then(data => {
                 //     console.log('Success:', data);

@@ -1,6 +1,6 @@
 # app.py
 
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, jsonify
 from database import db, init_db, Patient, ContactForm, Subscribe, InquiryWithin  # Import from database.py
 import traceback
 from flask_migrate import Migrate
@@ -8,6 +8,7 @@ from sqlalchemy import func
 from datetime import datetime
 from flask_mail import Mail, Message
 from email_templates import subscribe_template, inquiry_template, contact_template
+import joblib
 # Initialize Flask app
 app = Flask(__name__)
 
@@ -186,6 +187,60 @@ def index():
 def thank_you():
     return render_template('thank_you.html')
 
+def build_query(cancer_type):
+    # Preprocess the cancer type (convert to lowercase)
+    cancer_type = cancer_type[0].lower()
+    
+    # Split cancer type into individual words (keywords)
+    keywords = cancer_type.split()
+    
+    # Construct the WHERE clause using LIKE for each keyword
+    where_clause = " OR ".join([f"LOWER(speciality) LIKE '%{keyword}%'" for keyword in keywords])
+    
+    # Construct the MATCH SCORE part
+    match_score_part = " + ".join([f"(LEN(LOWER(speciality)) - LEN(REPLACE(LOWER(speciality), '{keyword}', ''))) / LEN('{keyword}')" for keyword in keywords])
+    
+    # Final query with match score and sorting by the highest match score
+    query = f"""
+    SELECT doctors.*, 
+           ({match_score_part}) AS match_score
+    FROM doctors
+    WHERE {where_clause}
+    ORDER BY match_score DESC;
+    """
+    
+    # Execute the query
+    result = db.session.execute(query)
+    
+    return result
+
+def predict(diagnoses):
+    model = joblib.load('./drbot_ml/cancer_type_classifier_model.pkl')
+    vectorizer = joblib.load('./drbot_ml/vectorizer.pkl')
+
+    # Transform the input using the saved vectorizer
+    new_data = vectorizer.transform([diagnoses])
+
+    # Make predictions using the loaded model
+    prediction = model.predict(new_data)
+
+    doctors = build_query(prediction)
+
+    return doctors
+
+@app.route('/match_doctors', methods=["POST"])
+def match_doctors():
+    data = request.json
+    print(request.json)
+    diagnoses = data.get("diagnoses", "")
+    if diagnoses == "":
+        print("diagnoses field is empty, calling general doctors")
+        return jsonify([])
+    else:
+        doctors = predict(diagnoses)
+        print(doctors)
+        results = [dict(doctor) for doctor in doctors]
+        return jsonify(results)
 # Run the app
 if __name__ == '__main__':
     with app.app_context():
